@@ -10,6 +10,13 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <div class="loading-wrap">
+        <div class="logo"></div>
+        <div class="loading-loader">
+            <div class="loading-bar"></div>
+        </div>
+        <div class="loading-percentage"></div>
+    </div>
 	<!--  -->
     <div class="header">
         <div class="logo">
@@ -110,26 +117,20 @@
             </div>
         </div>
     </div>
-    <!--  -->
-<!--  -->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/index.js"></script>
-<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function() {
-    jQuery('#mycarousel').jcarousel({
-        wrap: 'circular'
-    });
-});
-</script>
-<!--  -->
+
+    <script type="text/javascript" src="../lib/modernizr.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.queryloader2.min.js"></script>
+    <script type="text/javascript" src="../js/common/loading.js"></script>
+
     <!--IE6透明判断-->
     <!--[if IE 6]>
-    <script src="js/DD_belatedPNG.js"></script>
+    <script src="../lib/DD_belatedPNG.js"></script>
     <script>
         DD_belatedPNG.fix('*');
         document.execCommand("BackgroundImageCache", false, true);
     </script>
     <![endif]-->
+    <!--  -->
 </body>
 </html>
