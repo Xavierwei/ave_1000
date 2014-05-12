@@ -18,7 +18,7 @@
         <div class="loading-percentage"></div>
     </div>
 	<!--  -->
-    <div class="header">
+    <div class="header" data-style="margin-top:-90px;" data-animate="margin-top:0px;" data-delay="0" data-time="500" data-easing="easeOutQuart">
         <div class="logo">
             <a href="index.html" class="logolink"></a>
         </div>
@@ -32,7 +32,7 @@
         <p class="navbtn dis_mobile"></p>
     </div>
     <!--  -->
-    <div class="about">
+    <div class="about" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
         <!--  -->
         <div class="section sec_about1">
             <div class="about_tit about_tit1">什么是湿疹？</div>
@@ -40,7 +40,7 @@
                 <p>湿疹是一种常见皮肤病，由多种内外因素引起的表皮及真皮浅层炎症性皮肤病。主要特点是剧烈瘙痒，皮损具有多形性、对称性、渗出性，易反复发作。</p>
                 <p>湿疹病因复杂，常为内外因相互作用结果。内因如慢性消化系统疾病、情绪变化、内分泌失调、感染、新陈代谢障碍等，外因如生活环境、气候变化、食物等，外界刺激如日光、寒冷、干燥、炎热、热水烫洗以及各种动物皮毛、植物、化妆品、肥皂、人造纤维等均可诱发。是复杂的内外因子引起的一种迟发型变态反应。</p>
             </div>
-            <img src="images/about_img1.jpg" class="about_img1" />
+            <img src="images/about_img1.jpg" class="about_img1" data-style="opacity:0;margin-right:-20px;" data-animate="opacity:1;margin-right:0px;" data-delay="700" data-time="500" />
         </div>
         <!--  -->
         <div class="seciont sec_about2">
@@ -76,10 +76,10 @@
         <div class="seciont sec_about4">
             <div class="about_tit about_tit4">特应性皮炎诊断标准</div>
             <div class="about_point cs-clear">
-                <div class="point_item point_item1"></div>
-                <div class="point_item point_item2"></div>
-                <div class="point_item point_item3"></div>
-                <div class="point_item point_item4"></div>
+                <div class="point_item point_item1" data-200-end="opacity:0;" data-150-end="opacity:1;"></div>
+                <div class="point_item point_item2" data-150-end="opacity:0;" data-100-end="opacity:1;"></div>
+                <div class="point_item point_item3" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
+                <div class="point_item point_item4" data-50-end="opacity:0;" data-0-end="opacity:1;"></div>
             </div>
         </div>
         <!--  -->
@@ -107,10 +107,15 @@
         </div>
     </div>
 
+
     <script type="text/javascript" src="../lib/modernizr.min.js"></script>
     <script type="text/javascript" src="../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../lib/jquery.queryloader2.min.js"></script>
+    <script type="text/javascript" src="../lib/scrollfix.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.easing.js"></script>
+    <script type="text/javascript" src="../js/common/skrollr.js"></script>
     <script type="text/javascript" src="../js/common/loading.js"></script>
+    <script type="text/javascript" src="../js/common/weixin.js"></script>
 
     <!--IE6透明判断-->
     <!--[if IE 6]>

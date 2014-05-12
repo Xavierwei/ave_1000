@@ -18,7 +18,7 @@
         <div class="loading-percentage"></div>
     </div>
 	<!--  -->
-    <div class="header header_ques">
+    <div class="header header_ques" data-style="margin-top:-90px;" data-animate="margin-top:0px;" data-delay="0" data-time="500" data-easing="easeOutQuart">
         <div class="logo">
             <a href="index.html" class="logolink"></a>
         </div>
@@ -30,10 +30,10 @@
         </div>
     </div>
     <!--  -->
-    <div class="ques">
+    <div class="ques" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
         <!--  -->
         <div class="ques_man cs-clear">
-            <div class="ques_QA">
+            <div class="ques_QA" data-style="margin-left:-20px;opacity:0;" data-animate="margin-left:0px;opacity:1;" data-delay="700" data-time="500">
                 <div class="ques_tit"><img src="images/ques_tit5.jpg"></div>
                 <div class="ques_QAcom">
                     <p class="ques_Q"><span>Q：</span>为什么要避免瘙抓？</p>
@@ -94,7 +94,11 @@
     <script type="text/javascript" src="../lib/modernizr.min.js"></script>
     <script type="text/javascript" src="../lib/jquery.min.js"></script>
     <script type="text/javascript" src="../lib/jquery.queryloader2.min.js"></script>
+    <script type="text/javascript" src="../lib/scrollfix.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.easing.js"></script>
+    <script type="text/javascript" src="../js/common/skrollr.js"></script>
     <script type="text/javascript" src="../js/common/loading.js"></script>
+    <script type="text/javascript" src="../js/common/weixin.js"></script>
 
     <!--IE6透明判断-->
     <!--[if IE 6]>
