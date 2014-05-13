@@ -1,4 +1,13 @@
 var animateStart = function() {
+    var isUglyIe = $.browser.msie && $.browser.version <= 8,
+        isIphone = navigator.userAgent.toLowerCase().indexOf('iphone') > 0,
+        isIpad = navigator.userAgent.toLowerCase().indexOf('ipad') > 0,
+        isAndroid = navigator.userAgent.indexOf('Android') >= 0,
+        isMobile = isIphone || isIpad || isAndroid;
+
+    // if using mobile or ugly ie, stop the animation
+    if(isUglyIe || isMobile) return;
+
     $('[' + "data-animate" + ']')
         .each(function() {
             var $dom = $(this);
