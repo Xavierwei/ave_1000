@@ -44,8 +44,14 @@ a:hover{color:#797979}
 	.famliyicon{background: url('../images/famliyicon.png') no-repeat;width: 124px;height: 125px;position: absolute;top: 13px;right: 0}
 	.nav{position: absolute;left:200px;top:20px;}
 		.navitem{height: 55px;float: left;width: 186px;}
-			.navitem span{width: 130px;height: 55px;background: url('../images/navbg.png') no-repeat;display: block;font-size:18px;margin: 0 auto;line-height: 50px;text-align: center;color:#24aae1;}
+			.navitem span{width: 130px;height: 55px;background: url('../images/navbg.png') no-repeat;display: block;font-size:18px;margin: 0 auto;line-height: 5000px;overflow:hidden;text-align: center;color:#24aae1;}
 			.navitem span.on{background: url('../images/navbgon.png') no-repeat;color:#f69788;}
+		.nav1 span{background: url('../images/navbg1.png') no-repeat center;}
+		.nav1 span.on{background: url('../images/navbg1on.png') no-repeat center;}
+		.nav2 span{background: url('../images/navbg2.png') no-repeat center;}
+		.nav2 span.on{background: url('../images/navbg2on.png') no-repeat center;}
+		.nav3 span{background: url('../images/navbg3.png') no-repeat center;}
+		.nav3 span.on{background: url('../images/navbg3on.png') no-repeat center;}
 
 /*footer*/
 .footer{background:#acd7f3;height: 50px;width: 100%;margin: 75px 0 0}
@@ -206,6 +212,9 @@ a:hover{color:#797979}
 			.nav3{background: #acd7f3;border-bottom:#acd7f3 solid 3px;}
 			.navitem span{color:#fff;font-size: 30px;line-height: 90px;background:#acd7f3 url('../imgm/navbg.png') no-repeat 0 55%;width:210px;height:86px;}
 		.navicon{width: 0;height: 0;position: absolute;left:42px;top:-40px;content:"";border: transparent 20px solid;border-bottom: #acd7f3 20px solid;display: block}
+		.nav1 span.on,.nav2 span.on,.nav2 span.on{background: none}
+		.navitem span.on{color:#fff;font-size: 30px;line-height: 90px;background:#acd7f3 url('../imgm/navbg.png') no-repeat 0 55%;width:210px;height:86px;}
+
 	.famliyicon{background: url('../imgm/famliyicon.png') no-repeat;width: 152px;height: 155px;right: 18px;top:18px}
 
 /*footer*/
