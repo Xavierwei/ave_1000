@@ -7,7 +7,7 @@
 /* Reset
 ================================================================================================= */
 html{}
-body{font-family:GillSans,"Microsoft Yahei",simsun,arial,sans-serif;color:#797979;font-size:12px;line-height:1.666em;background: #fff;}
+body{font-family:"Microsoft YaHei",arial,SimHei,sans-serif;color:#797979;font-size:12px;line-height:1.666em;background: #fff;}
 h1,h2,h3{font-size:100%;}
 body,h1,h2,h3,h4,ul,li,p,img,div{margin:0;padding:0;border:0;}
 img{margin:0;line-height:normal;}
