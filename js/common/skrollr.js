@@ -35,12 +35,9 @@ var animateStart = function() {
             }
         });
 
-    setTimeout(function() {
-        var s = skrollr.init({
-            smoothScrollingDuration: 200,
-            smoothScrolling: true,
-            forceHeight: false
-        });
-
-    }, 0);
+    skrollr.init({
+        smoothScrollingDuration: 200,
+        smoothScrolling: true,
+        forceHeight: false
+    })
 }

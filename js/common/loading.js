@@ -66,8 +66,6 @@
         }
     }
 
-
-
     $.fn.queryLoader2 = function(opt) {
         $.extend(option, opt || {});
 
@@ -100,9 +98,6 @@ $(document.body).queryLoader2({
         $('.loading-bar').css({
             'width': per + '%'
         });
-        if(per == 100) {
-            animateStart();
-        }
     },
     onComplete: function() {
         $('.loading-wrap').fadeOut();
