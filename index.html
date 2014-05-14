@@ -103,6 +103,29 @@
         </div>
     </div>
 
+    <script type="text/tpl" id="flash-player-template">
+        <div class="overlay btn"></div>
+        <div class="popup video-popup">
+            <div class="popup-close btn"></div>
+            <div class="popup-body">
+                <div class="video-player">
+                    {{#if flash}}
+                    <object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="800" height="450">
+                        <param name="allowScriptAccess" value="always"/>
+                        <param name="movie" value="video/player.swf"/>
+                        <param name="flashVars" value="source=1.mp4&autoplay=true&skinMode=show&onPlay=play()&onPlayComplete=playComplete()&fengmian=video/1.jpg"/>
+                        <param name="quality" value="high"/>
+                        <param name="allowFullScreen" value="true"/>
+                        <embed name="player" src="video/player.swf" allowFullScreen="true" flashVars="source=1.mp4&autoplay=true&skinMode=show&onPlay=play()&onPlayComplete=playComplete()&fengmian=video/1.jpg" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="450" allowScriptAccess="always"></embed>
+                    </object>
+                    {{else}}
+                    <video autoplay="autoplay" width="640" height="360" controls><source src="video/1.mp4" type="video/mp4" /></video>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </script>
+
     <script type="text/tpl" id="newsletter-pop-template">
         <div class="overlay"></div>
         <div class="popup newsletter-popup">
@@ -117,6 +140,7 @@
     <script type="text/javascript" src="./lib/jquery.queryloader2.min.js"></script>
     <script type="text/javascript" src="./lib/scrollfix.min.js"></script>
     <script type="text/javascript" src="./lib/jquery.easing.js"></script>
+    <script type="text/javascript" src="./lib/flash_detect_min.js"></script>
     <script type="text/javascript" src="./js/common/skrollr.js"></script>
     <script type="text/javascript" src="./js/common/loading.js"></script>
     <script type="text/javascript" src="./js/common/index.js"></script>

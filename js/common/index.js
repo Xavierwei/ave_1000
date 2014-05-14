@@ -1,3 +1,36 @@
+function compile(tplId , context, callback) {
+    var template = Handlebars.compile( $('#' + tplId).html());
+
+    $('body').append(template(context));
+
+    var dOverlay = $('.overlay'),
+        dPopup = $('.popup'),
+        dClose = $('.popup .popup-close'),
+        closePopup = function () {
+            dOverlay.fadeOut();
+
+            dPopup.fadeOut(function(){
+                dOverlay.remove();
+                dPopup.remove();
+            })
+        };
+
+    dOverlay.fadeIn();
+
+    dPopup.css({top:'-50%'}).fadeIn().dequeue().animate({top:'50%'}, 800, 'easeOutQuart')
+
+    dOverlay.bind('click', closePopup);
+    dClose.bind('click', closePopup);
+
+    if(callback) {
+        callback()
+    }
+}
+
+function play() {
+    $('.video-player').delay(400).animate({opacity:1});
+}
+
 $(document).ready(function() {
     // weixin popup
     $('.ft_weixin').live({
@@ -17,40 +50,10 @@ $(document).ready(function() {
     })
 
     // news letter
-    var dBody = $('body'),
-        dEmail = $('.ft_mail'),
+    var dEmail = $('.ft_mail'),
         dError = dEmail.find('.error'),
         dInput = dEmail.find('.ft_mailipt'),
         dSubmit = dEmail.find('.ft_mailsub'),
-        compile = function( tplId , context , cb){
-            var template = Handlebars.compile( $('#' + tplId).html());
-
-            dBody.append(template(context));
-
-            cb();
-        },
-        requestCompelete = function (status) {
-            compile( 'newsletter-pop-template', {status:status}, function(){
-                var dOverlay = $('.overlay'),
-                    dPopup = $('.popup'),
-                    dClose = $('.popup .popup-close'),
-                    closePopup = function () {
-                        dOverlay.fadeOut();
-
-                        dPopup.fadeOut(function(){
-                            dOverlay.remove();
-                            dPopup.remove();
-                        })
-                    };
-
-                dOverlay.fadeIn();
-
-                dPopup.css({top:'-50%'}).fadeIn().dequeue().animate({top:'50%'}, 800, 'easeOutQuart')
-
-                dOverlay.bind('click', closePopup);
-                dClose.bind('click', closePopup);
-            })
-        },
         submit = function(){
             var email = dInput.val(),
                 exp = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\-|\_|\.]?)*[a-zA-Z0-9]+\.(.*?)$/;
@@ -74,7 +77,7 @@ $(document).ready(function() {
                             status = 'failed';
                         }
 
-                        requestCompelete(status)
+                        compile( 'newsletter-pop-template', {status:status})
                     }
                 })
             }

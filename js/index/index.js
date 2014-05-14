@@ -40,7 +40,24 @@ $(document).ready(function() {
                     }, 2000)
                 }
             })
-        }
+        };
 
     coundown();
+
+    // play video
+    var isVideo = $('html').hasClass('touch');
+
+    $('.video_play').bind('click', function(){
+        var flash = true;
+
+        if(isVideo) {
+            flash = false;
+        }
+
+        compile( 'flash-player-template', {flash: flash}, function () {
+            if (flash) {
+                $('.video-player').css({opacity:0});
+            }
+        })
+    })
 })
