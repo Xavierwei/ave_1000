@@ -47,10 +47,13 @@ a:hover{color:#797979}
 			.navitem span{width: 130px;height: 55px;background: url('../images/navbg.png') no-repeat;display: block;font-size:18px;margin: 0 auto;line-height: 5000px;overflow:hidden;text-align: center;color:#24aae1;}
 			.navitem span.on{background: url('../images/navbgon.png') no-repeat;color:#f69788;}
 		.nav1 span{background: url('../images/navbg1.png') no-repeat center;}
+		.nav1 span:hover,
 		.nav1 span.on{background: url('../images/navbg1on.png') no-repeat center;}
 		.nav2 span{background: url('../images/navbg2.png') no-repeat center;}
+		.nav2 span:hover,
 		.nav2 span.on{background: url('../images/navbg2on.png') no-repeat center;}
 		.nav3 span{background: url('../images/navbg3.png') no-repeat center;}
+		.nav3 span:hover,
 		.nav3 span.on{background: url('../images/navbg3on.png') no-repeat center;}
 
 /*footer*/
