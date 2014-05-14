@@ -20,15 +20,27 @@ $(document).ready(function() {
     })
 
     // countdown
-    $.ajax({
-        url : './countdown.php',
-        method:'get',
-        success: function(nSeconds) {
-            var nDay = Math.floor(nSeconds/86400);
-            $('.CDAbox .CDAmun').html(nDay);
-        },
-        error: function () {
-           // to do
+    var isCounted = false,
+        coundown = function () {
+            if (isCounted) return;
+
+            $.ajax({
+                url : './countdown.php',
+                method:'get',
+                success: function(nSeconds) {
+                    var nDay = Math.floor(nSeconds/86400);
+
+                    $('.CDAbox .CDAmun').html(nDay);
+
+                    isCounted = true;
+                },
+                error: function () {
+                    setTimout(function () {
+                        coundown();
+                    }, 2000)
+                }
+            })
         }
-    })
+
+    coundown();
 })
