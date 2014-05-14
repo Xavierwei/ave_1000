@@ -12,7 +12,7 @@ $(document).ready(function() {
     })
 
     // header nav list
-    $('.header .navbtn').bind('click', function () {
+    $('.header .navbtn').bind('touchstart', function () {
         dNav.toggle();
     })
 });
