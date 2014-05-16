@@ -60,4 +60,32 @@ $(document).ready(function() {
             }
         })
     })
+
+	setInterval(function(){
+		var index = $('.knowtxt').data('index');
+		index++;
+		if(index > 10) {
+			index = 1;
+		}
+		$('.knowtxt_body').fadeOut(400);
+		$('.knowtxt'+index).fadeIn(400);
+		$('.knowtxt').data('index', index);
+	},4000);
+
+
 })
+
+
+
+function play(){
+	console.log(111);
+	$('.video-player').delay(400).animate({opacity:1});
+}
+
+
+function playComplete(){
+	LP.triggerAction('close_pop');
+	$('.video-player').fadeOut();
+	$('.page3-video').animate({height:139});
+	$('.page3-video .video-img').fadeIn();
+}
