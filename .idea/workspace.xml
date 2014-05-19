@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1.mp4" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/loading.gif" afterPath="$PROJECT_DIR$/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pop_close.gif" afterPath="$PROJECT_DIR$/images/pop_close.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/baike.html" afterPath="$PROJECT_DIR$/guide.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/carefor.html" afterPath="$PROJECT_DIR$/care.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/wiki.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/1.mp4" afterPath="$PROJECT_DIR$/video/1.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/baike_QA.jpg" afterPath="$PROJECT_DIR$/images/baike_QA.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/baike_banner.jpg" afterPath="$PROJECT_DIR$/images/baike_banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/home_about.jpg" afterPath="$PROJECT_DIR$/images/home_about.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/home_carefor.jpg" afterPath="$PROJECT_DIR$/images/home_carefor.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/loading_logo.png" afterPath="$PROJECT_DIR$/images/loading_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_1.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_10.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_11.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_12.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_13.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_14.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_2.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_3.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_4.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_5.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_6.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_7.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_8.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques/ques_9.jpg" afterPath="$PROJECT_DIR$/images/ques/ques_9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit1.jpg" afterPath="$PROJECT_DIR$/images/ques_tit1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit10.jpg" afterPath="$PROJECT_DIR$/images/ques_tit10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit11.jpg" afterPath="$PROJECT_DIR$/images/ques_tit11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit12.jpg" afterPath="$PROJECT_DIR$/images/ques_tit12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit13.jpg" afterPath="$PROJECT_DIR$/images/ques_tit13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit14.jpg" afterPath="$PROJECT_DIR$/images/ques_tit14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit2.jpg" afterPath="$PROJECT_DIR$/images/ques_tit2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit3.jpg" afterPath="$PROJECT_DIR$/images/ques_tit3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit4.jpg" afterPath="$PROJECT_DIR$/images/ques_tit4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit5.jpg" afterPath="$PROJECT_DIR$/images/ques_tit5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit6.jpg" afterPath="$PROJECT_DIR$/images/ques_tit6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit7.jpg" afterPath="$PROJECT_DIR$/images/ques_tit7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit8.jpg" afterPath="$PROJECT_DIR$/images/ques_tit8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ques_tit9.jpg" afterPath="$PROJECT_DIR$/images/ques_tit9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/sec_home3.jpg" afterPath="$PROJECT_DIR$/images/sec_home3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baike.html" afterPath="$PROJECT_DIR$/baike.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carefor.html" afterPath="$PROJECT_DIR$/carefor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index/index.js" afterPath="$PROJECT_DIR$/js/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/player.swf" afterPath="$PROJECT_DIR$/video/player.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/baike/index.js" afterPath="$PROJECT_DIR$/js/baike/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_1.html" afterPath="$PROJECT_DIR$/ques_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_10.html" afterPath="$PROJECT_DIR$/ques_10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_11.html" afterPath="$PROJECT_DIR$/ques_11.html" />
@@ -27,21 +58,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_8.html" afterPath="$PROJECT_DIR$/ques_8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_9.html" afterPath="$PROJECT_DIR$/ques_9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399952022711" ignored="false" />
+    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400383305919" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399953048846" ignored="false" />
     <file path="$USER_HOME$/Desktop/wine/article.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399969436081" ignored="false" />
     <file path="/article.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399969391430" ignored="false" />
     <file path="$USER_HOME$/Desktop/wine/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399969848295" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400231732893" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400469694856" ignored="false" />
     <file path="$USER_HOME$/Desktop/wine/promotion.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399969826500" ignored="false" />
     <file path="/promotion.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1399969826500" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/api/admin_asset/js/controllers/game.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400125413999" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/api/admin_asset/tmp/game/list.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400125417299" ignored="false" />
-    <file path="/ques_5.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221160814" ignored="false" />
-    <file path="/ques_7.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220986045" ignored="false" />
+    <file path="/ques_5.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416140306" ignored="false" />
+    <file path="/ques_7.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416220901" ignored="false" />
     <file path="$PROJECT_DIR$/../rungiswines/wp-config.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400156500078" ignored="false" />
     <file path="$PROJECT_DIR$/../rungiswines/wp-content/themes/wine/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400160200507" ignored="false" />
     <file path="$PROJECT_DIR$/../rungiswines/wp-content/themes/wine/page.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400156769700" ignored="false" />
@@ -51,23 +83,30 @@
     <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400160751827" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/game.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400161095624" ignored="false" />
     <file path="/game.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400160910769" ignored="false" />
-    <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220904124" ignored="false" />
-    <file path="/ques_2.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220961982" ignored="false" />
-    <file path="/ques_3.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400229381188" ignored="false" />
-    <file path="/ques_4.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221134832" ignored="false" />
-    <file path="/ques_6.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220981188" ignored="false" />
-    <file path="/ques_8.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220990248" ignored="false" />
-    <file path="/ques_9.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400220994406" ignored="false" />
-    <file path="/ques_10.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221753207" ignored="false" />
-    <file path="/ques_11.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221003143" ignored="false" />
-    <file path="/ques_12.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221006937" ignored="false" />
-    <file path="/ques_13.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221011608" ignored="false" />
-    <file path="/ques_14.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400221015801" ignored="false" />
-    <file path="/baike.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400222524104" ignored="false" />
-    <file path="/about.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400222567443" ignored="false" />
-    <file path="/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400232657303" ignored="false" />
+    <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400415691578" ignored="false" />
+    <file path="/ques_2.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400415929120" ignored="false" />
+    <file path="/ques_3.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416084695" ignored="false" />
+    <file path="/ques_4.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416030213" ignored="false" />
+    <file path="/ques_6.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416189660" ignored="false" />
+    <file path="/ques_8.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416282799" ignored="false" />
+    <file path="/ques_9.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416328362" ignored="false" />
+    <file path="/ques_10.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416354157" ignored="false" />
+    <file path="/ques_11.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416401425" ignored="false" />
+    <file path="/ques_12.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416422513" ignored="false" />
+    <file path="/ques_13.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400416481317" ignored="false" />
+    <file path="/ques_14.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400467487220" ignored="false" />
+    <file path="/baike.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400383552391" ignored="false" />
+    <file path="/about.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400400096486" ignored="false" />
+    <file path="/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400467769057" ignored="false" />
     <file path="/faq.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400226363868" ignored="false" />
-    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400232521264" ignored="false" />
+    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400470400564" ignored="false" />
+    <file path="/.htaccess" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400384023742" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400385449640" ignored="false" />
+    <file path="/care.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400400156651" ignored="false" />
+    <file path="$USER_HOME$/Desktop/pre5/data/track.json" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400402020144" ignored="false" />
+    <file path="$PROJECT_DIR$/../pre5/data/track.json" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400405026674" ignored="false" />
+    <file path="$PROJECT_DIR$/../pre5/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400404971322" ignored="false" />
+    <file path="/guide.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1400470492472" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,23 +126,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="baike.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baike.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="24" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-0.6785714">
+            <state line="91" column="140" selection-start="6203" selection-end="6203" vertical-scroll-proportion="-21.035715">
               <folding>
-                <marker date="1400232260000" expanded="true" signature="16361:16474" placeholder="..." />
+                <marker date="1400467866000" expanded="true" signature="10229:10342" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="129" selection-start="9554" selection-end="9554" vertical-scroll-proportion="0.49914384">
+            <state line="345" column="88" selection-start="28588" selection-end="28600" vertical-scroll-proportion="0.47948718">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guide.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="268" column="51" selection-start="14360" selection-end="14360" vertical-scroll-proportion="-22.714285">
               <folding>
-                <marker date="1400232657000" expanded="true" signature="11339:11452" placeholder="..." />
+                <marker date="1400470608000" expanded="true" signature="17187:17300" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -112,20 +160,26 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="1" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ques_4.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ques_4.html">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/baike/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="179" selection-start="1789" selection-end="1915" vertical-scroll-proportion="-26.464285">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1400221999000" expanded="true" signature="5241:5354" placeholder="..." />
-              </folding>
+            <state line="18" column="32" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ques_1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ques_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="40" selection-start="2882" selection-end="2882" vertical-scroll-proportion="-20.357143">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,22 +202,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/ques_3.html" />
+        <option value="$PROJECT_DIR$/ques_4.html" />
+        <option value="$PROJECT_DIR$/ques_5.html" />
+        <option value="$PROJECT_DIR$/ques_6.html" />
+        <option value="$PROJECT_DIR$/ques_7.html" />
+        <option value="$PROJECT_DIR$/ques_8.html" />
         <option value="$PROJECT_DIR$/ques_9.html" />
         <option value="$PROJECT_DIR$/ques_10.html" />
         <option value="$PROJECT_DIR$/ques_11.html" />
         <option value="$PROJECT_DIR$/ques_12.html" />
-        <option value="$PROJECT_DIR$/ques_13.html" />
         <option value="$PROJECT_DIR$/ques_14.html" />
-        <option value="$PROJECT_DIR$/../avene_selfie/flash/player/web/player6.htm" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/ques_3.html" />
-        <option value="$PROJECT_DIR$/faq.html" />
-        <option value="$PROJECT_DIR$/ques_1.html" />
-        <option value="$PROJECT_DIR$/carefor.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/baike.html" />
-        <option value="$PROJECT_DIR$/js/index/index.js" />
+        <option value="$PROJECT_DIR$/ques_13.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/baike/index.js" />
+        <option value="$PROJECT_DIR$/guide.html" />
       </list>
     </option>
   </component>
@@ -259,6 +313,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -277,6 +349,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -309,23 +388,23 @@
     <frame x="66" y="22" width="2256" height="1357" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24977376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2520362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -389,144 +468,144 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ques_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.3416096">
+          <folding>
+            <marker date="1400467539000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques_12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1541" selection-end="1592" vertical-scroll-proportion="0.45547944">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400416426000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques_11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1541" selection-end="1592" vertical-scroll-proportion="0.3416096">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400416401000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="1541" selection-end="1570" vertical-scroll-proportion="0.37414384">
+          <folding>
+            <marker date="1400416360000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ques_9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="43" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.47174656">
+        <state line="49" column="36" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.6181507">
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1400222052000" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400416332000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ques_8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="43" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.23287672">
+        <state line="36" column="38" selection-start="1541" selection-end="1592" vertical-scroll-proportion="0.47174656">
           <folding>
-            <marker date="1400222043000" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400416293000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ques_7.html">
+    <entry file="file://$PROJECT_DIR$/ques_6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="43" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.24828768">
+        <state line="39" column="16" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.4229452">
           <folding>
-            <marker date="1400222033000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1400416207000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/countdown.php">
+    <entry file="file://$PROJECT_DIR$/ques_5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.048264183">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="126" selection-start="368" selection-end="368" vertical-scroll-proportion="0.11386986">
+        <state line="37" column="20" selection-start="1559" selection-end="1571" vertical-scroll-proportion="0.2114726">
           <folding>
-            <marker date="1400231450000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../avene_selfie/flash/player/web/player6.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.19520548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="74" selection-start="5649" selection-end="5649" vertical-scroll-proportion="0.3478261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carefor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="126" selection-start="368" selection-end="368" vertical-scroll-proportion="0.11386986">
-          <folding>
-            <marker date="1400231464000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="126" selection-start="368" selection-end="368" vertical-scroll-proportion="0.11386986">
-          <folding>
-            <marker date="1400231443000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ques_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="85" selection-start="1772" selection-end="1791" vertical-scroll-proportion="0.3416096">
-          <folding>
-            <marker date="1400231455000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ques_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="136" selection-start="1751" selection-end="1834" vertical-scroll-proportion="0.47174656">
-          <folding>
-            <marker date="1400221964000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ques_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="118" selection-start="1870" selection-end="1935" vertical-scroll-proportion="0.53681505">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1400231447000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1400416170000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ques_4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="179" selection-start="1789" selection-end="1915" vertical-scroll-proportion="-26.464285">
+        <state line="37" column="43" selection-start="1563" selection-end="1582" vertical-scroll-proportion="0.24400684">
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1400221999000" expanded="true" signature="5241:5354" placeholder="..." />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1400416089000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baike.html">
+    <entry file="file://$PROJECT_DIR$/ques_14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="24" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-0.6785714">
+        <state line="37" column="23" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.43921232">
           <folding>
-            <marker date="1400232260000" expanded="true" signature="16361:16474" placeholder="..." />
+            <marker date="1400467526000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="140" selection-start="6203" selection-end="6203" vertical-scroll-proportion="-21.035715">
+          <folding>
+            <marker date="1400467866000" expanded="true" signature="10229:10342" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="1" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/baike/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="129" selection-start="9554" selection-end="9554" vertical-scroll-proportion="0.49914384">
+        <state line="18" column="32" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="40" selection-start="2882" selection-end="2882" vertical-scroll-proportion="-20.357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="51" selection-start="14360" selection-end="14360" vertical-scroll-proportion="-22.714285">
           <folding>
-            <marker date="1400232657000" expanded="true" signature="11339:11452" placeholder="..." />
+            <marker date="1400470608000" expanded="true" signature="17187:17300" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="345" column="88" selection-start="28588" selection-end="28600" vertical-scroll-proportion="0.47948718">
+          <folding />
         </state>
       </provider>
     </entry>

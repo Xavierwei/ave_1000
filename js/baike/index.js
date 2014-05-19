@@ -26,10 +26,12 @@ $(document).ready(function() {
     // tips
     $('.quesMobile .quesM_compop').bind('touchstart', function () {
         // touched self
+		$('.quesM_popcom').hide();
         if ($(this).hasClass('active')) {
             dOpened = null;
 
             $(this).removeClass('active');
+			$(this).find('.quesM_popcom').fadeOut();
 
             return;
         }
@@ -42,5 +44,6 @@ $(document).ready(function() {
         dOpened =  $(this);
 
         $(this).addClass('active');
+		$(this).find('.quesM_popcom').fadeIn();
     })
 })
