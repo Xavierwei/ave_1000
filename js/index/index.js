@@ -10,12 +10,12 @@ $(document).ready(function() {
     })
 
     // countdown tips
-    $('.CDAbox').live({
+    $('.CDAboxHover').live({
         'mouseenter':function(){
-            $(this).children('.CDApop').fadeIn();
+            $(this).next('.CDApop').fadeIn();
         },
         'mouseleave':function(){
-            $(this).children('.CDApop').fadeOut();
+            $(this).next('.CDApop').fadeOut();
         }
     })
 
@@ -56,26 +56,34 @@ $(document).ready(function() {
 
         compile( 'flash-player-template', {flash: flash}, function () {
             if (flash) {
-                $('.video-player').css({opacity:0});
+                $('.video-player').css({opacity:1});
             }
         })
     })
 
-	setInterval(function(){
-		var index = $('.knowtxt').data('index');
-		index++;
-		if(index > 10) {
-			index = 1;
-		}
-		$('.knowtxt_body').fadeOut(400);
-		$('.knowtxt'+index).fadeIn(400);
-		$('.knowtxt').data('index', index);
-	},4000);
+//	setInterval(function(){
+//		var index = $('.knowtxt').data('index');
+//		index++;
+//		if(index > 10) {
+//			index = 1;
+//		}
+//		$('.knowtxt_body').fadeOut(400);
+//		$('.knowtxt'+index).fadeIn(400);
+//		$('.knowtxt').data('index', index);
+//	},4000);
 
+	var autoplay = getQueryString('autoplay');
+	if(autoplay) {
+		$('.video_play').trigger('click');
+	}
 
 })
 
-
+var getQueryString = function(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) return unescape(r[2]); return null;
+}
 
 function play(){
 	console.log(111);
