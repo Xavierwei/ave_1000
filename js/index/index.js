@@ -48,6 +48,8 @@ $(document).ready(function() {
     var isVideo = $('html').hasClass('touch');
 
     $('.video_play').bind('click', function(){
+		//ga('send', 'event', '1000family', 'video_viewership', 'video_viewership');
+		_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
         var flash = true;
 
         if(isVideo) {
@@ -86,7 +88,6 @@ var getQueryString = function(name) {
 }
 
 function play(){
-	console.log(111);
 	$('.video-player').delay(400).animate({opacity:1});
 }
 
