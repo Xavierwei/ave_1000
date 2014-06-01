@@ -47,6 +47,10 @@
                     $(this).children('.weixin_pop').hide()
                 }
             })
+            // 
+            $('.popclose').live('click',function(){
+                $('.popshare,.pop').fadeOut(300)
+            })
         }
     };
     Index.init();  
