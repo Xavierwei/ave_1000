@@ -293,7 +293,7 @@ a:hover{color:#797979}
 			.profile_add{left:344px;width: 218px;top:50px;}
 			.profile_sex{top: 102px;}
 			.profile_tel{left:344px;width: 218px;top:102px;}
-			.profile_sel{position: absolute;width: 106px;top: 152px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); }
+			.profile_sel{position: absolute;width: 106px;top: 152px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); cursor: pointer;}
 			.profile_selmon{left:184px;}
 			.profile_selday{left:330px;}
 			.profile_seltxt{position: absolute;top: 152px;left:36px;width: 80px;height: 32px;line-height: 32px;font-size: 14px;padding:0 10px;}
@@ -304,6 +304,25 @@ a:hover{color:#797979}
 			.profile_txttit h1{font-size: 18px;color:#f69788;font-weight: normal;padding:5px 0 2px}
 		.profile_txtcom{background: url('../images/profile_txtcom.jpg') no-repeat;width:960px;margin: 0 auto;height: 225px;padding:30px 0 0;}
 			.profile_txtcom textarea{width: 900px;margin: 0 auto;display: block;font-size: 14px;border:0;height: 160px;background: none}
+	.profile_hosp{background:url('../images/profile_hosp.png') no-repeat;width: 940px;height: 90px;margin: 15px auto 30px;position: relative;}
+		.profile_selcity_txt{left: 160px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
+		.profile_selcity{left: 160px;top: 10px;width: 270px;height: 46px;}
+		.profile_selhosp_txt{left: 464px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
+		.profile_selhosp{left: 464px;top: 10px;width: 270px;height: 46px;}
+	.profile_btn{background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
+
+/**/
+.diagnose{}
+	.diagnose_com{background: url('../images/diagnose_com.jpg') no-repeat;width: 1140px;height: 986px;margin: 40px auto 0;padding: 140px 0 0;}
+		.dia_item{margin:0 0 120px 370px;}
+			.dia_q{font-size: 18px;}
+				.dia_q span{color:#f69788}
+			.dia_a{padding: 35px;}
+				.dia_yes{float: left;background:url('../images/dia_yes.png') no-repeat;width: 160px;height: 45px;cursor: pointer;}
+				.dia_yes_on{background:url('../images/dia_yes_on.png') no-repeat;}
+				.dia_no{float: left;background:url('../images/dia_no.png') no-repeat;width: 160px;height: 45px;cursor: pointer;display: inline;margin: 0 76px;}
+				.dia_no_on{background:url('../images/dia_no_on.png') no-repeat;}
+	.diagnose_btn{background: url('../images/diagnose_btn.jpg') no-repeat;width: 166px;height: 58px;margin: 0 auto;display: block;}
 
 /* POP Used
 ================================================================================================= */
