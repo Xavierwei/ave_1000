@@ -48,8 +48,6 @@ $(document).ready(function() {
     var isVideo = $('html').hasClass('touch');
 
     $('.video_play').bind('click', function(){
-		//ga('send', 'event', '1000family', 'video_viewership', 'video_viewership');
-		_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
         var flash = true;
 
         if(isVideo) {
@@ -60,7 +58,9 @@ $(document).ready(function() {
             if (flash) {
                 $('.video-player').css({opacity:1});
             }
-        })
+        });
+		ga('send', 'event', '1000family', 'video_viewership', 'video_viewership');
+		//_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
     })
 
 //	setInterval(function(){
