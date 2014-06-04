@@ -12,25 +12,25 @@ class BabyController extends Controller
 
 	public function actionIndex()
 	{
-		$this->render('index');
+		$this->redirect('/baby/update');
 	}
 
     public function actionUpdate()
     {
-        $model=new Baby('update');
-
-        // uncomment the following code to enable ajax-based validation
-        /*
-        if(isset($_POST['ajax']) && $_POST['ajax']==='baby-update-form')
+        $baby=Baby::model()->findByPk(Yii::app()->user->id);
+        if($baby)
         {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
+            $model=$baby;
         }
-        */
-
+        else
+        {
+            $model=new Baby('update');
+        }
+        $record=Record::model()->findByPk(Yii::app()->user->id);
         if(isset($_POST['Baby']))
         {
             $model->attributes=$_POST['Baby'];
+            $model->birthday=$_POST['Baby']['year'].'-'.$_POST['Baby']['mon'].'-'.$_POST['Baby']['day'];
             if($model->validate())
             {
                 $baby=Baby::model()->findByPk(Yii::app()->user->id);
@@ -40,11 +40,12 @@ class BabyController extends Controller
                     $baby->uid=Yii::app()->user->id;
                     if($baby->save(false))
                     {
-                        echo "修改成功";
+                        $this->redirect('/record/myinfo');
                     }
                     else
                     {
-                        echo "修改失败";
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
                     }
                 }
                 else
@@ -52,16 +53,22 @@ class BabyController extends Controller
                     $model->uid=Yii::app()->user->id;
                     if($model->save(false))
                     {
-                        echo "修改成功";
+                        $this->redirect('/record/myinfo');
                     }
                     else
                     {
-                        echo "修改失败";
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
                     }
                 }
             }
+            else
+            {
+                header('Content-type: ' . 'text/html' .';charset=utf-8');
+                echo "<script>alert('请填写必填项');history.back(-1)</script>";
+            }
         }
-        $this->render('update',array('model'=>$model));
+        $this->render('update',array('model'=>$model,'record'=>$record));
     }
 
 

@@ -8,7 +8,7 @@
         </div>
         <div class="ft_weixin">
             <div class="weixin_pop">
-                <img src="images/weixin_img.gif" />
+                <img src="<?=Yii::app()->baseUrl.'/'?>images/weixin_img.gif" />
                 <p><span>雅漾微信</span>扫描二维码，立即关注雅漾官方微信</p>
             </div>
         </div>
@@ -35,7 +35,6 @@
  </div> -->
 <!--  -->
 <!--  -->
-<script src="<?=Yii::app()->baseUrl.'/'?>js/jquery-1.8.3.min.js"></script>
 <script src="<?=Yii::app()->baseUrl.'/'?>js/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>js/jquery.jcarousel.min.js"></script>
 <script type="text/javascript">

@@ -12,32 +12,66 @@ class RecordController extends Controller
 
 	public function actionIndex()
 	{
-		$this->render('index');
+		$this->redirect('record/update');
 	}
 
     public function actionUpdate()
     {
-        $model=new Record('update');
-
-        // uncomment the following code to enable ajax-based validation
-        /*
-        if(isset($_POST['ajax']) && $_POST['ajax']==='record-update-form')
+        $record=Record::model()->findByPk(Yii::app()->user->id);
+        if($record)
         {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
+            $model=$record;
         }
-        */
-
+        else
+        {
+            $model=new Record('update');
+        }
         if(isset($_POST['Record']))
         {
             $model->attributes=$_POST['Record'];
             if($model->validate())
             {
-                // form inputs are valid, do something here
-                return;
+                $uid=Yii::app()->user->id;
+                $record=Record::model()->findByPk($uid);
+                if($record)
+                {
+                    $record->attributes=$model->attributes;
+                    $record->uid=$uid;
+                    if($record->save(false))
+                    {
+                        $this->redirect('/baby/update');
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
+                else
+                {
+                    $model->uid=$uid;
+                    if($model->save(false))
+                    {
+                        $this->redirect('/baby/update');
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
             }
         }
         $this->render('update',array('model'=>$model));
+    }
+
+    public function actionMyInfo()
+    {
+        $uid=Yii::app()->user->id;
+        $record=Record::model()->findByPk($uid);
+//        $information=Information::model()->findByPk($uid);
+        $baby=Baby::model()->findByPk($uid);
+        $this->render('myinfo',array('record'=>$record,'baby'=>$baby));
     }
 
 	// Uncomment the following methods and override them if needed

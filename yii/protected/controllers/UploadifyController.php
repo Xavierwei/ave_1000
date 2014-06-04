@@ -2,40 +2,49 @@
 
 class UploadifyController extends Controller
 {
-
-    /**
-     * 上传
-     */
-    public function actionBasicExecute()
+    public function init()
     {
-        if ( XUtils::method() == 'POST' ) {
-
-            $file = XUpload::upload( $_FILES['upfile'] ,array( 'thumb'=>false, 'thumbSize'=>array ( 400 , 250 ) ) );
-            if ( is_array( $file ) ) {
-                $model = new Upload();
-                $model->user_id = $_SESSION['_userUserId'];
-                $model->file_name = $file['pathname'];
-                $model->thumb_name = $file['paththumbname'];
-                $model->real_name = $file['name'];
-                $model->file_ext = $file['extension'];
-                $model->file_mime = $file['type'];
-                $model->file_size = $file['size'];
-                $model->save_path = $file['savepath'];
-                $model->hash = $file['hash'];
-                $model->save_name = $file['savename'];
-                $model->create_time = time();
-                
-                if ( $model->save() ) {
-                    exit( CJSON::encode( array ( 'state' => 'success' , 'fileId'=>$model->id, 'realFile'=>$model->real_name, 'message' => '上传成功' , 'file' =>  $file['pathname'] ) ) );
-                } else {
-                    @unlink( $file['pathname'] );
-                    exit( CJSON::encode( array ( 'state' => 'error' , 'message' => '数据写入失败，上传错误' ) ) );
-                }
-            } else {
-                exit( CJSON::encode( array ( 'error' => 1 , 'message' => '上传错误' ) ) );
-            }
+        if(Yii::app()->user->isGuest)          //未登陆跳转登录页
+        {
+            $this->redirect(Yii::app()->createUrl('/site/login'));
         }
     }
+
+    /**
+     * 上传单个文件
+     */
+    public function actionUploadOne()
+    {
+        if (!empty($_FILES))
+        {
+            $uid=Yii::app()->user->id;                          //获取当前用户id
+            Yii::import('application.vendor.oUpload'); //导入文件上传处理类
+            $basePath = Yii::app()->basePath . '/..';
+            $savePath='/upload/'. $uid .'/'.date('Y/n/');                                        //设置头像保存路径
+            Drtool::mkPath($basePath.$savePath);                                                          //创建目录
+
+            $fileFormat = explode(',',Yii::app()->params['ImgAllowMime']);                             //允许的文件类型
+            $upNew = new oUpload($basePath.$savePath, $fileFormat);           //初始化上传类
+            $saveName=$uid. '_' . md5(time().rand(0,9999));             //设置保存名称
+            $upNew->setSavename($saveName);                                         //赋值保存文件名
+
+            //上传错误返回信息
+            if (!$upNew->run('Filedata',1))
+            {
+                    //通过$upNew->errmsg()只能得到最后一个出错的信息，
+                    //详细的信息在$upNew->getInfo()中可以得到。
+                exit( CJSON::encode( array ( 'state' => 'error' , 'message' => '上传错误,请重试' ) ) );
+            }
+            else
+            {
+                exit( CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  Yii::app()->baseUrl . $savePath . $upNew->getInfo()[0]['saveName'] ) ) );
+            }
+
+        }
+    }
+
+
+
 
     /**
      * 删除附件

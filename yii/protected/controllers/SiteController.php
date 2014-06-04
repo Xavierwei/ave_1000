@@ -61,6 +61,11 @@ class SiteController extends Controller
         $this->render('carefor');
     }
 
+    public function actionActivity()
+    {
+        $this->render('activity');
+    }
+
 
 
 //	/**
@@ -197,8 +202,12 @@ class SiteController extends Controller
                 $model->roletype=$model::WEIBO_TYPE;
                 if($model->save(false))
                 {
+//                    echo "<script>alert('注册成功');</script>";
+                    $model=new LoginForm;
+                    $model->username=Yii::app()->session['token']['uid'];
+                    $model->login();
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('注册成功');history.back(-1)</script>";
+                    echo "<script>alert('注册成功');location.replace('".Yii::app()->homeUrl."')</script>";
                 }
                 else
                 {

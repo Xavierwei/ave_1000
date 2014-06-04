@@ -32,9 +32,8 @@ class WeiboController extends Controller
 		}
 		if (isset($token))
         {
-            $c = new SaeTClientV2( WB_AKEY , WB_SKEY ,  Yii::app()->session['token']['access_token'] );
-            $user_message = $c->show_user_by_id( Yii::app()->session['token']['uid']);//根据ID获取用户等基本信息
-
+            $c = new SaeTClientV2( WB_AKEY , WB_SKEY ,  $token['access_token'] );
+            $user_message = $c->show_user_by_id( $token['uid']);//根据ID获取用户等基本信息
             if(isset($user_message['name']))
             {
                 Yii::app()->session['token']=$token;
@@ -63,11 +62,6 @@ class WeiboController extends Controller
         print_r($user_message);
 	}
 
-	
-	
-	
-	
-	
-	
+
 	
 }

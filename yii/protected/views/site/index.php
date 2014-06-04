@@ -6,7 +6,7 @@
         <div class="hometip">
             <div class="homefm_mun2">1036</div>
             <div class="homefm_mun">136</div>
-            <a href="#" class="homefm_btn1"  title="立即申请"></a>
+            <a href="<?=Yii::app()->createUrl('/information/update')?>" class="homefm_btn1"  title="立即申请"></a>
             <a href="#" class="homefm_btn2"  title="分享到微博"></a>
             <p class="homefm_listbtn"></p>
         </div>

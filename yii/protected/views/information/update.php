@@ -1,53 +1,34 @@
-<?php
-/* @var $this InformationController */
-/* @var $model Information */
-/* @var $form CActiveForm */
-?>
-
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'information-update-form',
-	// Please note: When you enable ajax validation, make sure the corresponding
-	// controller action is handling ajax validation correctly.
-	// See class documentation of CActiveForm for details on this,
-	// you need to use the performAjaxValidation()-method described there.
-	'enableAjaxValidation'=>false,
-)); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'one'); ?>
-		<?php echo $form->textField($model,'one'); ?>
-		<?php echo $form->error($model,'one'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'two'); ?>
-		<?php echo $form->textField($model,'two'); ?>
-		<?php echo $form->error($model,'two'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'three'); ?>
-		<?php echo $form->textField($model,'three'); ?>
-		<?php echo $form->error($model,'three'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'four'); ?>
-		<?php echo $form->textField($model,'four'); ?>
-		<?php echo $form->error($model,'four'); ?>
-	</div>
-
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-
-</div><!-- form -->
+<div class="diagnose">
+    <div class="diagnose_com">
+        <div class="dia_item">
+            <div class="dia_q"><span>Q1：</span>您宝宝的皮肤干燥嘛？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes"></p>
+                <p class="dia_no"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q2：</span>宝宝的直系家长们是否也得过湿疹、过敏性鼻炎、哮喘的疾病史？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes dia_yes_on"></p>
+                <p class="dia_no"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q3：</span>您宝宝的皮肤的湿疹是否最长常发生在腘窝、肘窝、脚踝、颈部等部位？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes"></p>
+                <p class="dia_no dia_no_on"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q4：</span>您的宝宝是两岁前发病的嘛？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes"></p>
+                <p class="dia_no"></p>
+            </div>
+        </div>
+    </div>
+    <a href="<?=Yii::app()->createUrl('/record/update')?>" class="diagnose_btn"></a>
+    <!--  -->
+</div>
