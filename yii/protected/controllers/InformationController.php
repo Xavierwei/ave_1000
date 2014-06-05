@@ -12,19 +12,52 @@ class InformationController extends Controller
 
 	public function actionIndex()
 	{
-		$this->redirect('/information/update');
+		$this->redirect($this->createUrl('/information/update'));
 	}
 
     public function actionUpdate()
     {
-        $model=new Information('update');
+        $info=Information::model()->findByPk(Yii::app()->user->id);
+        if($info)
+        {
+            $model=$info;
+        }
+        else
+        {
+            $model=new Information('update');
+        }
         if(isset($_POST['Information']))
         {
             $model->attributes=$_POST['Information'];
             if($model->validate())
             {
-                // form inputs are valid, do something here
-                return;
+                if($info)
+                {
+                    $info->attributes=$model->attributes;
+                    $info->uid=Yii::app()->user->id;
+                    if($info->save(false))
+                    {
+                        $this->redirect($this->createUrl('/record/update'));
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
+                else
+                {
+                    $model->uid=Yii::app()->user->id;
+                    if($model->save(false))
+                    {
+                        $this->redirect($this->createUrl('/record/update'));
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
             }
         }
         $this->render('update',array('model'=>$model));

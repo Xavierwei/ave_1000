@@ -5,7 +5,7 @@
         <div class="make_itemtit">STEP1 上传宝宝照片</div>
         <div class="make_com cs-clear">
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $model->avatar ? $model->avatar : '/images/make_up.jpg'?>" />
+                <img src="<?=Yii::app()->baseUrl . ($model->avatar ? $model->avatar : '/images/make_up.jpg')?>" />
                 <div class="make_phobg"><input  hidden  id="avatar" name="avatar" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
@@ -16,17 +16,17 @@
         <div class="make_itemtit">STEP1 上传患处照片</div>
         <div class="make_com cs-clear">
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $model->photo1 ? $model->photo1 : '/images/make_updemo.jpg'?>" />
+                <img src="<?=Yii::app()->baseUrl . ($model->photo1 ? $model->photo1 : '/images/make_updemo.jpg')?>" />
                 <div class="make_phobg"><input  hidden  id="photo1" name="photo1" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $model->photo2 ? $model->photo2 : '/images/make_updemo.jpg'?>" />
+                <img src="<?=Yii::app()->baseUrl . ($model->photo2 ? $model->photo2 : '/images/make_updemo.jpg')?>" />
                 <div class="make_phobg"><input  hidden  id="photo2" name="photo2" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $model->photo3 ? $model->photo3 : '/images/make_updemo.jpg'?>" />
+                <img src="<?=Yii::app()->baseUrl . ($model->photo3 ? $model->photo3 : '/images/make_updemo.jpg')?>" />
                 <div class="make_phobg"><input  hidden  id="photo3" name="photo3" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
@@ -37,7 +37,7 @@
         <div class="make_itemtit">STEP1 上传真实病例扫描页</div>
         <div class="make_com cs-clear">
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $model->case ? $model->case : '/images/make_up2.jpg'?>" />
+                <img src="<?=Yii::app()->baseUrl . ($model->case ? $model->case : '/images/make_up2.jpg')?>" />
                 <div class="make_phobg"><input  hidden  id="case" name="case" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
@@ -88,7 +88,7 @@
                 var json = $.parseJSON(data);
                 if (json.state == 'success')
                 {
-                    $('#'+inputid).parent('.make_phobg').prev('img').attr('src',json.file);
+                    $('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?=Yii::app()->baseUrl?>'+json.file);
                     $('#'+form).val(json.file);
                     $('#'+inputid).parent('.make_phobg').next('.make_phoclose').click(function(e)
                     {

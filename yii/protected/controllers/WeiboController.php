@@ -37,7 +37,7 @@ class WeiboController extends Controller
             if(isset($user_message['name']))
             {
                 Yii::app()->session['token']=$token;
-                $this->redirect('/Site/WeiBoReg');  //跳转检查微博注册
+                $this->redirect(Yii::app()->createUrl('/Site/WeiBoReg'));  //跳转检查微博注册
             }
             else
             {

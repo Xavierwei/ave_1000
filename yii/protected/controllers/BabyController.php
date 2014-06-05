@@ -12,7 +12,7 @@ class BabyController extends Controller
 
 	public function actionIndex()
 	{
-		$this->redirect('/baby/update');
+		$this->redirect($this->createUrl('/baby/update'));
 	}
 
     public function actionUpdate()
@@ -33,14 +33,13 @@ class BabyController extends Controller
             $model->birthday=$_POST['Baby']['year'].'-'.$_POST['Baby']['mon'].'-'.$_POST['Baby']['day'];
             if($model->validate())
             {
-                $baby=Baby::model()->findByPk(Yii::app()->user->id);
                 if($baby)
                 {
                     $baby->attributes=$model->attributes;
                     $baby->uid=Yii::app()->user->id;
                     if($baby->save(false))
                     {
-                        $this->redirect('/record/myinfo');
+                        $this->redirect($this->createUrl('/record/myinfo'));
                     }
                     else
                     {
@@ -53,7 +52,7 @@ class BabyController extends Controller
                     $model->uid=Yii::app()->user->id;
                     if($model->save(false))
                     {
-                        $this->redirect('/record/myinfo');
+                        $this->redirect($this->createUrl('/record/myinfo'));
                     }
                     else
                     {
@@ -72,31 +71,4 @@ class BabyController extends Controller
     }
 
 
-
-	// Uncomment the following methods and override them if needed
-	/*
-	public function filters()
-	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-	*/
 }

@@ -12,7 +12,7 @@ class RecordController extends Controller
 
 	public function actionIndex()
 	{
-		$this->redirect('record/update');
+		$this->redirect($this->createUrl('/record/update'));
 	}
 
     public function actionUpdate()
@@ -31,15 +31,13 @@ class RecordController extends Controller
             $model->attributes=$_POST['Record'];
             if($model->validate())
             {
-                $uid=Yii::app()->user->id;
-                $record=Record::model()->findByPk($uid);
                 if($record)
                 {
                     $record->attributes=$model->attributes;
-                    $record->uid=$uid;
+                    $record->uid=Yii::app()->user->id;
                     if($record->save(false))
                     {
-                        $this->redirect('/baby/update');
+                        $this->redirect($this->createUrl('/baby/update'));
                     }
                     else
                     {
@@ -49,10 +47,10 @@ class RecordController extends Controller
                 }
                 else
                 {
-                    $model->uid=$uid;
+                    $model->uid=Yii::app()->user->id;
                     if($model->save(false))
                     {
-                        $this->redirect('/baby/update');
+                        $this->redirect($this->createUrl('/baby/update'));
                     }
                     else
                     {
@@ -71,7 +69,10 @@ class RecordController extends Controller
         $record=Record::model()->findByPk($uid);
 //        $information=Information::model()->findByPk($uid);
         $baby=Baby::model()->findByPk($uid);
-        $this->render('myinfo',array('record'=>$record,'baby'=>$baby));
+        if($baby && $record)
+            $this->render('myinfo',array('record'=>$record,'baby'=>$baby));
+        else
+            $this->redirect($this->createUrl('/record/update'));
     }
 
 	// Uncomment the following methods and override them if needed

@@ -37,7 +37,7 @@ class UploadifyController extends Controller
             }
             else
             {
-                exit( CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  Yii::app()->baseUrl . $savePath . $upNew->getInfo()[0]['saveName'] ) ) );
+                exit( CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  $savePath . $upNew->getInfo()[0]['saveName'] ) ) );
             }
 
         }

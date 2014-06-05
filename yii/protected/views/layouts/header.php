@@ -25,9 +25,13 @@
         <a class="navitem nav1" href="<?=Yii::app()->createUrl('/site/carefor')?>"><span class="<?=$this->action->id == 'carefor' ? 'on' : ''?>">雅漾关怀</span></a>
     </div>
     <?php if(Yii::app()->user->isGuest):?>
-        <a class="nav_login" href="<?=Yii::app()->createUrl('/site/reg')?>"><span class="">登录</span></a>
+        <a class="nav_login" href="<?=Yii::app()->createUrl('/site/login')?>"><span class="">登录 / 注册</span></a>
     <?php else:?>
-        <a class="nav_login" href="<?=Yii::app()->createUrl('/site/logout')?>"><?=Yii::app()->user->name?><span class=""> 退出</span></a>
+        <p class="nav_login">
+            <a  href="<?=Yii::app()->createUrl('/record/myinfo')?>"><span class=""><?=Yii::app()->user->name?> </span></a>
+             /
+            <a href="<?=Yii::app()->createUrl('/site/logout')?>"<span class=""> 退出</span></a>
+        </p>
     <?php endif?>
 </div>
 <!--  -->
