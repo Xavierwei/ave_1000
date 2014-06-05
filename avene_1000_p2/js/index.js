@@ -59,6 +59,11 @@
             $('.profile_sel').live('change',function(){
                 $(this).prev('.profile_seltxt').html( $(this).val() )
             })
+            //select city
+            $('#city_sel').live('change',function(){
+                $('.city_selcom').children('.profile_selhosp').hide()
+                $('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex ).show()
+            })
             //login
             $('.login_ed,.login_weibo').live('click',function(){
                 $('.login_box2').show()
