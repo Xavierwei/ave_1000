@@ -66,6 +66,8 @@
             $('#city_sel').live('change',function(){
                 $('.city_selcom').children('.profile_selhosp').hide()
                 $('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex ).show()
+                $('.city_selcom').prev('.profile_seltxt').html($('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() )
+                $('#Baby_point_hospital').val($('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() );
             })
             //login
             $('.login_ed').live('click',function(){
@@ -78,12 +80,23 @@
             })
             // diagnose
             $('.dia_yes').live('click',function(){
-                $(this).next('.dia_no').removeClass('dia_no_on')
+                $(this).next('input').next('.dia_no').removeClass('dia_no_on')
                 $(this).addClass('dia_yes_on')
+                $(this).next('input').val('1');
             })
             $('.dia_no').live('click',function(){
-                $(this).prev('.dia_yes').removeClass('dia_yes_on')
+                $('.popshare,.pop').fadeIn(300);
+                $(this).prev('input').prev('.dia_yes').removeClass('dia_yes_on')
                 $(this).addClass('dia_no_on')
+                $(this).prev('input').val('0');
+            })
+
+            //阅读隐私申明
+            $('.make_check').live('click',function(){
+                $(this).removeClass('make_checked').addClass('make_checked');
+            })
+            $('.make_checked').live('click',function(){
+                $(this).removeClass('make_checked');
             })
         }
     };
