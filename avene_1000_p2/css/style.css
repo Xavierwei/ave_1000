@@ -413,7 +413,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 ================================================================================================= */
 .popshare{background: #000;opacity: 0.4;filter:alpha(opacity=40); position: fixed;left:0;right: 0;top: 0;bottom: 0;z-index: 15;display: none;}
 .pop{background:#fff;position: fixed;left:50%;top:50%;z-index:20;font-size: 14px;color:#666;display: none;}
-.popclose{position: absolute;background: url('../images/t.gif') repeat;width: 30px;height: 30px;right: 18px;top: 8px;cursor: pointer;}
+.popclose{position: absolute;background: url('../images/t.gif') repeat;width: 40px;height: 40px;right: 18px;top: 8px;cursor: pointer;}
 .home_pop{background: url('../images/home_pop.png') no-repeat;width: 640px;height: 712px;margin:-356px 0 0 -320px;}
 .home_popcom{padding: 80px; }
 .home_popcom h2{font-size: 26px;color:#f69788;text-align: center;font-weight: normal;height: 60px;}
@@ -424,6 +424,10 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .actpopfm_list span{text-align: left}
 .act_popcom em{text-align: left;width: 300px;float: left;}
 .act_popcomtit{color:#f69788}
+.pop2{background: url('../images/popbg2.png') no-repeat;width: 650px;height: 400px;margin: -200px 0 0 -325px;}
+.care_popcom{text-align: center;font-size:20px;color:#797979;padding:130px 0 0;}
+.care_popcom h2{font-size: 26px;color:#f69788;font-weight: normal;height: 80px;line-height: 40px}
+
 /* Popup Used
 ================================================================================================= */
 .overlay { display: none; z-index: 10; background: #fff; position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.7; filter: alpha(opacity=70); }
