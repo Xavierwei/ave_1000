@@ -314,6 +314,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .login_ed2{background: url('../images/t.gif') repeat;width: 180px;height: 55px;position: absolute;top: 0px;left: 10px;cursor: pointer}
 .login_form2{position: absolute;left:148px;top: 175px;}
 .login_form2 .login_fibtn{margin-left:18px;margin-top:-10px;}
+.login_weibo2{background: url('../images/t.gif') repeat;width: 250px;height: 65px;position: absolute;top: 180px;left: 126px;cursor: pointer;}
 .login_form3{position: absolute;left:595px;top: 175px;}
 .login_form3 .login_fibtn{margin-left:28px;margin-top:-10px;}
 .login_form3 .login_btn{width: 200px}

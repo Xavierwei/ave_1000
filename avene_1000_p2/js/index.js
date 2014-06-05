@@ -65,7 +65,7 @@
                 $('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex ).show()
             })
             //login
-            $('.login_ed,.login_weibo').live('click',function(){
+            $('.login_ed').live('click',function(){
                 $('.login_box2').show()
                 $('.login_box').hide()
             })
