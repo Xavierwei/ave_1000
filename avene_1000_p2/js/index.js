@@ -60,7 +60,7 @@
                 $(this).prev('.profile_seltxt').html( $(this).val() )
             })
             //login
-            $('.login_ed').live('click',function(){
+            $('.login_ed,.login_weibo').live('click',function(){
                 $('.login_box2').show()
                 $('.login_box').hide()
             })
