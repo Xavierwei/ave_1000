@@ -59,6 +59,9 @@
             $('.profile_sel').live('change',function(){
                 $(this).prev('.profile_seltxt').html( $(this).val() )
             })
+            $('.city_selcom .profile_sel').live('change',function(){
+                $('.city_selcom').prev('.profile_seltxt').html( $(this).val() )
+            })
             //select city
             $('#city_sel').live('change',function(){
                 $('.city_selcom').children('.profile_selhosp').hide()
@@ -79,7 +82,7 @@
                 $(this).addClass('dia_yes_on')
             })
             $('.dia_no').live('click',function(){
-                $(this).prev('.dia_yes').removeClass('dia_yes_on')
+                $(this).prev('dia_yes').removeClass('dia_yes_on')
                 $(this).addClass('dia_no_on')
             })
 
