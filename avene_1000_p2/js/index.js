@@ -82,7 +82,7 @@
                 $(this).addClass('dia_yes_on')
             })
             $('.dia_no').live('click',function(){
-                $(this).prev('dia_yes').removeClass('dia_yes_on')
+                $(this).prev('.dia_yes').removeClass('dia_yes_on')
                 $(this).addClass('dia_no_on')
             })
 
