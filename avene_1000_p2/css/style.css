@@ -411,8 +411,8 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 
 /* POP Used
 ================================================================================================= */
-.popshare{background: #000;opacity: 0.4;filter:alpha(opacity=40); position: fixed;left:0;right: 0;top: 0;bottom: 0;z-index: 15;display: block;}
-.pop{background:#fff;position: fixed;left:50%;top:50%;z-index:20;font-size: 14px;color:#666;display: block;}
+.popshare{background: #000;opacity: 0.4;filter:alpha(opacity=40); position: fixed;left:0;right: 0;top: 0;bottom: 0;z-index: 15;display: none;}
+.pop{background:#fff;position: fixed;left:50%;top:50%;z-index:20;font-size: 14px;color:#666;display: none;}
 .popclose{position: absolute;background: url('../images/t.gif') repeat;width: 30px;height: 30px;right: 18px;top: 8px;cursor: pointer;}
 .home_pop{background: url('../images/home_pop.png') no-repeat;width: 640px;height: 712px;margin:-356px 0 0 -320px;}
 .home_popcom{padding: 80px; }
