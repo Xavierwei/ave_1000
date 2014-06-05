@@ -75,7 +75,9 @@
             })
         }
     };
-    Index.init();  
+    Index.init(); 
+     
+
 })(jQuery);
 
 

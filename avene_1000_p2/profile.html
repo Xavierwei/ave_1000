@@ -43,19 +43,16 @@
                     <input type="text" class="profile_ipt profile_sex" />
                     <input type="text" class="profile_ipt profile_tel" />
                     <p class="profile_seltxt profile_selyear_txt">2011</p>
-                    <select class="profile_sel profile_selyear">
-                        <option>2010</option>
-                        <option>2011</option>
+                    <select class="profile_sel profile_selyear" id="year" onfocus="years('year',new Date().getFullYear()),change_date()" onchange="change_date()">
+                        
                     </select>
                     <p class="profile_seltxt profile_selmon_txt"></p>
-                    <select class="profile_sel profile_selmon">
-                        <option>1</option>
-                        <option>2</option>
+                    <select class="profile_sel profile_selmon" id="month" onfocus="months(),change_date()" onchange="change_date()">
+                        
                     </select>
                     <p class="profile_seltxt profile_selday_txt"></p>
-                    <select class="profile_sel profile_selday">
-                        <option>1</option>
-                        <option>2</option>
+                    <select class="profile_sel profile_selday" id="date">
+                       
                     </select>
                 </form>
             </div>  
@@ -135,6 +132,7 @@
 <!--  -->
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/days.js"></script>
 <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
