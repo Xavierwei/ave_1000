@@ -73,15 +73,25 @@
         <!--  -->
         <div class="profile_hosp">
             <p class="profile_seltxt profile_selcity_txt">选择城市</p>
-            <select class="profile_sel profile_selcity">
+            <select class="profile_sel profile_selcity" id="city_sel">
+                <option>选择城市</option>
                 <option>北京</option>
                 <option>哈尔滨</option>
             </select>
             <p class="profile_seltxt profile_selhosp_txt">选择城市</p>
-            <select class="profile_sel profile_selhosp">
-                <option>北京</option>
-                <option>哈尔滨</option>
-            </select>
+            <div class="city_selcom">
+                <select class="profile_sel profile_selhosp city" >
+                    <option>选择城市</option>
+                </select>
+                <select class="profile_sel profile_selhosp city" style="display:none">
+                    <option>北京1</option>
+                    <option>北京2</option>
+                </select>
+                <select class="profile_sel profile_selhosp city" style="display:none">
+                    <option>哈尔滨1</option>
+                    <option>哈尔滨2</option>
+                </select>
+            </div>
         </div>
         <a href="#" class="profile_btn"></a>
         <!--  -->
