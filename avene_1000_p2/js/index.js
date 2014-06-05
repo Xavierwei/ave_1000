@@ -73,6 +73,16 @@
                 $('.login_box').show()
                 $('.login_box2').hide()
             })
+            // diagnose
+            $('.dia_yes').live('click',function(){
+                $(this).next('.dia_no').removeClass('dia_no_on')
+                $(this).addClass('dia_yes_on')
+            })
+            $('.dia_no').live('click',function(){
+                $(this).prev('.dia_yes').removeClass('dia_yes_on')
+                $(this).addClass('dia_no_on')
+            })
+
         }
     };
     Index.init(); 
