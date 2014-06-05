@@ -1,53 +1,50 @@
-<?php
-/* @var $this InformationController */
-/* @var $model Information */
-/* @var $form CActiveForm */
-?>
-
-<div class="form">
-
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'information-update-form',
-	// Please note: When you enable ajax validation, make sure the corresponding
-	// controller action is handling ajax validation correctly.
-	// See class documentation of CActiveForm for details on this,
-	// you need to use the performAjaxValidation()-method described there.
-	'enableAjaxValidation'=>false,
+    'id'=>'information-update-form',
+    'enableAjaxValidation'=>false,
 )); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<?php echo $form->errorSummary($model); ?>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'one'); ?>
-		<?php echo $form->textField($model,'one'); ?>
-		<?php echo $form->error($model,'one'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'two'); ?>
-		<?php echo $form->textField($model,'two'); ?>
-		<?php echo $form->error($model,'two'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'three'); ?>
-		<?php echo $form->textField($model,'three'); ?>
-		<?php echo $form->error($model,'three'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'four'); ?>
-		<?php echo $form->textField($model,'four'); ?>
-		<?php echo $form->error($model,'four'); ?>
-	</div>
-
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
-
+<div class="diagnose">
+    <div class="diagnose_com">
+        <div class="dia_item">
+            <div class="dia_q"><span>Q1：</span>您宝宝的皮肤干燥嘛？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes <?=$model->one==1 ? 'dia_yes_on' : ''?>"></p>
+                <?php echo $form->textField($model,'one',array('hidden'=>'hidden')); ?>
+                <p class="dia_no <?=$model->one==0 ? 'dia_no_on' : ''?>"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q2：</span>宝宝的直系家长们是否也得过湿疹、过敏性鼻炎、哮喘的疾病史？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes <?=$model->two==1 ? 'dia_yes_on' : ''?>"></p>
+                <?php echo $form->textField($model,'two',array('hidden'=>'hidden')); ?>
+                <p class="dia_no <?=$model->two==0 ? 'dia_no_on' : ''?>"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q3：</span>您宝宝的皮肤的湿疹是否最长常发生在腘窝、肘窝、脚踝、颈部等部位？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes <?=$model->three==1 ? 'dia_yes_on' : ''?>"></p>
+                <?php echo $form->textField($model,'three',array('hidden'=>'hidden')); ?>
+                <p class="dia_no <?=$model->three==0 ? 'dia_no_on' : ''?>"></p>
+            </div>
+        </div>
+        <div class="dia_item">
+            <div class="dia_q"><span>Q4：</span>您的宝宝是两岁前发病的嘛？</div>
+            <div class="dia_a cs-clear">
+                <p class="dia_yes <?=$model->four==1 ? 'dia_yes_on' : ''?> "></p>
+                <?php echo $form->textField($model,'four',array('hidden'=>'hidden')); ?>
+                <p class="dia_no <?=$model->four==0 ? 'dia_no_on' : ''?>"></p>
+            </div>
+        </div>
+    </div>
+    <a href="javascript:void(0)" class="diagnose_btn"></a>
+    <!--  -->
+</div>
 <?php $this->endWidget(); ?>
-
-</div><!-- form -->
+<script>
+    $(document).ready(function(){
+        $(".diagnose_btn").click(function(){
+            $("#information-update-form").submit();
+        });
+    });
+</script>

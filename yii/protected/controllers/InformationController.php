@@ -12,58 +12,55 @@ class InformationController extends Controller
 
 	public function actionIndex()
 	{
-		$this->render('index');
+		$this->redirect($this->createUrl('/information/update'));
 	}
 
     public function actionUpdate()
     {
-        $model=new Information('update');
-
-        // uncomment the following code to enable ajax-based validation
-        /*
-        if(isset($_POST['ajax']) && $_POST['ajax']==='information-update-form')
+        $info=Information::model()->findByPk(Yii::app()->user->id);
+        if($info)
         {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
+            $model=$info;
         }
-        */
-
+        else
+        {
+            $model=new Information('update');
+        }
         if(isset($_POST['Information']))
         {
             $model->attributes=$_POST['Information'];
             if($model->validate())
             {
-                // form inputs are valid, do something here
-                return;
+                if($info)
+                {
+                    $info->attributes=$model->attributes;
+                    $info->uid=Yii::app()->user->id;
+                    if($info->save(false))
+                    {
+                        $this->redirect($this->createUrl('/record/update'));
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
+                else
+                {
+                    $model->uid=Yii::app()->user->id;
+                    if($model->save(false))
+                    {
+                        $this->redirect($this->createUrl('/record/update'));
+                    }
+                    else
+                    {
+                        header('Content-type: ' . 'text/html' .';charset=utf-8');
+                        echo "<script>alert('修改失败');history.back(-1)</script>";
+                    }
+                }
             }
         }
         $this->render('update',array('model'=>$model));
     }
 
-	// Uncomment the following methods and override them if needed
-	/*
-	public function filters()
-	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-
-	public function actions()
-	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
-	}
-	*/
 }

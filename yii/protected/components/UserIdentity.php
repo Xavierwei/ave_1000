@@ -20,7 +20,6 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-        die;
 		$user=User::model()->find('LOWER(username)=:username',array(':username'=>strtolower($this->username)));
         if($user===null)
             $this->errorCode=self::ERROR_USERNAME_INVALID;
@@ -29,7 +28,6 @@ class UserIdentity extends CUserIdentity
             Yii::import('ext.sinaWeibo.SinaWeibo',true);
             $c = new SaeTClientV2( WB_AKEY , WB_SKEY ,  Yii::app()->session['token']['access_token'] );
             $user_message = $c->show_user_by_id( $this->username);//根据ID获取用户等基本信息
-
                 $this->_id=$user->uid;
                 $this->_username=$user_message['name'];
                 $this->_user['uid']=$user->uid;
