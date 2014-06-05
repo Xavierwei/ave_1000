@@ -137,12 +137,18 @@ class User extends OrionModel
     /**
      * 用户名唯一性校验
      */
-    public function uniqueUser($name)
+    public function uniqueUser($name,$email=NULL)
     {
+        $condition = 'username = :username ' . ($email == NULL ? '' : ' OR email=:email');
+        $params   = array(':username'=>$name);
+        if($email !== NULL)
+        {
+            $params=array_merge($params,array(':email'=>$email));
+        }
         $model=$this->find(
             array(
-                'condition'=>'username = :username',
-                'params'=>array(':username'=>$name),
+                'condition'=>$condition,
+                'params'=>$params,
             )
         );
         return $model;

@@ -339,7 +339,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 /**/
 .make_tit{background: url('../images/make_tit.jpg') no-repeat;width: 960px;height: 60px;margin: 64px auto 20px;}
 .make_txt{font-size: 18px;width: 960px;margin: 0 auto 0;}
-.make_item{width: 940px;height: 348px;background: #e8f8fd;margin:90px auto 0;position: relative;}
+.make_item{width: 940px;height: 300px;background: #e8f8fd;margin:90px auto 0;position: relative;}
 .make_itemtit{background: url('../images/make_itemtit.jpg') no-repeat;width: 350px;height: 70px;position: absolute;left:0;top:-34px;font-size: 20px;color:#e5856c;line-height: 60px;padding-left:35px}
 .make_com{padding:40px 0 0 40px;}
 .make_pho{position: relative;width: 266px;height: 215px;padding: 17px 0 0 20px;float: left;}

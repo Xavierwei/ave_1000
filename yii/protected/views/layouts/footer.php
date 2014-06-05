@@ -19,22 +19,6 @@
     </div>
 </div>
 <!--  -->
-<!--  <div class="popshare"></div>
- <div class="pop home_pop">
-     <div class="popclose"></div>
-     <div class="home_popcom">
-         <h2>所有参与家庭</h2>
-
-             <div class="homepopfm_list cs-clear">
-                 <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-                 <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-                 <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-                 <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-             </div>
-     </div>
- </div> -->
-<!--  -->
-<!--  -->
 <script src="<?=Yii::app()->baseUrl.'/'?>js/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>js/jquery.jcarousel.min.js"></script>
 <script type="text/javascript">

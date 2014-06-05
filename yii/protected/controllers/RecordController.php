@@ -75,6 +75,24 @@ class RecordController extends Controller
             $this->redirect($this->createUrl('/record/update'));
     }
 
+    public function actionOtherInfo($id)
+    {
+        $uid=(int)$id;
+        $baby=Baby::model()->with('record')->find(
+            array(
+                'condition' => 'record.uid = :uid AND status = :status',
+                'params'   => array(':uid' => $uid ,':status' => Record::ALLOW_STATUS ),
+            )
+        );
+        if($baby)
+        {
+            $avatar = $baby->sex == '男' ? '/images/defaultAvatar/boy_' . rand(1,2) . '.jpg' :  '/images/defaultAvatar/girl_' . rand(1,2) . '.jpg' ;
+            $this->render('otherinfo',array('baby'=>$baby,'avatar'=>$avatar));
+        }
+        else
+            $this->redirect(Yii::app()->baseUrl);
+    }
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

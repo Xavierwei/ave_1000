@@ -20,7 +20,7 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$user=User::model()->find('LOWER(username)=:username',array(':username'=>strtolower($this->username)));
+		$user=User::model()->find('LOWER(username)=:username OR email=:email',array(':username'=>strtolower($this->username),':email'=>strtolower($this->username)));
         if($user===null)
             $this->errorCode=self::ERROR_USERNAME_INVALID;
         else if($user->roletype == User::WEIBO_TYPE  && isset(Yii::app()->session['token']) && Yii::app()->session['token']['uid'] == $this->username) //微博用户免密码
@@ -45,9 +45,10 @@ class UserIdentity extends CUserIdentity
         else
         {
             $this->_id=$user->uid;
-            $this->_user['uid']=$user->uid;
             $this->_username=$user->username;
+            $this->_user['uid']=$user->uid;
             $this->_user['username']=$user->username;
+            $this->_user['email']=$user->email;
             $this->_user['roletype']=$user->roletype;
             $this->setState("_user", $this->_user);
 

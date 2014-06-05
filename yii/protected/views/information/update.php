@@ -41,6 +41,16 @@
     <!--  -->
 </div>
 <?php $this->endWidget(); ?>
+<div class="popshare"></div>
+<div class="pop pop2">
+    <div class="popclose"></div>
+    <div class="care_popcom">
+            <h2>请继续关注获得更多信息。</h2>
+            <p>您的宝贝信息已通过审核！</p>
+            <p><br></p>
+            <a href="<?=Yii::app()->baseUrl?>">返回首页</a>
+    </div>
+</div>
 <script>
     $(document).ready(function(){
         $(".diagnose_btn").click(function(){

@@ -9,10 +9,6 @@
         <div class="profile_fromcom">
             <?php $form=$this->beginWidget('CActiveForm', array(
                 'id'=>'baby-update-form',
-                // Please note: When you enable ajax validation, make sure the corresponding
-                // controller action is handling ajax validation correctly.
-                // See class documentation of CActiveForm for details on this,
-                // you need to use the performAjaxValidation()-method described there.
                 'enableAjaxValidation'=>false,
             )); ?>
             <?php echo $form->textField($model,'name',array('class'=>'profile_ipt profile_name')); ?>
@@ -49,24 +45,82 @@
     </div>
     <!--  -->
     <div class="profile_hosp">
-        <p class="profile_seltxt profile_selcity_txt">选择城市</p>
+        <p class="profile_seltxt profile_selcity_txt"><?=$model->point_city ? $model->point_city : '北京'?></p>
         <select name="Baby[point_city]"  class="profile_sel profile_selcity" id="city_sel">
-            <option>选择城市</option>
             <option>北京</option>
+            <option>沈阳</option>
+            <option>大连</option>
             <option>哈尔滨</option>
+            <option>长春</option>
+            <option>天津</option>
+            <option>郑州</option>
+            <option>西安</option>
+            <option>重庆</option>
+            <option>上海</option>
+            <option>杭州</option>
+            <option>南京</option>
+            <option>深圳</option>
+            <option>广州</option>
+            <option>武汉</option>
+            <option>长沙</option>
+            <option>青海</option>
         </select>
-        <p class="profile_seltxt profile_selhosp_txt">选择医院</p>
+        <p class="profile_seltxt profile_selhosp_txt"><?=$model->point_hospital ? $model->point_hospital : '北京儿童医院'?></p>
         <div class="city_selcom">
-            <select name="Baby[point_hospital]" class="profile_sel profile_selhosp city" >
-                <option>选择医院</option>
+            <input hidden type="'text" name="Baby[point_hospital]" id="Baby_point_hospital" value="<?=$model->point_hospital ? $model->point_hospital : '北京儿童医院'?>"/>
+            <select  class="profile_sel profile_selhosp city" >
+                <option>北京儿童医院</option>
+                <option>首都儿研所</option>
+                <option>北大医院</option>
             </select>
-            <select class="profile_sel profile_selhosp city" style="display:none">
-                <option>北京1</option>
-                <option>北京2</option>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>中国医大盛京医院</option>
             </select>
-            <select class="profile_sel profile_selhosp city" style="display:none">
-                <option>哈尔滨1</option>
-                <option>哈尔滨2</option>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>大连儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>哈尔滨儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>长春儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>天津儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>郑州儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>西安市儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>重庆儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>华山医院</option>
+                <option>复旦大学附属儿科医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>浙江省中医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>中国医学科学院皮肤病医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>深圳儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>广州儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>武汉第一人民医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>湖南省儿童医院</option>
+            </select>
+            <select  class="profile_sel profile_selhosp city" style="display:none">
+                <option>青海省儿童医院</option>
             </select>
         </div>
     </div>

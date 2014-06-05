@@ -27,9 +27,27 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+        if(!Drtool::getMyCookie('visitIndex'))
+        {
+            Drtool::setMyCookie('visitIndex',Drtool::randomNew(),0.5);
+            $model=new Visit;
+            $model->ip=Yii::app()->request->userHostAddress;
+            $model->save(false);
+        }
+        $recordCount=Record::model()->count();
+        $recordCount = $recordCount ? $recordCount : 0;
+        $visitCount=Visit::model()->count();
+        $visitCount = $visitCount ? $visitCount : 0;
+
+        $record=Baby::model()->with('record')->findAll(
+            array(
+                'condition' => 'status = :status',
+                'params'   => array(':status' => Record::ALLOW_STATUS ),
+                'limit' => 15,
+                'order'=>'t.createtime DESC',
+            )
+        );
+		$this->render('index',array('recordCount'=>$recordCount,'visitCount'=>$visitCount,'record'=>$record));
 	}
 
 	/**
@@ -63,7 +81,15 @@ class SiteController extends Controller
 
     public function actionActivity()
     {
-        $this->render('activity');
+        $record=Baby::model()->with('record')->findAll(
+            array(
+                'condition' => 'status = :status',
+                'params'   => array(':status' => Record::ALLOW_STATUS ),
+                'limit' => 15,
+                'order'=>'t.createtime DESC',
+            )
+        );
+        $this->render('activity',array('record'=>$record));
     }
 
 
@@ -137,12 +163,6 @@ class SiteController extends Controller
         }
 
         $model=new RegForm;
-		if(isset($_POST['ajax']) && $_POST['ajax']==='user-reg-form')
-        {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
-        }
-
 		if(isset($_POST['RegForm']))
         {
             $model->attributes=$_POST['RegForm'];

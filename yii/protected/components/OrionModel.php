@@ -29,14 +29,30 @@ class OrionModel extends CActiveRecord
      */
     protected function beforeSave ()
     {
-        parent::beforeSave();
-
-        if ($this->isNewRecord) //判断是否为新记录
+        if(parent::beforeSave())
         {
-            $this->createtime=$this->updatetime=time();
-        }
+            if ($this->isNewRecord) //判断是否为新记录
+            {
+                $arr=$this->attributes;
+                //从性能方面考虑。结合isset和array_key_exists判断该键值是否存在
+                if(isset($arr['createtime']) || array_key_exists('createtime', $arr))
+                    $this->createtime = time();
 
-        $this->updatetime=time();
-        return true;
+                if(isset($arr['updatetime']) || array_key_exists('updatetime', $arr))
+                    $this->updatetime = time();
+            }
+            else
+            {
+                $arr=$this->attributes;
+                //从性能方面考虑。结合isset和array_key_exists判断该键值是否存在
+                if(isset($arr['updatetime']) || array_key_exists('updatetime', $arr))
+                    $this->updatetime = time();
+            }
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

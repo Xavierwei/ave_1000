@@ -12,9 +12,15 @@
         </div>
         <div class="home_case">
             <ul id="mycarousel" class="jcarousel-skin-tango">
-                <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/homecase_demo.jpg" width="211" height="252" /></a></li>
-                <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/video_demo.jpg" width="211" height="252" /></a></li>
-                <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/about_img2.jpg" width="211" height="252" /></a></li>
+                <?php if($record):?>
+                    <?php foreach($record as $key => $value):?>
+                        <li class="home_caseli"><a href="<?=Yii::app()->createUrl('/record/otherinfo/',array('id'=>$value->uid))?>" title="查看更多"><img src="<?=Yii::app()->baseUrl . ($value->sex == '男' ? '/images/defaultAvatar/boy_' . rand(1,2) . '.jpg' :  '/images/defaultAvatar/girl_' . rand(1,2) . '.jpg' );?>" width="211" height="252" /></a></li>
+                    <?php endforeach;?>
+                <?php else:?>
+                    <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/homecase_demo.jpg" width="211" height="252" /></a></li>
+                    <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/video_demo.jpg" width="211" height="252" /></a></li>
+                    <li class="home_caseli"><a href="#" title="查看更多"><img src="<?=Yii::app()->baseUrl.'/'?>images/about_img2.jpg" width="211" height="252" /></a></li>
+                <?php endif;?>
             </ul>
             <div class="home_casestit"></div>
         </div>

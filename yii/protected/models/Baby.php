@@ -61,6 +61,7 @@ class Baby extends OrionModel
 		// class name for the relations automatically generated below.
 		return array(
 			'u' => array(self::BELONGS_TO, 'User', 'uid'),
+            'record' => array(self::BELONGS_TO, 'Record', 'uid'),
 		);
 	}
 

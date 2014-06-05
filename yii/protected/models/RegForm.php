@@ -21,7 +21,8 @@ class RegForm extends CFormModel
         if($attribute == 'uniqueUser')      //用户名不唯一才弹出
         {
             header('Content-type: ' . 'text/html' .';charset=utf-8');
-            echo "<script>alert('".$error."');</script>";
+            echo "<script>alert('".$error."');history.back(-1)</script>";
+            die;
         }
     }
 
@@ -57,10 +58,10 @@ class RegForm extends CFormModel
      */
     public function oCheckUser($attribute,$params)
     {
-        if(!User::model()->uniqueUser($this->username))
+        if(!User::model()->uniqueUser($this->username,$this->email))
             return true;
         else
-            $this->addError('uniqueUser','该用户名已被注册');
+            $this->addError('uniqueUser','该用户名或邮箱已被注册');
     }
 
 //	/**
