@@ -47,9 +47,26 @@
                     $(this).children('.weixin_pop').hide()
                 }
             })
-            // 
+            // 弹窗 显示
+            $('.popshow').live('click',function(){
+                $('.popshare,.pop').fadeIn(300)
+            })
+            //弹窗 隐藏
             $('.popclose').live('click',function(){
                 $('.popshare,.pop').fadeOut(300)
+            })
+            // select
+            $('.profile_sel').live('change',function(){
+                $(this).prev('.profile_seltxt').html( $(this).val() )
+            })
+            //login
+            $('.login_ed').live('click',function(){
+                $('.login_box2').show()
+                $('.login_box').hide()
+            })
+            $('.login_ed2').live('click',function(){
+                $('.login_box').show()
+                $('.login_box2').hide()
             })
         }
     };
