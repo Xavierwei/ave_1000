@@ -37,24 +37,16 @@
             </div>
         </div>
     </div>
-    <a href="javascript:void(0)" class="diagnose_btn"></a>
+    <a href="javascript:void(0)" class="diagnose_btn btn"></a>
     <!--  -->
 </div>
 <?php $this->endWidget(); ?>
 <div class="popshare"></div>
 <div class="pop pop2">
     <div class="popclose"></div>
-    <div class="care_popcom">
-            <h2>请继续关注获得更多信息。</h2>
-            <p>您的宝贝信息已通过审核！</p>
-            <p><br></p>
-            <a href="<?=Yii::app()->baseUrl?>">返回首页</a>
+    <div class="care_popcom notsick">
+            <h2>您的宝宝尚不属于湿疹/特应性皮肤</h2>
+            <p>幼儿的全身肌肤都较为敏感脆弱，日常仍需注意使用滋润安全的清洁护肤产品，并定期检查，以保持肌肤健康。</p>
+            <a class="backhome btn" href="<?=Yii::app()->baseUrl?>">返回首页</a>
     </div>
 </div>
-<script>
-    $(document).ready(function(){
-        $(".diagnose_btn").click(function(){
-            $("#information-update-form").submit();
-        });
-    });
-</script>

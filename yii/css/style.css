@@ -67,7 +67,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 
 /* home */
 .sec_video{position: relative;height: 488px;width: 980px;margin: 25px auto 0}
-.video{background: url('../images/videobg.png') no-repeat;width: 625px;height: 482px;position: relative;}
+.home .video{background: url('../images/videobg.png') no-repeat;width: 625px;height: 482px;position: relative;}
 .video_wrap { background: url('../images/videobg.png') no-repeat; width: 625px; height: 482px; position: relative; }
 .video_tit{background: url('../images/video_tit.png') no-repeat 50% 65%;width: 625px;height: 86px;margin: 0 auto;}
 .video_box{width: 589px;margin: 0 auto;position: relative;}
@@ -309,7 +309,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .login_form{position: absolute;left:238px;top: 96px;}
 .login_fi{margin-bottom: 28px;}
 .login_ipt{width: 220px;height: 34px;background:none;padding: 0 6px;border:0}
-.login_btn{width: 180px;height: 50px;background:url('../images/t.gif') repeat;border:0;overflow: hidden;line-height: 300em;cursor: pointer;display: block;}
+.login_btn{font-size:0;width: 180px;height: 50px;background:url('../images/t.gif') repeat;border:0;overflow: hidden;line-height: 300em;cursor: pointer;display: block;}
 .login_box2{background: url('../images/login_box2.jpg') no-repeat;width: 960px;height: 400px;margin: 0 auto	30px;position: relative;}
 .login_ed2{background: url('../images/t.gif') repeat;width: 180px;height: 55px;position: absolute;top: 0px;left: 10px;cursor: pointer}
 .login_form2{position: absolute;left:148px;top: 175px;}
@@ -380,9 +380,9 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .profile_txtcom textarea{width: 900px;margin: 0 auto;display: block;font-size: 14px;border:0;height: 160px;background: none}
 .profile_hosp{background:url('../images/profile_hosp.png') no-repeat;width: 940px;height: 90px;margin: 15px auto 30px;position: relative;}
 .profile_selcity_txt{left: 160px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
-.profile_selcity{left: 160px;top: 10px;width: 270px;height: 46px;}
+.profile_selcity{left: 160px;top: 20px;width: 270px;height: 46px;}
 .profile_selhosp_txt{left: 464px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
-.profile_selhosp{left: 464px;top: 10px;width: 270px;height: 46px;}
+.profile_selhosp{left: 464px;top: 20px;width: 270px;height: 46px;}
 .profile_btn{background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
 
 /**/
@@ -428,6 +428,10 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .pop2{background: url('../images/popbg2.png') no-repeat;width: 650px;height: 400px;margin: -200px 0 0 -325px;}
 .care_popcom{text-align: center;font-size:20px;color:#797979;padding:130px 0 0;}
 .care_popcom h2{font-size: 26px;color:#f69788;font-weight: normal;height: 80px;line-height: 40px}
+.pop .notsick {width:500px;margin:0 auto;padding-top:80px;}
+.pop .notsick p {line-height: 150%;}
+.pop .notsick .backhome {font-size:0;color:#fff;background: url('../images/backhome.png') no-repeat;width: 150px;height: 56px;display:block;margin:30px auto 0 auto;}
+
 
 /* Popup Used
 ================================================================================================= */

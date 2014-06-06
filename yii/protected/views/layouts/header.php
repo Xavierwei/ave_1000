@@ -6,14 +6,21 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>Avene 1000 Family</title>
+    <title><?=$this->action->id;?>Avene 1000 Family</title>
     <link href="<?=Yii::app()->baseUrl.'/'?>css/style.css" rel="stylesheet" type="text/css" />
-    <script src="<?=Yii::app()->baseUrl.'/'?>js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
+
+<div class="loading-wrap">
+	<div class="logo"></div>
+	<div class="loading-loader">
+		<div class="loading-bar"></div>
+	</div>
+	<div class="loading-percentage"></div>
+</div>
 <!--  -->
-<div class="header">
-    <div class="logo">
+<div class="header" data-style="margin-top:-90px;" data-animate="margin-top:0px;" data-delay="0" data-time="500" data-easing="easeOutQuart">
+	<div class="logo">
         <a href="index.html" class="logolink"></a>
     </div>
     <div class="famliyicon"></div>

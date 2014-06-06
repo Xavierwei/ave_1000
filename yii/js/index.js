@@ -21,23 +21,23 @@
          * @example
          **/
         bindEvent:function(){
-            $('.CDAbox').live({
-                'mouseenter':function(){
-                    $(this).children('.CDApop').show()
-                },
-                'mouseleave':function(){
-                    $(this).children('.CDApop').hide()
-                }
-            })
-            //home_infor
-            $('.home_infor').live({
-                'mouseenter':function(){
-                    $(this).children('.home_infopop').show()
-                },
-                'mouseleave':function(){
-                    $(this).children('.home_infopop').hide()
-                }
-            })
+//            $('.CDAbox').live({
+//                'mouseenter':function(){
+//                    $(this).children('.CDApop').show()
+//                },
+//                'mouseleave':function(){
+//                    $(this).children('.CDApop').hide()
+//                }
+//            })
+//            //home_infor
+//            $('.home_infor').live({
+//                'mouseenter':function(){
+//                    $(this).children('.home_infopop').show()
+//                },
+//                'mouseleave':function(){
+//                    $(this).children('.home_infopop').hide()
+//                }
+//            })
             //
             $('.ft_weixin').live({
                 'mouseenter':function(){
