@@ -72,8 +72,8 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .video_tit{background: url('../images/video_tit.png') no-repeat 50% 65%;width: 625px;height: 86px;margin: 0 auto;}
 .video_box{width: 589px;margin: 0 auto;position: relative;}
 .video_box { width: 579px;height:343px;overflow: hidden; margin: 0 auto; position: relative; }
-.video_play{background: url('../images/video_play.png') no-repeat;width: 80px;height: 80px;left:50%;top:50%;margin: -40px 0 0 -40px;position: absolute;cursor: pointer;}
-.video_play { background: url('../images/video_play.png') no-repeat center; width: 589px; height: 343px; left: 0; top: 0;  position: absolute; cursor: pointer; }
+.video_play{background: url('../images/video_play.png') no-repeat;width: 80px;height: 80px;left:50%;top:50%;position: absolute;cursor: pointer;}
+.video_play { background: url('../images/video_play.png') no-repeat center; width: 100%; height:100%; left: 0; top: 0;  position: absolute; cursor: pointer; }
 .vide_share{position: absolute;right: 35px;}
 .vide_share { position: absolute; right: 35px; bottom:16px;}
 .video_sharetit{float: left;width: 66px;background: url('../images/video_share.png') no-repeat;height: 32px;}
@@ -107,7 +107,8 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .sec_home3 .home_more{top:26px;}
 .home_baike_share{position: absolute;background: #acd7f3;opacity: 0.8;filter:alpha(opacity=80); width: 940px;height: 220px;top:54px;left:20px}
 .home_baike_txt{position: absolute;width: 890px;padding: 30px 0 0;line-height: 25px;top:55px;left:45px;font-size: 14px;color:#333}
-.sec_homebar{background:url('../images/homebar.jpg') no-repeat;width: 980px;height: 284px;margin: 55px auto 10px;display: block;}
+.sec_homebar{position:relative;background:url('../images/homebar.jpg') no-repeat;width: 980px;height: 284px;margin: 55px auto 10px;display: block;}
+.sec_homebar_con {position: absolute;font-size:13px;width:540px;top:160px;right:50px;}
 .sec_homebar2{background:url('../images/homebar2.jpg') no-repeat;}
 .sec_homefm{position: relative;height: 380px;width: 960px;margin: 0 auto;}
 .hometip{background:url('../images/home_tipbg.jpg') no-repeat;width: 465px;height: 355px;position: absolute;top:5px;left:5px;font-size: 14px;line-height: 30px;}
@@ -307,7 +308,8 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .login_ed{background: url('../images/t.gif') repeat;width: 180px;height: 55px;position: absolute;top: 0px;left: 180px;cursor: pointer}
 .login_weibo{background: url('../images/t.gif') repeat;width: 250px;height: 65px;position: absolute;top: 180px;left: 626px;cursor: pointer}
 .login_form{position: absolute;left:238px;top: 96px;}
-.login_fi{margin-bottom: 28px;}
+.login_fi{margin-bottom: 28px;position: relative;}
+.login_fi label.error {display:block;color:#f58774;position:absolute;top:34px;}
 .login_ipt{width: 220px;height: 34px;background:none;padding: 0 6px;border:0}
 .login_btn{font-size:0;width: 180px;height: 50px;background:url('../images/t.gif') repeat;border:0;overflow: hidden;line-height: 300em;cursor: pointer;display: block;}
 .login_box2{background: url('../images/login_box2.jpg') no-repeat;width: 960px;height: 400px;margin: 0 auto	30px;position: relative;}
@@ -362,17 +364,28 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .make_phobg2{background: url('../images/make_phobg2.png') no-repeat;}
 .profile_fromcom{position: absolute;left: 315px;top:98px;}	
 .profile_ipt{position: absolute;width: 228px;height: 32px;padding:0 10px;background: none;border:0}
+#baby-update-form label.error  {position: absolute;width:200px;color:#f69788;}
+#baby-update-form label.error[for="Baby_name"] {top:30px;}
+#baby-update-form label.error[for="Baby_city"] {top:30px;left:344px;}
+#baby-update-form label.error[for="Baby_nickname"] {top:82px;}
+#baby-update-form label.error[for="Baby_address"] {top:82px;left:344px;}
+#baby-update-form label.error[for="Baby_sex"] {top:130px;}
+#baby-update-form label.error[for="Baby_tel"] {top:130px;left:344px;}
+#baby-update-form label.error[for="date"] {top:190px;left:34px;}
+#baby-update-form label.error[for="Baby_reason"] {margin-top:10px;margin-left:10px;}
 .profile_city{left:344px;width: 218px;}
 .profile_nick{top: 50px;}
 .profile_add{left:344px;width: 218px;top:50px;}
 .profile_sex{top: 102px;}
 .profile_tel{left:344px;width: 218px;top:102px;}
-.profile_sel{position: absolute;width: 106px;top: 152px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); cursor: pointer;}
+.profile_sel{position: absolute;width: 106px;top: 162px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); cursor: pointer;}
 .profile_selmon{left:184px;}
 .profile_selday{left:330px;}
 .profile_seltxt{position: absolute;top: 152px;left:36px;width: 80px;height: 32px;line-height: 32px;font-size: 14px;padding:0 10px;}
 .profile_selmon_txt{left:184px;}
 .profile_selday_txt{left:330px;}
+.profile_selsex {top:110px;left:4px;}
+.profile_selsex_txt {top:104px;left:4px;}
 .profile_txt{width: 940px;margin: 0 auto}
 .profile_txttit{background: url('../images/profile_txttit.png') no-repeat;padding-left:70px;font-size: 14px;height:70px;}
 .profile_txttit h1{font-size: 18px;color:#f69788;font-weight: normal;padding:5px 0 2px}
@@ -383,7 +396,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .profile_selcity{left: 160px;top: 20px;width: 270px;height: 46px;}
 .profile_selhosp_txt{left: 464px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
 .profile_selhosp{left: 464px;top: 20px;width: 270px;height: 46px;}
-.profile_btn{background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
+.profile_btn{border:none;font-size:0;background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
 
 /**/
 .diagnose{}

@@ -74,24 +74,239 @@
 		<p class="baikeQA_doctor">曾在上海瑞金医院和法国巴黎国圣医院皮肤科积累了11年丰富临床经验，深受大家的推崇喜爱。</p>
 	</div>
 	<!--  -->
-	<div class="baike_ques">
+    <div class="baike_ques" data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="500">
+        <ul id="mycarousel" class="jcarousel-skin-tango">
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_1/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_1.jpg" width="170" height="170" alt="" /><span>饮食</span></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_2/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_2.jpg" width="170" height="170" alt="" /><span>哺乳</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_3/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_3.jpg" width="170" height="170" alt="" /><span>过敏反应学</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_4/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_4.jpg" width="170" height="170" alt="" /><span>外用皮质激素</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_5/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_5.jpg" width="170" height="170" alt="" /><span>润肤剂</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_6/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_6.jpg" width="170" height="170" alt="" /><span>诱发因素</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_7/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_7.jpg" width="170" height="170" alt="" /><span>运动</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_8/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_8.jpg" width="170" height="170" alt="" /><span>葡萄球菌</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_9/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_9.jpg" width="170" height="170" alt="" /><span>压力和心理因素</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_10/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_10.jpg" width="170" height="170" alt="" /><span>表皮</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_11/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_11.jpg" width="170" height="170" alt="" /><span>清洁沐浴</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_12/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_12.jpg" width="170" height="170" alt="" /><span>接种疫苗</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_13/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_13.jpg" width="170" height="170" alt="" /><span>贴身衣物</span></a></a></li>
+            <li><a href="<?=Yii::app()->baseUrl.'/'?>ques_14/"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_14.jpg" width="170" height="170" alt="" /><span>抓痒</span></a></a></li>
+        </ul>
+    </div>
+    <!--  -->
+    <!-- mobile ques list -->
+    <div class="quesMobile dis_mobile">
+    <div class="quesM_tit"></div>
+    <div class="quesM_main cs-clear">
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit1.jpg" /></div>
+        <p class="quesM_item quesM_itemon">饮食</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
 
-		<ul id="mycarousel" class="jcarousel-skin-tango">
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_1.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_2.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_3.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_4.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_5.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_6.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_7.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_8.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_9.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_10.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_11.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_12.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_13.jpg" width="170" height="170" alt="" /></a></li>
-			<li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_14.jpg" width="170" height="170" alt="" /></a></li>
-		</ul>
-	</div>
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit2.jpg" /></div>
+        <p class="quesM_item quesM_itemon">哺乳</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>母乳喂养能够避免幼儿出现湿疹吗？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>即使是绝对绿色安全的母乳也不一定能预防湿疹发生，因为食物并不是患湿疹的唯一原因。但如果母亲饮食不注意，如摄入糖类过多，容易引起幼儿消化道菌群失调，可能诱发或加重湿疹。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit3.jpg" /></div>
+        <p class="quesM_item quesM_itemon">过敏反应学</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>过敏原测试有什么作用？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>过敏原测试能鉴定出：接触性过敏原、食物过敏原、空气中的过敏原、交叉过敏，和其他比较精确的过敏原。但找出的过敏原不一定是湿疹的诱因。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit4.jpg" /></div>
+        <p class="quesM_item quesM_itemon">外用皮质激素</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>外用皮质激素是否危险？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>不危险。应分清口服皮质激素药片和外用皮质激素乳霜活软膏的区别。长期口服皮质类固醇药物会改变脂肪分布，有改变外形等副作用，但可以缓解疾病症状。且这与儿童湿疹无关。而外用皮质激素能有效缓解湿疹症状，虽然停用就会复发且痊愈很难，但的确能够改善患儿的生活质量。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit5.jpg" /></div>
+        <p class="quesM_item quesM_itemon">润肤剂</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit6.jpg" /></div>
+        <p class="quesM_item quesM_itemon">诱发因素</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit7.jpg" /></div>
+        <p class="quesM_item quesM_itemon">运动</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit8.jpg" /></div>
+        <p class="quesM_item quesM_itemon">葡萄球菌</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit9.jpg" /></div>
+        <p class="quesM_item quesM_itemon">压力和心理因素</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit10.jpg" /></div>
+        <p class="quesM_item quesM_itemon">表皮</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit11.jpg" /></div>
+        <p class="quesM_item quesM_itemon">清洁沐浴</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit12.jpg" /></div>
+        <p class="quesM_item quesM_itemon">接种疫苗</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit13.jpg" /></div>
+        <p class="quesM_item quesM_itemon">贴身衣物</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+
+    <div class="quesM_compop">
+        <div class="quesM_close"></div>
+        <div class="quesM_poptit"><img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_poptit14.jpg" /></div>
+        <p class="quesM_item quesM_itemon">抓痒</p>
+        <div class="quesM_popcom quesM_popcom1">
+            <div class="quesM_Q">
+                <span>Q：</span>特应性皮炎患儿是否有需要忌口的食物？
+            </div>
+            <div class="quesM_A">
+                <span>A：</span>为维护肠道菌群的平衡状态、且让服用的肠道益生菌发挥改善疾病的作用，特应性皮炎患儿应避免过度摄入糖类物质。
+            </div>
+            <img src="<?=Yii::app()->baseUrl.'/'?>imgm/quesM_popcom1img.jpg" />
+        </div>
+    </div>
+    </div>
+    </div>
 	<!--  -->
 </div>

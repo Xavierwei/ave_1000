@@ -1664,3 +1664,235 @@ in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
 2014/06/06 14:24:35 [warning] [application] Failed to set unsafe attribute "updatetime" of "Information".
 in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
 in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 10:27:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ques_14".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('ques_14')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/ques_14
+---
+2014/06/07 10:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ques_14".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('ques_14')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/ques_14
+---
+2014/06/07 10:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "quest/ques_14.html".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('quest/ques_14.h...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/quest/ques_14.html
+---
+2014/06/07 10:38:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_3.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_3.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_3/
+---
+2014/06/07 10:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_3.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_3.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_3/
+---
+2014/06/07 10:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_4.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_4.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_4/
+---
+2014/06/07 10:38:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_3.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_3.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_3/
+---
+2014/06/07 10:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_1.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_1.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_1/
+---
+2014/06/07 10:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_1.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_1.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_1/
+---
+2014/06/07 10:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_1.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_1.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_1/
+---
+2014/06/07 10:39:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_1.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_1.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_1/
+---
+2014/06/07 10:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_3.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//images/ques/icon_3.gif
+HTTP_REFERER=http://localhost/ave_1000/yii//ques_3/
+---
+2014/06/07 10:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_2.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/ques/icon_2.gif
+HTTP_REFERER=http://localhost/ave_1000/yii/ques_2/
+---
+2014/06/07 10:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/ques/icon_2.gif".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/ques/ico...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/ques/icon_2.gif
+HTTP_REFERER=http://localhost/ave_1000/yii/ques_2/
+---
+2014/06/07 11:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('site/video/play...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/site/video/player.swf
+HTTP_REFERER=http://localhost/ave_1000/yii/site/activity
+---
+2014/06/07 11:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('site/video/play...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/site/video/player.swf
+HTTP_REFERER=http://localhost/ave_1000/yii/site/activity
+---
+2014/06/07 13:04:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `orion_user` `t` WHERE username = :username  LIMIT 1.
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/models/User.php (153)
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/models/RegForm.php (61)
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (169)
+2014/06/07 13:04:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `orion_user` `t` WHERE username = :username  LIMIT 1' in /Applications/MAMP/htdocs/ave_1000/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/MAMP/htdocs/ave_1000/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 /Applications/MAMP/htdocs/ave_1000/framework/db/ar/CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/ave_1000/yii/protected/models/User.php(153): CActiveRecord->find(Array)
+#4 /Applications/MAMP/htdocs/ave_1000/yii/protected/models/RegForm.php(61): User->uniqueUser('', '')
+#5 /Applications/MAMP/htdocs/ave_1000/framework/validators/CInlineValidator.php(42): RegForm->oCheckUser('username', Array)
+#6 /Applications/MAMP/htdocs/ave_1000/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(RegForm), 'username')
+#7 /Applications/MAMP/htdocs/ave_1000/framework/base/CModel.php(159): CValidator->validate(Object(RegForm), NULL)
+#8 /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php(169): CModel->validate()
+#9 /Applications/MAMP/htdocs/ave_1000/framework/web/actions/CInlineAction.php(49): SiteController->actionReg()
+#10 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('reg')
+#14 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reg')
+#15 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ave_1000/yii/site/reg
+HTTP_REFERER=http://localhost/ave_1000/yii/site/login
+---
+2014/06/07 13:04:46 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `orion_user` `t` WHERE username = :username  LIMIT 1.
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/models/User.php (153)
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/models/RegForm.php (61)
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (169)
+2014/06/07 13:04:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT * FROM `orion_user` `t` WHERE username = :username  LIMIT 1' in /Applications/MAMP/htdocs/ave_1000/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/MAMP/htdocs/ave_1000/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 /Applications/MAMP/htdocs/ave_1000/framework/db/ar/CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 /Applications/MAMP/htdocs/ave_1000/yii/protected/models/User.php(153): CActiveRecord->find(Array)
+#4 /Applications/MAMP/htdocs/ave_1000/yii/protected/models/RegForm.php(61): User->uniqueUser('', '')
+#5 /Applications/MAMP/htdocs/ave_1000/framework/validators/CInlineValidator.php(42): RegForm->oCheckUser('username', Array)
+#6 /Applications/MAMP/htdocs/ave_1000/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(RegForm), 'username')
+#7 /Applications/MAMP/htdocs/ave_1000/framework/base/CModel.php(159): CValidator->validate(Object(RegForm), NULL)
+#8 /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php(169): CModel->validate()
+#9 /Applications/MAMP/htdocs/ave_1000/framework/web/actions/CInlineAction.php(49): SiteController->actionReg()
+#10 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('reg')
+#14 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('site/reg')
+#15 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/ave_1000/yii/site/reg
+HTTP_REFERER=http://localhost/ave_1000/yii/site/login
+---
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "password2" of "User".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (172)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "roletype" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "email" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "createtime" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "updatetime" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "lastip" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 13:26:28 [warning] [application] Failed to set unsafe attribute "uid" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 14:06:45 [warning] [application] Failed to set unsafe attribute "point_sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 14:06:45 [warning] [application] Failed to set unsafe attribute "year" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 14:06:45 [warning] [application] Failed to set unsafe attribute "mon" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/07 14:06:45 [warning] [application] Failed to set unsafe attribute "day" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)

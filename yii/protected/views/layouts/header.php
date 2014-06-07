@@ -21,15 +21,15 @@
 <!--  -->
 <div class="header" data-style="margin-top:-90px;" data-animate="margin-top:0px;" data-delay="0" data-time="500" data-easing="easeOutQuart">
 	<div class="logo">
-        <a href="index.html" class="logolink"></a>
+        <a href="<?=Yii::app()->homeUrl?>" class="logolink"></a>
     </div>
     <div class="famliyicon"></div>
     <div class="nav cs-clear">
         <a class="navitem nav1" href="<?=Yii::app()->homeUrl?>"><span class="<?=$this->action->id == 'index' ? 'on' : ''?>">首页</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->createUrl('/site/activity')?>"><span class="<?=$this->action->id == 'activity' ? 'on' : ''?>">千家万户</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->createUrl('/site/about')?>"><span class="<?=$this->action->id == 'about' ? 'on' : ''?>">关于湿疹</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->createUrl('/site/baike')?>"><span class="<?=$this->action->id == 'baike' ? 'on' : ''?>">湿疹百科</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->createUrl('/site/carefor')?>"><span class="<?=$this->action->id == 'carefor' ? 'on' : ''?>">雅漾关怀</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>site/activity/"><span class="<?=$this->action->id == 'activity' ? 'on' : ''?>">千家万户</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>about/"><span class="<?=$this->action->id == 'about' ? 'on' : ''?>">关于湿疹</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>guide/"><span class="<?=$this->action->id == 'guide' ? 'on' : ''?>">湿疹百科</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>care/"><span class="<?=$this->action->id == 'care' ? 'on' : ''?>">雅漾关怀</span></a>
     </div>
     <?php if(Yii::app()->user->isGuest):?>
         <a class="nav_login" href="<?=Yii::app()->createUrl('/site/login')?>"><span class="">登录 / 注册</span></a>

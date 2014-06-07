@@ -2,24 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/controllers/AboutController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/controllers/CareController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/controllers/GuideController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/homebar2.jpg" afterPath="$PROJECT_DIR$/yii/images/homebar2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/profile_form.jpg" afterPath="$PROJECT_DIR$/yii/images/profile_form.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/.htaccess" afterPath="$PROJECT_DIR$/yii/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index.js" afterPath="$PROJECT_DIR$/yii/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index/index.js" afterPath="$PROJECT_DIR$/js/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index/index.js" afterPath="$PROJECT_DIR$/yii/js/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/guide/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_10.html" afterPath="$PROJECT_DIR$/ques_10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_11.html" afterPath="$PROJECT_DIR$/ques_11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_12.html" afterPath="$PROJECT_DIR$/ques_12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_13.html" afterPath="$PROJECT_DIR$/ques_13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_14.html" afterPath="$PROJECT_DIR$/ques_14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_2.html" afterPath="$PROJECT_DIR$/ques_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_3.html" afterPath="$PROJECT_DIR$/ques_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_4.html" afterPath="$PROJECT_DIR$/ques_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_5.html" afterPath="$PROJECT_DIR$/ques_5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_6.html" afterPath="$PROJECT_DIR$/ques_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_7.html" afterPath="$PROJECT_DIR$/ques_7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_8.html" afterPath="$PROJECT_DIR$/ques_8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ques_9.html" afterPath="$PROJECT_DIR$/ques_9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/information/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/information/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/baby/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402052572874" ignored="false" />
+    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402127256300" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983983" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402052567247" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061361969" ignored="false" />
@@ -36,7 +49,7 @@
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017207982" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017211206" ignored="false" />
     <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402018286679" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402057446036" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402143094433" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402022048050" ignored="false" />
     <file path="/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983411" ignored="false" />
     <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402040260474" ignored="false" />
@@ -49,18 +62,20 @@
     <file path="$PROJECT_DIR$/../lily_official/html/js/common/helper.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402032185437" ignored="false" />
     <file path="/helper.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402032156592" ignored="false" />
     <file path="/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402044857584" ignored="false" />
-    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402054144055" ignored="false" />
+    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402140243738" ignored="false" />
     <file path="/.htaccess" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055171864" ignored="false" />
     <file path="/CareController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055386043" ignored="false" />
     <file path="/GuideController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055628694" ignored="false" />
-    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063768310" ignored="false" />
+    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402131156169" ignored="false" />
     <file path="/AboutController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055847276" ignored="false" />
-    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402057517564" ignored="false" />
+    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402142588348" ignored="false" />
     <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402057956910" ignored="false" />
     <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402057999511" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402059720388" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063133676" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063133676" ignored="false" />
+    <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402130354872" ignored="false" />
+    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402132341108" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,18 +96,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/guide/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="52" selection-start="1970" selection-end="1970" vertical-scroll-proportion="-12.892858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.3899658">
+            <state line="40" column="38" selection-start="2311" selection-end="2311" vertical-scroll-proportion="-7.964286">
               <folding />
             </state>
           </provider>
@@ -107,51 +113,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="380" column="104" selection-start="31347" selection-end="31347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="6" selection-start="3180" selection-end="3180" vertical-scroll-proportion="-26.357143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadphoto.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/js/uploadphoto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="65" selection-start="1516" selection-end="1516" vertical-scroll-proportion="-12.214286">
+            <state line="44" column="38" selection-start="2401" selection-end="2401" vertical-scroll-proportion="-1.8571428">
               <folding>
-                <element signature="n#style#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
-                <marker date="1402058024000" expanded="true" signature="4938:5033" placeholder="..." />
+                <marker date="1402138926000" expanded="true" signature="5041:5136" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,16 +136,45 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="28" column="66" selection-start="1137" selection-end="1165" vertical-scroll-proportion="-16.107143">
+              <folding>
+                <marker date="1402132287000" expanded="true" signature="1920:1968" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="381" column="28" selection-start="31304" selection-end="31304" vertical-scroll-proportion="0.5356037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="51" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-16.285715">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
+        <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="6" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0">
+            <state line="108" column="25" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="28" selection-start="6803" selection-end="6803" vertical-scroll-proportion="-17.321428">
               <folding />
             </state>
           </provider>
@@ -192,31 +198,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yii/js/index.js" />
-        <option value="$PROJECT_DIR$/yii/.htaccess" />
-        <option value="$PROJECT_DIR$/yii/protected/controllers/CareController.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/controllers/GuideController.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/controllers/AboutController.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/information/update.php" />
-        <option value="$PROJECT_DIR$/yii/js/common/index.js" />
-        <option value="$PROJECT_DIR$/yii/js/uploadphoto.js" />
-        <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/yii/css/style.css" />
+        <option value="$PROJECT_DIR$/ques_7.html" />
+        <option value="$PROJECT_DIR$/ques_8.html" />
+        <option value="$PROJECT_DIR$/ques_9.html" />
+        <option value="$PROJECT_DIR$/ques_10.html" />
+        <option value="$PROJECT_DIR$/ques_11.html" />
+        <option value="$PROJECT_DIR$/ques_12.html" />
+        <option value="$PROJECT_DIR$/ques_13.html" />
+        <option value="$PROJECT_DIR$/ques_14.html" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/js/index/index.js" />
+        <option value="$PROJECT_DIR$/yii/js/index/index.js" />
+        <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
+        <option value="$PROJECT_DIR$/yii/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="151" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="7" />
+    <option name="y" value="23" />
+    <option name="width" value="1433" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -296,32 +302,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -373,10 +353,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -401,32 +377,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="information" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,6 +427,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -496,11 +450,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,11 +530,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,11 +544,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yii" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,11 +577,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yii/js" />
       <recent name="$PROJECT_DIR$/yii/protected/controllers" />
       <recent name="$PROJECT_DIR$/yii/protected/views/about" />
       <recent name="$PROJECT_DIR$/yii/protected/views" />
       <recent name="$PROJECT_DIR$/yii/protected/views/care" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -656,14 +638,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="151" width="1936" height="1066" extended-state="0" />
+    <frame x="7" y="23" width="1433" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560846" sideWeight="0.6701698" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22134103" sideWeight="0.6701698" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -749,99 +731,61 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/AboutController.php">
+    <entry file="file://$PROJECT_DIR$/ques_14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="314" selection-end="314" vertical-scroll-proportion="0.27752808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="123" selection-start="2100" selection-end="2183" vertical-scroll-proportion="11.428572">
+        <state line="20" column="13" selection-start="952" selection-end="952" vertical-scroll-proportion="0.122977346">
           <folding>
-            <marker date="1401460161000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1402130560000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/about/index.php">
+    <entry file="file://$PROJECT_DIR$/ques_13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="2231" selection-end="2231" vertical-scroll-proportion="-32.57143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="164" selection-end="164" vertical-scroll-proportion="0.2264574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="56" selection-start="1971" selection-end="1971" vertical-scroll-proportion="-13.722222">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="14" selection-start="1040" selection-end="3628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="6" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/uploadphoto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="6" selection-start="3180" selection-end="3180" vertical-scroll-proportion="-26.357143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="65" selection-start="1516" selection-end="1516" vertical-scroll-proportion="-12.214286">
+        <state line="42" column="14" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.6003236">
           <folding>
-            <element signature="n#style#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
-            <marker date="1402058024000" expanded="true" signature="4938:5033" placeholder="..." />
+            <marker date="1402130554000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+    <entry file="file://$PROJECT_DIR$/ques_6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="104" selection-start="31347" selection-end="31347" vertical-scroll-proportion="0.0">
+        <state line="42" column="14" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.48985958">
+          <folding>
+            <marker date="1402130519000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ques_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.5928237">
+          <folding>
+            <marker date="1402130515000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="4" selection-start="7412" selection-end="9071" vertical-scroll-proportion="-0.6785714">
+          <folding>
+            <marker date="1402126425000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="7" selection-start="1714" selection-end="1917" vertical-scroll-proportion="0.52639294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/guide/index.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="52" selection-start="1970" selection-end="1970" vertical-scroll-proportion="-12.892858">
+        <state line="30" column="51" selection-start="1934" selection-end="1934" vertical-scroll-proportion="-16.285715">
           <folding />
         </state>
       </provider>
@@ -853,16 +797,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/index.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="28" column="66" selection-start="1137" selection-end="1165" vertical-scroll-proportion="-16.107143">
+          <folding>
+            <marker date="1402132287000" expanded="true" signature="1920:1968" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="38" selection-start="2401" selection-end="2401" vertical-scroll-proportion="-1.8571428">
+          <folding>
+            <marker date="1402138926000" expanded="true" signature="5041:5136" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avene_1000_p2_mobile/js/days.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="41" selection-start="841" selection-end="841" vertical-scroll-proportion="0.4522003">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.3899658">
+        <state line="40" column="38" selection-start="2311" selection-end="2311" vertical-scroll-proportion="-7.964286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="25" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="28" selection-start="6803" selection-end="6803" vertical-scroll-proportion="-17.321428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="381" column="28" selection-start="31304" selection-end="31304" vertical-scroll-proportion="0.5356037">
           <folding />
         </state>
       </provider>

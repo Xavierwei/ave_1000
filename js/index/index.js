@@ -63,6 +63,15 @@ $(document).ready(function() {
 		//_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
     })
 
+    $('#user-reg-form').validate({
+        rules: {
+            'RegForm[username]': "required"
+        },
+        messages: {
+            'RegForm[username]': "Please enter your firstname"
+        }
+    });
+
 //	setInterval(function(){
 //		var index = $('.knowtxt').data('index');
 //		index++;

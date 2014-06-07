@@ -63,6 +63,62 @@ $(document).ready(function() {
 		//_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
     })
 
+    $('#user-reg-form').validate({
+        rules: {
+            'RegForm[username]': "required",
+            'RegForm[email]': {
+                required: true,
+                email: true
+            },
+            'RegForm[password]': "required",
+            'RegForm[password2]': {
+                required: true,
+                equalTo: "#RegForm_password"
+            }
+        },
+        messages: {
+            'RegForm[username]': "请填写用户名",
+            'RegForm[email]': "请填写正确的邮箱地址",
+            'RegForm[password]': "请填写密码",
+            'RegForm[password2]': {
+                required: "请填写确认密码",
+                equalTo: "两次密码不同"
+            }
+        }
+    });
+
+    $('#login-form').validate({
+        rules: {
+            'LoginForm[username]': "required",
+            'LoginForm[password]': "required"
+        },
+        messages: {
+            'LoginForm[username]': "请填写用户名",
+            'LoginForm[password]': "请填写密码"
+        }
+    });
+
+    $('#baby-update-form').validate({
+        rules: {
+            'Baby[name]': "required",
+            'Baby[city]': "required",
+            'Baby[nickname]': "required",
+            'Baby[address]': "required",
+            'Baby[tel]': "required",
+            'Baby[day]': "required",
+            'Baby[reason]': "required"
+        },
+        messages: {
+            'Baby[name]': "请填写宝贝姓名",
+            'Baby[city]': "请填写城市",
+            'Baby[nickname]': "请填写昵称",
+            'Baby[address]': "请填写地址",
+            'Baby[tel]': "请填写手机号码",
+            'Baby[day]': "请填写出生年月",
+            'Baby[reason]': "请填写留言"
+        }
+    });
+
 //	setInterval(function(){
 //		var index = $('.knowtxt').data('index');
 //		index++;

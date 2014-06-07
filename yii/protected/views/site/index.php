@@ -1,6 +1,10 @@
 <div class="home" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
     <!-- home_new -->
-    <a class="sec_homebar sec_homebar2" href="<?=Yii::app()->createUrl('/about/')?>"></a>
+    <div class="sec_homebar sec_homebar2">
+        <div class="sec_homebar_con">雅漾携手中国医师协会皮肤科医师分会（CDA），展开雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，为一千名湿疹儿童免费送上6支湿疹特效护理产品，携爱助力儿童家庭。</div>
+        <a href="<?=Yii::app()->createUrl('/about/')?>"></a>
+    </div>
+
     <!--  -->
     <div class="sec_homefm" data-style="opacity:0;" data-animate="opacity:1;" data-delay="800" data-time="500">
         <div class="hometip">

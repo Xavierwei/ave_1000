@@ -1,3 +1,8 @@
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+    'id'=>'baby-update-form',
+    'enableAjaxValidation'=>false,
+)); ?>
 <div class="profile">
     <div class="profile_form">
         <div class="profile_formpho">
@@ -7,15 +12,15 @@
             </div>
         </div>
         <div class="profile_fromcom">
-            <?php $form=$this->beginWidget('CActiveForm', array(
-                'id'=>'baby-update-form',
-                'enableAjaxValidation'=>false,
-            )); ?>
             <?php echo $form->textField($model,'name',array('class'=>'profile_ipt profile_name')); ?>
             <?php echo $form->textField($model,'city',array('class'=>'profile_ipt profile_city')); ?>
             <?php echo $form->textField($model,'nickname',array('class'=>'profile_ipt profile_nick')); ?>
             <?php echo $form->textField($model,'address',array('class'=>'profile_ipt profile_add')); ?>
-            <?php echo $form->textField($model,'sex',array('class'=>'profile_ipt profile_sex')); ?>
+            <p class="profile_seltxt profile_selsex_txt">男</p>
+            <select name="Baby[point_sex]"  class="profile_sel profile_selsex" id="sex_sel">
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
             <?php echo $form->textField($model,'tel',array('class'=>'profile_ipt profile_tel')); ?>
             <p class="profile_seltxt profile_selyear_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></p>
             <select name="Baby[year]"  class="profile_sel profile_selyear" id="year" onfocus="years('year',new Date().getFullYear()),change_date()" onchange="change_date()">
@@ -124,15 +129,8 @@
             </select>
         </div>
     </div>
-    <a href="javascript:void(0)" class="profile_btn"></a>
-    <?php $this->endWidget(); ?>
+    <input class="profile_btn" type="submit" />
     <!--  -->
 </div>
+<?php $this->endWidget(); ?>
 <script src="<?=Yii::app()->baseUrl.'/'?>js/days.js"></script>
-<script>
-    $(document).ready(function(){
-        $(".profile_btn").click(function(){
-                $("#baby-update-form").submit();
-            });
-        });
-</script>
