@@ -21,7 +21,7 @@
         </div>
 		<div class="year_part2" data-1600-end="opacity:0;" data-1000-end="opacity:1;">
             <div class="year_tit cs-clear">
-                <strong>2011</strong><span>特应性皮炎基金会</span>
+                <strong>2011</strong><h2><a target="_blank" href="http://www.eau-thermale-avene.cn/atopic-fundation">特应性皮炎基金会</a></h2>
             </div>
             <div class="year_txt">
                 2011年5月，中国医师协会皮肤科医师分会（CDA）-皮尔法伯特应性皮炎基金研究项目（CDA-PierreFabre特应性皮炎基金）正式成立，雅漾护肤化妆品研制公司代表皮尔法伯集团在中国组织和推动了此基金会全面启动。基金会旨在建立一个可以使研究者、专家、皮肤问题困扰者和家属更加紧密联系的渠道，其四个研究项目已应声启动，教育中心也亦在五个城市同时成立，并针对1000多名“参与教育中心”的家长和“未参与教育中心”家长进行调研分析，以进一步说明普及特应性皮炎知识在治疗过程中的重要性。
@@ -34,7 +34,7 @@
         </div>
 		<div class="year_part3" data-1000-end="opacity:0;" data-500-end="opacity:1;">
             <div class="year_tit cs-clear">
-                <strong>2008</strong><span>特应性皮炎之家</span>
+                <strong>2008</strong><h2><a target="_blank" href="http://www.eau-thermale-avene.cn/house-of-atopic-fundation">特应性皮炎之家</a></h2>
             </div>
             <div class="year_txt">
                 在中国，数百万的中国特应性皮肤儿童虽然不能亲临雅漾活泉护理中心，却可以同样在中国的雅漾特应性皮炎之家得到帮助和呵护，家长更会从中了解有关的最新知识、诱发因素、居家护理方法等，通过与国内著名的皮肤科专家的沟通与共同努力来减缓疾病的发作次数、降低药物的副作用，最大限度地提高孩子的生活质量。“雅漾特应性皮炎之家在中国”活动，自2008年1月在北京儿童医院启动，经过多年的努力，已经在全国十余个城市，数十家三甲医院开展，近5000个家庭参与，赢得了专家及家长的好评。

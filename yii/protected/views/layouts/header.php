@@ -26,9 +26,9 @@
     <div class="famliyicon"></div>
     <div class="nav cs-clear">
         <a class="navitem nav1" href="<?=Yii::app()->homeUrl?>"><span class="<?=$this->action->id == 'index' ? 'on' : ''?>">首页</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>site/activity/"><span class="<?=$this->action->id == 'activity' ? 'on' : ''?>">千家万户</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>site/activity/"><span class="<?=$this->action->id == 'activity' ? 'on' : ''?>">千家万护</span></a>
         <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>about/"><span class="<?=$this->action->id == 'about' ? 'on' : ''?>">关于湿疹</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>guide/"><span class="<?=$this->action->id == 'guide' ? 'on' : ''?>">湿疹百科</span></a>
+        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>guide/"><span class="<?=$this->action->id == 'guide' ? 'on' : ''?>">湿疹护理</span></a>
         <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>care/"><span class="<?=$this->action->id == 'care' ? 'on' : ''?>">雅漾关怀</span></a>
     </div>
     <?php if(Yii::app()->user->isGuest):?>
@@ -37,7 +37,7 @@
         <p class="nav_login">
             <a  href="<?=Yii::app()->createUrl('/record/myinfo')?>"><span class=""><?=Yii::app()->user->name?> </span></a>
              /
-            <a href="<?=Yii::app()->createUrl('/site/logout')?>"<span class=""> 退出</span></a>
+            <a href="<?=Yii::app()->createUrl('/site/logout')?>"><span class=""> 退出</span></a>
         </p>
     <?php endif?>
 </div>

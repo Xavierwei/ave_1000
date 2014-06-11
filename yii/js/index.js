@@ -85,7 +85,6 @@
                 $(this).next('input').val('1');
             })
             $('.dia_no').live('click',function(){
-                $('.popshare,.pop').fadeIn(300);
                 $(this).prev('input').prev('.dia_yes').removeClass('dia_yes_on')
                 $(this).addClass('dia_no_on')
                 $(this).prev('input').val('0');

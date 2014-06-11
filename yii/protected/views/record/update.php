@@ -46,7 +46,7 @@
     </div>
     <!--  -->
     <div class="make_ft">
-        <div class="cs-clear"><p class="make_check">我已阅读“隐私申明”</p></div>
+        <div class="cs-clear"><p class="make_check">我已阅读“<a href="#">隐私申明</a>”</p></div>
         <p>我同意雅漾使用宝贝的个人档案，宝宝患处信息不会对外公开。</p>
     </div>
     <div class="make_next cs-clear">

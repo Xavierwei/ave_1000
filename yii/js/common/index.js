@@ -43,6 +43,11 @@ $(document).ready(function() {
     })
 
 	$(".diagnose_btn").click(function(){
+        if($('.dia_no_on').length>0){
+
+            $('.popshare,.pop').fadeIn(300);
+            return;
+        }
 		$("#information-update-form").submit();
 	});
 
@@ -92,7 +97,6 @@ $(document).ready(function() {
 		$(this).next('input').val('1');
 	})
 	$('.dia_no').live('click',function(){
-		$('.popshare,.pop').fadeIn(300);
 		$(this).prev('input').prev('.dia_yes').removeClass('dia_yes_on')
 		$(this).addClass('dia_no_on')
 		$(this).prev('input').val('0');

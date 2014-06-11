@@ -5,7 +5,7 @@
         <div class="actinfor">
             <div class="actinfor_tit"></div>
             <div class="actinfor_com">
-                雅漾携手中国医师协会皮肤科医师分会（CDA），联合20家权威医院，在全国范围内展开雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，教授湿疹儿童家长专业科学的护理方法，并为一千名湿疹儿童免费送上湿疹特效护理产品——总价值为1368元的雅漾三重修护滋润霜（6支），携爱助力儿童家庭。
+                雅漾携手中国医师协会皮肤科医师分会（CDA），联合20家权威医院，在全国范围内展开雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，教授湿疹儿童家长专业科学的护理方法，并为一千名湿疹儿童免费送上总价值为2118元的湿疹特效护理套装——内含6支雅漾三重修护滋润霜200ML、6瓶雅漾舒护活泉喷雾150ML，以及湿疹教育视频与湿疹护理手册，携爱助力儿童家庭。
             </div>
             <a href="<?=Yii::app()->createUrl('/information/update')?>" class="actinfor_btn1"></a>
             <a href="#" class="actinfor_btn2"></a>
@@ -27,7 +27,7 @@
     </div>
     <!--  -->
     <div class="act_intro">
-        <a href="#" class="act_link1" title="活动须知">活动须知</a>
+        <div class="act_link1" title="活动介绍">活动介绍</div>
         <a href="<?=Yii::app()->baseUrl.'/'?>guide/" class="act_link2" title="更多湿疹知识">更多湿疹知识</a>
         <a href="<?=Yii::app()->createUrl('/information/update')?>" class="act_btn1" title="即刻申请"></a>
         <a href="#" class="act_btn2" title="查看医院列表"></a>

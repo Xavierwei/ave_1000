@@ -9,7 +9,7 @@
             <p><?=$baby->nickname?></p>
             <p><?=Drtool::age($baby->birthday)?>岁，<?=$baby->sex?></p>
             <p>来自<?=$baby->city?></p>
-            <p>建议到<?=$baby->point_hospital?></p>
+            <p>由<?=$baby->point_hospital?>推荐</p>
         </div>
     </div>
     <div class="careword_mess">

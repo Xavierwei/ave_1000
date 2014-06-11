@@ -4,7 +4,7 @@
 	<!--  -->
 	<div class="baike_pro" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
 		<div class="baike_protit">雅漾三重修护滋润霜</div>
-		<a href="#" class="baike_promore"></a>
+		<a target="_blank" href="http://www.eau-thermale-avene.cn/trixera" class="baike_promore"></a>
 		<div class="baike_propho"></div>
 		<div class="baike_prop">200ml <span>RMB 228</span></div>
 		<div class="baike_protxt">
@@ -27,7 +27,7 @@
 				<span>清洁</span>
 				<h2>雅漾滋润洁肤皂</h2>
 				<p>清洁、滋养肌肤，维护皮肤屏障功能。</p>
-				<a href="#" class="baike_promore"></a>
+				<a target="_blank" href="http://www.eau-thermale-avene.cn/cold-cream-ultra-rich-cleansing-bar" class="baike_promore"></a>
 			</div>
 		</div>
 		<div class="baike_pro2item baike_pro2item2">
@@ -36,7 +36,7 @@
 				<span>日常护理</span>
 				<h2>雅漾活泉修复霜</h2>
 				<p>舒缓、减少刺激、抵抗自由基。</p>
-				<a href="#" class="baike_promore"></a>
+				<a target="_blank" href="http://www.eau-thermale-avene.cn/cicalfate-cream" class="baike_promore"></a>
 			</div>
 		</div>
 		<div class="baike_pro2item baike_pro2item3">
@@ -45,7 +45,7 @@
 				<span>特效护理</span>
 				<h2>雅漾润唇膏</h2>
 				<p>滋养双唇，显现水润唇采</p>
-				<a href="#" class="baike_promore"></a>
+				<a target="_blank" href="http://www.eau-thermale-avene.cn/lip-balm-with-cold-cream" class="baike_promore"></a>
 			</div>
 		</div>
 		<div class="baike_pro2item baike_pro2item4">
@@ -54,7 +54,7 @@
 				<span>特效护理</span>
 				<h2>雅漾冷霜润手霜</h2>
 				<p>由里至外防护和滋养手部皮肤</p>
-				<a href="#" class="baike_promore"></a>
+				<a target="_blank" href="http://www.eau-thermale-avene.cn/specific-cold-cream-for-hands" class="baike_promore"></a>
 			</div>
 		</div>
 	</div>
@@ -66,13 +66,13 @@
 		<a class="video_play"></a>
 	</div>
 	<!--  -->
-	<div class="baike_QA">
-		<p class="baikeQA_q">阳光对我的孩子有益吗？</p>
-		<p class="baikeQA_a">特应性皮炎常在夏季好转，因此推荐多接受阳光照射。但需注意提前涂抹防晒产品，避免晒伤。</p>
-		<a href="#" class="baikeQA_more"></a>
-		<a href="#" class="baikeQA_weibo"></a>
-		<p class="baikeQA_doctor">曾在上海瑞金医院和法国巴黎国圣医院皮肤科积累了11年丰富临床经验，深受大家的推崇喜爱。</p>
-	</div>
+    <div class="baike_QA" data-style="opacity:0;" data-animate="opacity:1;" data-delay="700" data-time="500">
+        <p class="baikeQA_q">阳光对我的孩子有益吗？</p>
+        <p class="baikeQA_a">湿疹/特应性皮炎常在夏季好转，因此推荐多接受阳光照射。但需注意做好防晒措施，选择安全的适合儿童使用的低致敏防晒产品。</p>
+        <a href="../wiki/" class="baikeQA_more"></a>
+        <a target="_blank" href="http://e.weibo.com/2166726834/app_2960845660" class="baikeQA_weibo"></a>
+        <p class="baikeQA_doctor">曾在上海瑞金医院和法国巴黎国圣医院皮肤科积累了11年丰富临床经验，深受大家的推崇喜爱。</p>
+    </div>
 	<!--  -->
     <div class="baike_ques" data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="500">
         <ul id="mycarousel" class="jcarousel-skin-tango">

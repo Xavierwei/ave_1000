@@ -1,7 +1,7 @@
 <div class="home" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
     <!-- home_new -->
     <div class="sec_homebar sec_homebar2">
-        <div class="sec_homebar_con">雅漾携手中国医师协会皮肤科医师分会（CDA），展开雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，为一千名湿疹儿童免费送上6支湿疹特效护理产品，携爱助力儿童家庭。</div>
+        <div class="sec_homebar_con">雅漾携手中国医师协会皮肤科医师分会（CDA），展开雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，为一千名湿疹儿童免费送上湿疹护理套装，携爱助力儿童家庭。</div>
         <a href="<?=Yii::app()->createUrl('/about/')?>"></a>
     </div>
 
@@ -51,9 +51,10 @@
     <div class="section sec_home3 home_baike home_infor" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1400" data-time="500">
         <h2><a href="<?=Yii::app()->createUrl('/guide/')?>">湿疹百科</a></h2>
         <a href="<?=Yii::app()->createUrl('/guide/')?>" class="home_more"></a>
+        <div class="home_baike_title">护理<span>湿疹</span>不容忽视的<span>14</span>个问题，<br />简单易行的科学<span>护理方法</span>及权威<span>专家问答</span>。</div>
         <div class="home_infopop">
             <div class="home_baike_share"></div>
-            <div class="home_baike_txt">围绕十三个重要关键词，为父母提供常见问题回答与简单易行建议。</div>
+            <div class="home_baike_txt">围绕十四个重要关键词，为父母提供常见问题回答与简单易行建议。</div>
         </div>
     </div>
 </div>

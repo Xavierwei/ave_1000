@@ -15,7 +15,11 @@
         <div class="ft_mail">
             <input class="ft_mailipt" type="text" />
             <input class="ft_mailsub" type="submit" />
+            <div class="error">请填写正确的邮箱</div>
         </div>
+    </div>
+    <div class="legal_info">
+        <div class="red_text">免责声明:</div> 本网站信息仅供参考，不能代替医生等专业人士意见。任何关于治疗或症状管理的决定应于咨询医生等专业人士后，根据自身情况做出。
     </div>
 </div>
 <!--  -->

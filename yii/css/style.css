@@ -299,7 +299,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .act_link2{font-size: 16px;width: 175px;height: 50px;text-align: center;position: absolute;top:0;left:720px;line-height: 55px;}
 .act_btn1{background: url('../images/t.gif') repeat;position: absolute;width: 190px;height: 65px;top: 320px;left:390px;}
 .act_btn2{background: url('../images/t.gif') repeat;position: absolute;width: 110px;height: 35px;top: 450px;left:625px;cursor: pointer;}
-.act_btn{background: url('../images/act_btnbg.jpg') no-repeat;width: 320px;height: 76px;text-align: center;line-height: 76px;font-size: 18px;color:#24aae1;display: block;margin: 10px auto 40px;}
+.act_btn{background: url('../images/act_btnbg.jpg') no-repeat;width: 320px;height: 76px;text-align: center;line-height: 76px;font-size: 18px;color:#f58774;display: block;margin: 10px auto 40px;}
 
 /*login*/
 .login{padding:40px 0}
@@ -351,6 +351,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .make_btn{background: url('../images/make_btn.jpg') no-repeat;width:166px;height: 53px;margin: 5px 50px;}
 .make_ft{font-size: 14px;width: 940px;margin:  30px auto;text-align: right;line-height: 30px}
 .make_check{background: url('../images/make_check.png') no-repeat left center;float: right;padding-left:32px;cursor: pointer;}
+.make_check a {text-decoration: underline;}
 .make_checked{background: url('../images/make_checked.png') no-repeat left center;}
 .make_next{width: 940px;margin: 0 auto}
 .make_next a{float: right;background: url('../images/make_next.jpg') no-repeat;width: 150px;height: 56px}
