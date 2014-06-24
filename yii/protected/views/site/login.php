@@ -1,7 +1,7 @@
 <div class="login">
     <div class="login_tit"></div>
     <!--  -->
-    <div class="login_box" style="display:none;">
+    <div class="login_box">
         <p class="login_ed"></p>
         <div class="login_form">
             <?php $regform=$this->beginWidget('CActiveForm', array(
@@ -19,7 +19,7 @@
         <a href="<?=Yii::app()->createUrl('/weibo')?>"><p class="login_weibo"></p></a>
     </div>
     <!--  -->
-    <div class="login_box2">
+    <div class="login_box2" style="display:none;">
         <p class="login_ed2"></p>
 
         <a href="<?=Yii::app()->createUrl('/weibo')?>" class="login_weibo2"></a>

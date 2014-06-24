@@ -48,11 +48,23 @@
                 }
             })
             // 弹窗 显示
-            $('.popshow').live('click',function(){
-                $('.popshare,.pop').fadeIn(300)
-            })
+            $('.popshow_list').live('click',function(){
+                $('.popshare,#pop_list').fadeIn(300)
+            });
+            $('.popshow_rule').live('click',function(){
+                $('.popshare,#pop_rule').fadeIn(300)
+            });
+            $('.popshow_hos').live('click',function(){
+                $('.popshare,#pop_hos').fadeIn(300)
+            });
+            $('.popshow_apply').live('click',function(){
+                $('.popshare,#pop_apply').fadeIn(300)
+            });
+            $('.popshow_legal').live('click',function(){
+                $('.popshare,#pop_legal').fadeIn(300)
+            });
             //弹窗 隐藏
-            $('.popclose').live('click',function(){
+            $('.popclose,.popshare').live('click',function(){
                 $('.popshare,.pop').fadeOut(300)
             })
             // select

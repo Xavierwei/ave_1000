@@ -39,7 +39,7 @@ class BabyController extends Controller
                     $baby->uid=Yii::app()->user->id;
                     if($baby->save(false))
                     {
-                        $this->redirect($this->createUrl('/record/myinfo'));
+                        $this->redirect($this->createUrl('/record/myinfo?update=1'));
                     }
                     else
                     {
@@ -52,7 +52,7 @@ class BabyController extends Controller
                     $model->uid=Yii::app()->user->id;
                     if($model->save(false))
                     {
-                        $this->redirect($this->createUrl('/record/myinfo'));
+                        $this->redirect($this->createUrl('/record/myinfo?update=1'));
                     }
                     else
                     {

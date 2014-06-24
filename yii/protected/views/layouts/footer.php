@@ -35,6 +35,7 @@
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/index/index.js"></script>
 
 <script src="<?=Yii::app()->baseUrl.'/'?>js/index.js"></script>
@@ -104,11 +105,18 @@
 
 
 	$(document).ready(function(){
-		uploadImg('avatar','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
-		uploadImg('photo1','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
-		uploadImg('photo2','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');
-		uploadImg('photo3','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo3');
-		uploadImg('case','<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
+        var width = $(window).width();
+        if(width > 640) {
+            uploadImg('avatar','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
+            uploadImg('photo1','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
+            uploadImg('photo2','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');
+            uploadImg('photo3','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo3');
+            uploadImg('case','<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
+        }
+        else {
+
+        }
+
 	});
 
 	$(".nextForm").click(function(){

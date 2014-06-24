@@ -63,15 +63,6 @@ $(document).ready(function() {
 		//_gaq.push(['_trackEvent', '1000family', 'video_viewership', 'video_viewership']);
     })
 
-    $('#user-reg-form').validate({
-        rules: {
-            'RegForm[username]': "required"
-        },
-        messages: {
-            'RegForm[username]': "Please enter your firstname"
-        }
-    });
-
 //	setInterval(function(){
 //		var index = $('.knowtxt').data('index');
 //		index++;
@@ -83,9 +74,19 @@ $(document).ready(function() {
 //		$('.knowtxt').data('index', index);
 //	},4000);
 
-	var autoplay = getQueryString('autoplay');
-	if(autoplay) {
-		$('.video_play').trigger('click');
+	if(window.location.href.indexOf('autoplay') > 0) {
+        var flash = true;
+
+        if(isVideo) {
+            flash = false;
+        }
+
+        compile( 'flash-player-template', {flash: flash}, function () {
+            if (flash) {
+                $('.video-player').css({opacity:1});
+            }
+        });
+        ga('send', 'event', '1000family', 'video_viewership', 'video_viewership');
 	}
 
 })

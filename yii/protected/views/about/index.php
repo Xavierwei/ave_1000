@@ -27,22 +27,16 @@
 		</div>
 	</div>
 	<!--  -->
-	<div class="seciont sec_about3" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1100" data-time="500">
-		<div class="about_tit about_tit3">特应性皮炎儿童概况</div>
-		<div class="about_txt1">
-			<p>作为儿童早期常见的一种慢性炎症性疾病,越来越多的孩子遭受着特应性皮炎的困扰:皮肤瘙痒、红肿、水疱,甚至因此彻夜难眠, 不仅给孩子的身心造成诸多伤害,对家庭而言也是一种沉重的负担。 </p>
-			<p>目前,我国0~6岁儿童特应性皮炎的发病率为3%,受困扰的患儿高达230万~300万,并且发病率呈逐年上升趋势,情况不容乐观。</p>
-		</div>
-		<img src="<?=Yii::app()->baseUrl.'/'?>images/about_img2.jpg" class="about_img2" />
-	</div>
-	<!--  -->
 	<div class="seciont sec_about4" class="about_img2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1500" data-time="500">
 		<h2 class="about_tit about_tit4">特应性皮炎判断标准</h2>
+        <p class="sec_about4intro">诊断：目前国际上常用的特应性皮炎诊断标准为Williams1994年制定的标准。<br/>
+            持续12个月的皮肤瘙痒加上以下标准的三项或者更多：</p>
 		<div class="about_point cs-clear">
-			<div title="皮肤瘙痒史" class="point_item point_item1" data-250-end="opacity:0;" data-200-end="opacity:1;"></div>
-			<div title="皮损特点" class="point_item point_item2" data-200-end="opacity:0;" data-150-end="opacity:1;"></div>
-			<div title="过敏体质" class="point_item point_item3" data-150-end="opacity:0;" data-100-end="opacity:1;"></div>
-			<div title="家族特应性病史" class="point_item point_item4" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
+			<div title="" class="point_item point_item1" data-250-end="opacity:0;" data-200-end="opacity:1;"></div>
+			<div title="" class="point_item point_item2" data-200-end="opacity:0;" data-150-end="opacity:1;"></div>
+			<div title="" class="point_item point_item3" data-150-end="opacity:0;" data-100-end="opacity:1;"></div>
+			<div title="" class="point_item point_item4" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
+            <div title="" class="point_item point_item5" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
 		</div>
 	</div>
 	<!--  -->

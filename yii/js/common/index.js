@@ -43,13 +43,19 @@ $(document).ready(function() {
     })
 
 	$(".diagnose_btn").click(function(){
-        if($('.dia_no_on').length>0){
-
-            $('.popshare,.pop').fadeIn(300);
-            return;
-        }
+//        if($('.dia_no_on').length>0){
+//
+//            $('.popshare,.pop').fadeIn(300);
+//            return;
+//        }
 		$("#information-update-form").submit();
 	});
+
+    $('#Baby_reason').focus(function(){
+        if($(this).val().length == 0) {
+            $(this).val('希望通过这次活动能让我的孩子早日康复');
+        }
+    });
 
 	$('.ft_weixin').live({
 		'mouseenter':function(){

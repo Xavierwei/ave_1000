@@ -2,99 +2,213 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/about_more.gif" afterPath="$PROJECT_DIR$/images/about_more.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/baike_question.jpg" afterPath="$PROJECT_DIR$/yii/images/baike_question.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yii/images/defaultAvatar/boy_1.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/about_img3.jpg" afterPath="$PROJECT_DIR$/yii/images/about_img3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/about_more.gif" afterPath="$PROJECT_DIR$/yii/images/about_more.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/act_intro.jpg" afterPath="$PROJECT_DIR$/yii/images/act_intro.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/careword_com.jpg" afterPath="$PROJECT_DIR$/yii/images/careword_com.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/home_casebg.jpg" afterPath="$PROJECT_DIR$/yii/images/home_casebg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/home_pop.png" afterPath="$PROJECT_DIR$/yii/images/home_pop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/profile_form.jpg" afterPath="$PROJECT_DIR$/yii/images/profile_form.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_1.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_10.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_11.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_12.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_13.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_14.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_2.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_3.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_4.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_5.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_6.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_7.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_8.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques/ques_9.jpg" afterPath="$PROJECT_DIR$/yii/images/ques/ques_9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit1.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit10.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit11.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit12.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit13.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit14.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit2.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit3.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit4.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit5.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit6.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit7.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit8.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/ques_tit9.jpg" afterPath="$PROJECT_DIR$/yii/images/ques_tit9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/video_demo2.jpg" afterPath="$PROJECT_DIR$/yii/images/video_demo2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php" afterPath="$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index/index.js" afterPath="$PROJECT_DIR$/js/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index.js" afterPath="$PROJECT_DIR$/yii/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/common/index.js" afterPath="$PROJECT_DIR$/yii/js/common/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/about/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/about/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/care/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/guide/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/login.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/vendor/oUpload.php" afterPath="$PROJECT_DIR$/yii/protected/vendor/oUpload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_1.html" afterPath="$PROJECT_DIR$/yii/ques_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_10.html" afterPath="$PROJECT_DIR$/yii/ques_10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_11.html" afterPath="$PROJECT_DIR$/yii/ques_11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_12.html" afterPath="$PROJECT_DIR$/yii/ques_12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_13.html" afterPath="$PROJECT_DIR$/yii/ques_13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_14.html" afterPath="$PROJECT_DIR$/yii/ques_14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_2.html" afterPath="$PROJECT_DIR$/yii/ques_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_3.html" afterPath="$PROJECT_DIR$/yii/ques_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_4.html" afterPath="$PROJECT_DIR$/yii/ques_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_5.html" afterPath="$PROJECT_DIR$/yii/ques_5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_6.html" afterPath="$PROJECT_DIR$/yii/ques_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_7.html" afterPath="$PROJECT_DIR$/yii/ques_7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_8.html" afterPath="$PROJECT_DIR$/yii/ques_8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/ques_9.html" afterPath="$PROJECT_DIR$/yii/ques_9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/baby/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/information/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/information/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/wiki.html" afterPath="$PROJECT_DIR$/yii/wiki.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492821077" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983983" ignored="false" />
+    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403485643014" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642295996" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402052567247" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061361969" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/layouts/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061875205" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/stand.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063986845" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402062504609" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402841216259" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/layouts/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402837956091" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/stand.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402669534394" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402836667274" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/js/lp.ext.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402016136859" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/twitter.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402029347891" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/messages/zh_cn/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063965337" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/messages/en_us/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061882392" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/fule.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017195657" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/twitter.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402821815891" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/messages/zh_cn/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402841345939" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/messages/en_us/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402841946379" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/fule.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402037988678" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017204685" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017207982" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402017211206" ignored="false" />
-    <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491379183" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402478970053" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838978430" ignored="false" />
+    <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402840904421" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403494011206" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402022048050" ignored="false" />
     <file path="/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983411" ignored="false" />
-    <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402480214123" ignored="false" />
+    <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402824773890" ignored="false" />
     <file path="/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402470411176" ignored="false" />
     <file path="/stand.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402025369743" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/track.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402029951018" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/stand_p2.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402029347891" ignored="false" />
-    <file path="$PROJECT_DIR$/../lily_official/html/campaign.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/track.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/stand_p2.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402669693512" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/campaign.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539795300" ignored="false" />
     <file path="/campaign.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402031928464" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/js/common/helper.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
     <file path="/helper.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402451269524" ignored="false" />
     <file path="/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402044857584" ignored="false" />
-    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402394230763" ignored="false" />
+    <file path="/index.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403488808867" ignored="false" />
     <file path="/.htaccess" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055171864" ignored="false" />
     <file path="/CareController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055386043" ignored="false" />
     <file path="/GuideController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055628694" ignored="false" />
-    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402487196920" ignored="false" />
+    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403493734110" ignored="false" />
     <file path="/AboutController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055847276" ignored="false" />
-    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402393559008" ignored="false" />
-    <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402057956910" ignored="false" />
-    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402488934944" ignored="false" />
+    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403486911716" ignored="false" />
+    <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403494714849" ignored="false" />
+    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402927247464" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402059720388" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063133676" ignored="false" />
-    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402063133676" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402645882427" ignored="false" />
     <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402130354872" ignored="false" />
-    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402392380757" ignored="false" />
+    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403486718109" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/messages/en_us/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491379183" ignored="false" />
     <file path="$PROJECT_DIR$/../malibu/protected/controllers/MediaController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402466532073" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402397672372" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/award.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402398255869" ignored="false" />
     <file path="/award.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402398255251" ignored="false" />
-    <file path="$PROJECT_DIR$/../lemans_p1/protected/views/layouts/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402471883891" ignored="false" />
+    <file path="$PROJECT_DIR$/../lemans_p1/protected/views/layouts/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402565615760" ignored="false" />
     <file path="$PROJECT_DIR$/../malibu/protected/views/media/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402466456611" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/style/fontend/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402478970053" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402466532073" ignored="false" />
-    <file path="$PROJECT_DIR$/../lemans_p1/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402485910037" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/style/fontend/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402976026943" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402990356863" ignored="false" />
+    <file path="$PROJECT_DIR$/../lemans_p1/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402498381628" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/js/common/api.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
     <file path="/api.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402449844917" ignored="false" />
-    <file path="$PROJECT_DIR$/../lily_official/html/starshop.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/starshop.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539781242" ignored="false" />
     <file path="/starshop.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402451157489" ignored="false" />
     <file path="$USER_HOME$/Project/avene/edm/0610-sw/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402452771235" ignored="false" />
-    <file path="$PROJECT_DIR$/../lily_official/html/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
-    <file path="$PROJECT_DIR$/../../conf/apache/extra/httpd-vhosts.conf" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402474403374" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402488936545" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402475757094" ignored="false" />
-    <file path="$PROJECT_DIR$/../lemans_p1/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402479131214" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402672281774" ignored="false" />
+    <file path="$PROJECT_DIR$/../../conf/apache/extra/httpd-vhosts.conf" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642582702" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402638430174" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402638420453" ignored="false" />
+    <file path="$PROJECT_DIR$/../lemans_p1/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402500249786" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402478791080" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/views/index/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402479289373" ignored="false" />
-    <file path="$PROJECT_DIR$/../avene_mls/tips/protected/views/index/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402487218007" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_mls/tips/css/base.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402487174674" ignored="false" />
     <file path="/base.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402487174178" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/style/fontend/js/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402488589749" ignored="false" />
-    <file path="/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402488402019" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/style/fontend/js/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639413675" ignored="false" />
+    <file path="/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639401302" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/messages/zh_cn/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491395181" ignored="false" />
-    <file path="$PROJECT_DIR$/../lily_official/html/js/common/switchPage.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402492813489" ignored="false" />
-    <file path="/myinfo.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402493041538" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/js/common/switchPage.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671632580" ignored="false" />
+    <file path="/myinfo.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402899497093" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/map.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402537841686" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671082441" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/js/common/map.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671402252" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/js/config.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402667997568" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/contact.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539758993" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/job.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539763387" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/lookbook.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539766926" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/milestone.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539771126" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/news.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539774454" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/privacy.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539777780" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/storelocator.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671443214" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/streetshot.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402539787873" ignored="false" />
+    <file path="/map.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671365110" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/video.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402552833486" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/web/waiting.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402552587901" ignored="false" />
+    <file path="/video.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402543230857" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639787912" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/activities_main.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402552587901" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/activities_footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639657555" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/contest.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402552833486" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/style/fontend/js/media.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402552587901" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/config/main.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402553909267" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/style/fontend/css/video-js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402905243506" ignored="false" />
+    <file path="/video-js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402905215773" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/css/main.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402995355115" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/js/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402558761929" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/_index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402567441258" ignored="false" />
+    <file path="/_index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402567179623" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/css/ie.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402567459077" ignored="false" />
+    <file path="/ie.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402567358266" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/js/main_ie8.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402567100617" ignored="false" />
+    <file path="$PROJECT_DIR$/../rf/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402990851660" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/product/drink.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402578057106" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/product/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402577732143" ignored="false" />
+    <file path="$USER_HOME$/Project/avene/edm/edm_0613/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634337757" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/layouts/activities_header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639748715" ignored="false" />
+    <file path="/activities_header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634838204" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/controllers/ActivitiesController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634859733" ignored="false" />
+    <file path="/ActivitiesController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634857336" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402641282929" ignored="false" />
+    <file path="/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838253651" ignored="false" />
+    <file path="/httpd-vhosts.conf" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642582702" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/config/main.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642922136" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/teamrace.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/video.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402647028866" ignored="false" />
+    <file path="/news_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402672038462" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/news_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402672106738" ignored="false" />
+    <file path="/switchPage.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671608994" ignored="false" />
+    <file path="/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403004528181" ignored="false" />
+    <file path="$PROJECT_DIR$/../lily_official/html/storelocator_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671452969" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/controllers/IndexController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402834708822" ignored="false" />
+    <file path="/IndexController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402832914467" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402840330345" ignored="false" />
+    <file path="/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402834582924" ignored="false" />
+    <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/racemobile.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838982922" ignored="false" />
+    <file path="/wiki.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402888933346" ignored="false" />
+    <file path="/main.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402995353660" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/controllers/ProductController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402992836452" ignored="false" />
+    <file path="$USER_HOME$/Project/avene/edm/edm_0611/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403004528180" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,94 +228,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="14" selection-start="1903" selection-end="1903" vertical-scroll-proportion="-9.321428">
+            <state line="43" column="100" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.28861153">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myinfo.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/myinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="515" selection-end="515" vertical-scroll-proportion="0.3381877">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="121" selection-start="288" selection-end="288" vertical-scroll-proportion="-2.0357144">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="199" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/care/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="28" selection-start="2726" selection-end="2726" vertical-scroll-proportion="-9.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/information/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guide.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="10" selection-start="2019" selection-end="2019" vertical-scroll-proportion="-0.6785714">
-              <folding>
-                <marker date="1402126425000" expanded="true" signature="18024:18137" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -224,30 +255,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ques_14.html" />
-        <option value="$PROJECT_DIR$/js/index/index.js" />
-        <option value="$PROJECT_DIR$/yii/js/index/index.js" />
-        <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
+        <option value="$PROJECT_DIR$/yii/protected/vendor/oUpload.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
+        <option value="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
+        <option value="$PROJECT_DIR$/../avene_mls/tips/protected/views/index/index.php" />
+        <option value="$PROJECT_DIR$/../avene_mls/tips/m/index.html" />
+        <option value="$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/information/update.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
+        <option value="$PROJECT_DIR$/yii/js/common/index.js" />
+        <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/yii/css/style.css" />
         <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/yii/js/common/index.js" />
-        <option value="$PROJECT_DIR$/yii/js/index.js" />
-        <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
     <option name="y" value="22" />
-    <option name="width" value="1433" />
+    <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -535,26 +565,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,7 +588,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinaWeibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,28 +655,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ave_1000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,16 +709,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yii/protected/views/site" />
       <recent name="$PROJECT_DIR$/yii/js" />
       <recent name="$PROJECT_DIR$/yii/protected/controllers" />
       <recent name="$PROJECT_DIR$/yii/protected/views/about" />
       <recent name="$PROJECT_DIR$/yii/protected/views" />
-      <recent name="$PROJECT_DIR$/yii/protected/views/care" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <list size="0" />
@@ -732,29 +773,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="22" width="1433" height="830" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22855084" sideWeight="0.6701698" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19368723" sideWeight="0.6701698" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -825,116 +866,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
+    <entry file="file://$PROJECT_DIR$/../avene_mls/tips/m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="220" column="44" selection-start="8863" selection-end="8863" vertical-scroll-proportion="0.32605305" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="40" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="37" selection-start="3084" selection-end="3084" vertical-scroll-proportion="0.26625386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="2019" selection-end="2019" vertical-scroll-proportion="-0.6785714">
-          <folding>
-            <marker date="1402126425000" expanded="true" signature="18024:18137" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="1445" selection-end="1445" vertical-scroll-proportion="1.7941177">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15055467" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="11" selection-start="1585" selection-end="1662" vertical-scroll-proportion="0.50986344">
+        <state line="10" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.27859238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/baike/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="520" selection-end="520" vertical-scroll-proportion="0.7243402" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="26" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.029641185">
+          <folding>
+            <marker date="1402927744000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="31" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.8595944">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="42" selection-start="29527" selection-end="29527" vertical-scroll-proportion="0.028400598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="121" selection-start="288" selection-end="288" vertical-scroll-proportion="-2.0357144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="199" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="71" column="57" selection-start="5434" selection-end="5434" vertical-scroll-proportion="0.33225808">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/views/care/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="28" selection-start="2726" selection-end="2726" vertical-scroll-proportion="-9.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="14" selection-start="1903" selection-end="1903" vertical-scroll-proportion="-9.321428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="73" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.5335413">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/views/record/myinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="515" selection-end="515" vertical-scroll-proportion="0.3381877">
+        <state line="40" column="45" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.65366614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="20" selection-start="4538" selection-end="4538" vertical-scroll-proportion="-1.0655227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="8" selection-start="3764" selection-end="8253" vertical-scroll-proportion="0.17886178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="14" selection-start="10243" selection-end="10243" vertical-scroll-proportion="2.5351014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.bak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="666" selection-end="2043" vertical-scroll-proportion="0.5039002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="38" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.17040358">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/ques_8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="221" selection-end="416" vertical-scroll-proportion="0.14820592">
+          <folding>
+            <marker date="1402888996000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="100" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.28861153">
           <folding />
         </state>
       </provider>

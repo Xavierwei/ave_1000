@@ -1,5 +1,5 @@
 <?php
 
-define( "WB_AKEY" , '2694348183' );
-define( "WB_SKEY" , '5cf1abb37c78aa9ef544c16d7eb7f409' );
-define( "WB_CALLBACK_URL" , 'http://localhost.com/Weibo/Callback' );
+define( "WB_AKEY" , '3542088581' );
+define( "WB_SKEY" , 'a097a341b5d2e9307cf0447a7280739c' );
+define( "WB_CALLBACK_URL" , 'http://114.215.173.191/ave1000/Weibo/Callback' );

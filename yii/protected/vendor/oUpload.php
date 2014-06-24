@@ -14,10 +14,10 @@ class oUpload{
     private $overwrite = 0;// 覆盖模式
     private $maxSize = 0;// 文件最大字节 1024*1024=1m
     private $ext;// 文件扩展名
-    private $thumb = 0;// 是否生成缩略图
-    private $thumbWidth = 600;// 缩略图宽
-    private $thumbHeight = 400;// 缩略图高
-    private $thumbPrefix = "thumb_";// 缩略图前缀
+    private $thumb = 1;// 是否生成缩略图
+    private $thumbWidth = 200;// 缩略图宽
+    private $thumbHeight = 200;// 缩略图高
+    private $thumbPrefix = "_thumb";// 缩略图前缀
     private $errno;// 错误代号
     private $returnArray= array();// 所有文件的返回信息
     private $returninfo= array();// 每个文件返回信息
@@ -175,8 +175,8 @@ class oUpload{
             if ( !imagecopyresampled($createdThumb, $Original, 0, 0, 0, 0,
                 $thumbWidth, $thumbHeight, $originalWidth, $originalHeight) )
             {$this->errno = 21; return false;}
-            if ( $SaveFunction($createdThumb,$this->savePath.$this->thumbPrefix.$this->saveName.'.jpg',$this->quality) ) {
-                $this->returninfo['thumbSaveName'] = $this->thumbPrefix.$this->saveName.'.jpg';
+            if ( $SaveFunction($createdThumb,$this->savePath.$this->saveName.$this->thumbPrefix.'.jpg',$this->quality) ) {
+                $this->returninfo['thumbSaveName'] = $this->saveName.$this->thumbPrefix.'.jpg';
             }
             else
                 {$this->errno = 22; return false;}
