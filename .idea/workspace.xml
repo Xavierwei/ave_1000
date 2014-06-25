@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/common/index.js" afterPath="$PROJECT_DIR$/yii/js/common/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index/index.js" afterPath="$PROJECT_DIR$/yii/js/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/guide/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
@@ -31,7 +25,7 @@
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838978430" ignored="false" />
     <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402840904421" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403703486148" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403704916045" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402022048050" ignored="false" />
     <file path="/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983411" ignored="false" />
     <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403666501767" ignored="false" />
@@ -57,7 +51,7 @@
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402645882427" ignored="false" />
     <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402130354872" ignored="false" />
-    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403656811208" ignored="false" />
+    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403704676337" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/messages/en_us/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491379183" ignored="false" />
     <file path="$PROJECT_DIR$/../malibu/protected/controllers/MediaController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402466532073" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402397672372" ignored="false" />
@@ -171,22 +165,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="38" selection-start="228" selection-end="240" vertical-scroll-proportion="38.92857">
               <folding>
-                <marker date="1403701973000" expanded="true" signature="1476:1613" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="1874:2011" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="2318:2547" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="2414:2547" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="2464:2547" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="2774:2914" placeholder="..." />
-                <marker date="1403701973000" expanded="true" signature="3238:3278" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="1476:1613" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="1874:2011" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="2318:2547" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="2414:2547" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="2464:2547" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="2774:2914" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="3238:3278" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="52" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.67286247">
+            <state line="41" column="72" selection-start="3192" selection-end="3192" vertical-scroll-proportion="-22.464285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="38" selection-start="4070" selection-end="4105" vertical-scroll-proportion="-20.785715">
               <folding />
             </state>
           </provider>
@@ -215,7 +218,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="32" selection-start="2870" selection-end="2879" vertical-scroll-proportion="-11.964286">
               <folding>
-                <marker date="1403702013000" expanded="true" signature="5800:5895" placeholder="..." />
+                <marker date="1403704062000" expanded="true" signature="5800:5895" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -239,10 +242,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="574" column="38" selection-start="45983" selection-end="45983" vertical-scroll-proportion="0.0">
+            <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.5697464">
               <folding />
             </state>
           </provider>
@@ -280,8 +283,8 @@
         <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-        <option value="$PROJECT_DIR$/yii/css/style.css" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
+        <option value="$PROJECT_DIR$/yii/css/style.css" />
       </list>
     </option>
   </component>
@@ -990,13 +993,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.bak.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="38" selection-start="2679" selection-end="2994" vertical-scroll-proportion="0.6160081">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../avene_mls/tips/protected/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="236" column="50" selection-start="10726" selection-end="10734" vertical-scroll-proportion="0.49544072">
@@ -1075,7 +1071,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="32" selection-start="2870" selection-end="2879" vertical-scroll-proportion="-11.964286">
           <folding>
-            <marker date="1403702013000" expanded="true" signature="5800:5895" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="5800:5895" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1087,9 +1083,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="574" column="38" selection-start="45983" selection-end="45983" vertical-scroll-proportion="0.0">
+        <state line="67" column="38" selection-start="4070" selection-end="4105" vertical-scroll-proportion="-20.785715">
           <folding />
         </state>
       </provider>
@@ -1098,20 +1094,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="38" selection-start="228" selection-end="240" vertical-scroll-proportion="38.92857">
           <folding>
-            <marker date="1403701973000" expanded="true" signature="1476:1613" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="1874:2011" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="2318:2547" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="2414:2547" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="2464:2547" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="2774:2914" placeholder="..." />
-            <marker date="1403701973000" expanded="true" signature="3238:3278" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="1476:1613" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="1874:2011" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="2318:2547" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="2414:2547" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="2464:2547" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="2774:2914" placeholder="..." />
+            <marker date="1403704062000" expanded="true" signature="3238:3278" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="52" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.67286247">
+        <state line="41" column="72" selection-start="3192" selection-end="3192" vertical-scroll-proportion="-22.464285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.5697464">
           <folding />
         </state>
       </provider>

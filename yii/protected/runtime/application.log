@@ -3057,3 +3057,12 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/ave_1000/yii/guide/video/2_1.mp4
 ---
+2014/06/25 16:04:08 [warning] [application] Failed to set unsafe attribute "uid" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 16:04:08 [warning] [application] Failed to set unsafe attribute "createtime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 16:04:08 [warning] [application] Failed to set unsafe attribute "updatetime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)

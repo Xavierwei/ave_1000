@@ -39,6 +39,7 @@
     <div class="act_intro">
         <a href="<?=Yii::app()->createUrl('/information/update')?>" class="act_btn1" title="即刻申请"></a>
         <a href="javascript:;" class="popshow_hos act_btn2" title="查看医院列表"></a>
+	    <a href="<?=Yii::app()->baseUrl.'/'?>guide/" class="popshow_hos act_btn3 dis_mobile"></a>
     </div>
     <!--  -->
     <div class="act_btn">不是所有痒，都能创造笑声</div>
