@@ -38,7 +38,7 @@ class Record extends OrionModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('avatar, case', 'required'),
+			array('avatar', 'required'),
             array('photo1, photo2, photo3','oCheckOne'),
 			array('avatar, photo1, photo2, photo3, case', 'length', 'max'=>255),
 			// The following rule is used by search().

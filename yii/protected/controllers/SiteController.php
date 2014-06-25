@@ -178,7 +178,8 @@ class SiteController extends Controller
                     $login->password=$model->password;
                     if($login->login())
                     {
-				        $this->redirect(Yii::app()->user->returnUrl);
+                        $this->redirect(Yii::app()->createUrl('/site/activity'));
+				        //$this->redirect(Yii::app()->user->returnUrl);
                     }
                 }
                 else
@@ -228,8 +229,9 @@ class SiteController extends Controller
                     $model=new LoginForm;
                     $model->username=Yii::app()->session['token']['uid'];
                     $model->login();
+//                    $this->redirect(Yii::app()->createUrl('/site/activity'));
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('注册成功');location.replace('".Yii::app()->homeUrl."')</script>";
+                    echo "<script>alert('注册成功');location.replace('".Yii::app()->createUrl('/site/activity')."')</script>";
                 }
                 else
                 {
