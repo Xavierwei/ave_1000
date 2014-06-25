@@ -3,9 +3,9 @@
 	<div class="baike_banner"></div>
 	<!--  -->
 	<div class="baike_pro" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
+		<div class="baike_pro1_m"></div>
 		<div class="baike_protit">雅漾三重修护滋润霜</div>
 		<a target="_blank" href="http://www.eau-thermale-avene.cn/trixera" class="baike_promore"></a>
-		<div class="baike_propho"></div>
 		<div class="baike_prop">200ml <span>RMB 228</span></div>
 		<div class="baike_protxt">
 			<div>湿疹是一种常见皮肤病，主要特点是剧烈瘙痒，影响患者生活。雅漾三重修护滋润霜，是特别针对特应性皮炎、慢性湿疹、皮肤瘙痒、干性和特干性皮肤的特效护理产品。</div>
@@ -16,56 +16,57 @@
 			<p>除增加涂抹次数外，应先用活泉水湿敷</p>
 			<p>每天使用，迅速缓解皮肤干燥和瘙痒</p>
 		</div>
-		<div class="baike_protxtimg1"></div>
-		<div class="baike_protxtimg2"></div>
+	</div>
+
+	<div class="baike_pro1_2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
+		<div class="baike_pro1_2_m"></div>
+		<div class="baike_protit">雅漾舒护活泉喷雾</div>
+		<a target="_blank" href="http://www.eau-thermale-avene.cn/trixera" class="baike_promore"></a>
+		<div class="baike_protxt">
+			<div><span>舒缓护理</span></div>
+			<div>天然泉水，直接从源泉取水，无菌灌装；<br/>纯净无菌，含所需的微量元素和二氧化硅，低矿物含量，喷雾后可在肌肤表面形成舒缓、可透气的保护膜；<br/>增强肌肤耐受性，降低敏感度。</div>
+		</div>
 	</div>
 	<!--  -->
 	<div class="baike_pro2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1000" data-time="500">
 		<div class="baike_pro2item baike_pro2item1">
-			<div class="baike_pro2img"></div>
+			<div class="baike_pro2_1_m"></div>
 			<div class="baike_pro2com">
 				<span>清洁</span>
 				<h2>雅漾滋润洁肤皂</h2>
-				<p>清洁、滋养肌肤，维护皮肤屏障功能。</p>
+				<p>适用于干性及特干性敏感肌肤，面部及身体皮肤的日常清洁。</p>
 				<a target="_blank" href="http://www.eau-thermale-avene.cn/cold-cream-ultra-rich-cleansing-bar" class="baike_promore"></a>
 			</div>
 		</div>
 		<div class="baike_pro2item baike_pro2item2">
-			<div class="baike_pro2img"></div>
+			<div class="baike_pro2_2_m"></div>
 			<div class="baike_pro2com">
 				<span>日常护理</span>
 				<h2>雅漾活泉修复霜</h2>
-				<p>舒缓、减少刺激、抵抗自由基。</p>
+				<p>用于受刺激的干性皮肤（伤口、嘴唇裂隙）</p>
 				<a target="_blank" href="http://www.eau-thermale-avene.cn/cicalfate-cream" class="baike_promore"></a>
-			</div>
-		</div>
-		<div class="baike_pro2item baike_pro2item3">
-			<div class="baike_pro2img"></div>
-			<div class="baike_pro2com">
-				<span>特效护理</span>
-				<h2>雅漾润唇膏</h2>
-				<p>滋养双唇，显现水润唇采</p>
-				<a target="_blank" href="http://www.eau-thermale-avene.cn/lip-balm-with-cold-cream" class="baike_promore"></a>
-			</div>
-		</div>
-		<div class="baike_pro2item baike_pro2item4">
-			<div class="baike_pro2img"></div>
-			<div class="baike_pro2com">
-				<span>特效护理</span>
-				<h2>雅漾冷霜润手霜</h2>
-				<p>由里至外防护和滋养手部皮肤</p>
-				<a target="_blank" href="http://www.eau-thermale-avene.cn/specific-cold-cream-for-hands" class="baike_promore"></a>
 			</div>
 		</div>
 	</div>
 	<!--  -->
 	<div class="baike_guanyu">湿 疹／特 应 性 皮 炎 护 理</div>
-	<!--  -->
-	<div class="baike_video">
-		<img src="<?=Yii::app()->baseUrl.'/'?>images/video_demo2.jpg">
-		<a class="video_play"></a>
+
+	<div class="baike_videos">
+		<a class="baike_video_i video_play2" data-video="2_1">
+			<img src="<?=Yii::app()->baseUrl.'/'?>images/baike_v1.jpg" />
+		</a>
+		<a class="baike_video_i video_play2" data-video="2_2">
+			<img src="<?=Yii::app()->baseUrl.'/'?>images/baike_v2.jpg" />
+		</a>
+		<a class="baike_video_i video_play2" data-video="2_3">
+			<img src="<?=Yii::app()->baseUrl.'/'?>images/baike_v3.jpg" />
+		</a>
 	</div>
-	<!--  -->
+
+	<div class="baike_baodian">
+		<a target="_blank" href="<?=Yii::app()->baseUrl.'/'?>pdf/baodian.pdf"><img src="<?=Yii::app()->baseUrl.'/'?>images/baike_baodian.png" /></a>
+	</div>
+
     <div class="baike_QA" data-style="opacity:0;" data-animate="opacity:1;" data-delay="700" data-time="500">
         <p class="baikeQA_q">阳光对我的孩子有益吗？</p>
         <p class="baikeQA_a">湿疹/特应性皮炎常在夏季好转，因此推荐多接受阳光照射。但需注意做好防晒措施，选择安全的适合儿童使用的低致敏防晒产品。</p>
@@ -310,3 +311,26 @@
     </div>
 	<!--  -->
 </div>
+
+<script type="text/tpl" id="flash-player-template">
+	<div class="overlay btn"></div>
+	<div class="popup video-popup">
+		<div class="popup-close btn"></div>
+		<div class="popup-body">
+			<div class="video-player">
+				{{#if flash}}
+				<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="800" height="460">
+					<param name="allowScriptAccess" value="always"/>
+					<param name="movie" value="<?=Yii::app()->baseUrl.'/'?>video/player.swf"/>
+					<param name="flashVars" value="source={{video_id}}.mp4&autoplay=true&skinMode=show&onPlay=play()&onPlayComplete=playComplete()&fengmian=video/1.jpg"/>
+					<param name="quality" value="high"/>
+					<param name="allowFullScreen" value="true"/>
+					<embed name="player" src="<?=Yii::app()->baseUrl.'/'?>video/player.swf" allowFullScreen="true" flashVars="source={{video_id}}.mp4&autoplay=true&skinMode=show&onPlay=play()&onPlayComplete=playComplete()&fengmian=video/1.jpg" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="460" allowScriptAccess="always"></embed>
+				</object>
+				{{else}}
+				<video autoplay="autoplay" width="640" height="360" controls><source src="video/{{video_id}}.mp4" type="video/mp4" /></video>
+				{{/if}}
+			</div>
+		</div>
+	</div>
+</script>

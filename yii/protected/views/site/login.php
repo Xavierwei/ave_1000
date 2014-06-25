@@ -1,5 +1,6 @@
+
+<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step1.png" /></div>
 <div class="login">
-    <div class="login_tit"></div>
     <!--  -->
     <div class="login_box">
         <p class="login_ed"></p>

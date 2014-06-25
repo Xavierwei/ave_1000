@@ -116,7 +116,13 @@ $(document).ready(function() {
 		$(this).removeClass('make_checked');
 	})
 
-    // header nav list
+	$('.fancybox-img').fancybox({
+		scrolling : false,
+		fitToView: false
+	});
+
+
+	// header nav list
     var dNav = $('.header .nav');
 
     $('.header .navbtn').bind('touchstart', function () {

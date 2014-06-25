@@ -47,14 +47,14 @@ $(document).ready(function() {
     // play video
     var isVideo = $('html').hasClass('touch');
 
-    $('.video_play').bind('click', function(){
+    $('.video_play2').bind('click', function(){
         var flash = true;
 
         if(isVideo) {
             flash = false;
         }
 
-        compile( 'flash-player-template', {flash: flash}, function () {
+        compile( 'flash-player-template', {flash: flash, video_id: $(this).data('video')}, function () {
             if (flash) {
                 $('.video-player').css({opacity:1});
             }

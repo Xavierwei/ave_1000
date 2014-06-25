@@ -8,6 +8,40 @@
 		</div>
 		<img src="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg" class="about_img1" />
 	</div>
+
+	<div class="seciont sec_about2_1" data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="500">
+		<div class="about_tit about_tit2_1">湿疹的表现</div>
+		<div class="about_2_1 cs-clear">
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>干燥</p>
+			</div>
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>瘙痒</p>
+			</div>
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>红斑</p>
+			</div>
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>水疱</p>
+			</div>
+			<div class="about_2_1_i" style="margin-left:100px;">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>抓痕</p>
+			</div>
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>糜烂</p>
+			</div>
+			<div class="about_2_1_i">
+				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<p>苔藓样</p>
+			</div>
+		</div>
+	</div>
 	<!--  -->
 	<div class="seciont sec_about2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="500">
 		<div class="about_tit about_tit2">湿疹与特应性皮炎的区别</div>
@@ -32,11 +66,13 @@
         <p class="sec_about4intro">诊断：目前国际上常用的特应性皮炎诊断标准为Williams1994年制定的标准。<br/>
             持续12个月的皮肤瘙痒加上以下标准的三项或者更多：</p>
 		<div class="about_point cs-clear">
-			<div title="" class="point_item point_item1" data-250-end="opacity:0;" data-200-end="opacity:1;"></div>
-			<div title="" class="point_item point_item2" data-200-end="opacity:0;" data-150-end="opacity:1;"></div>
-			<div title="" class="point_item point_item3" data-150-end="opacity:0;" data-100-end="opacity:1;"></div>
-			<div title="" class="point_item point_item4" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
-            <div title="" class="point_item point_item5" data-100-end="opacity:0;" data-50-end="opacity:1;"></div>
+			<ul>
+				<li>1,2岁以前发病</li>
+				<li>身体屈侧皮肤受累（包括肘窝、腘窝、踝前或颈周，10岁以下儿童包括颈部）</li>
+				<li>身皮肤干燥史</li>
+				<li>个人史中有其他过敏性疾病或一级亲属中有过敏性疾病</li>
+				<li>有可见的身体屈侧湿疹样皮损</li>
+			</ul>
 		</div>
 	</div>
 	<!--  -->

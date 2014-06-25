@@ -43,6 +43,7 @@
         <meta name="keywords" content="雅漾1000Families,雅漾关怀湿疹儿童,雅漾湿疹,雅漾湿疹儿童,雅漾千家万户行动" />
         <meta name="description" content="雅漾携手CDA启动千家万护行动帮助更多用户了解儿童湿疹相关知识,包含湿疹介绍、湿疹相关常见问题及湿疹百科等。" />
     <?php endif;?>
+	<link href="<?=Yii::app()->baseUrl.'/'?>css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link href="<?=Yii::app()->baseUrl.'/'?>css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

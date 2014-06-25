@@ -3,6 +3,7 @@
     'enableAjaxValidation'=>false,
 )); ?>
 <div class="diagnose">
+	<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step2.png" /></div>
     <div class="diagnose_com">
         <div class="dia_item">
             <div class="dia_q"><span>Q1：</span>您孩子的皮肤干燥吗?</div>

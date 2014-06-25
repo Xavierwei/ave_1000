@@ -1,4 +1,5 @@
 <div class="make">
+	<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step3.png" /></div>
     <div class="make_tit"></div>
     <div class="make_txt">您的孩子信息已被记录，继续制作电子档案，完善个人信息。</div>
     <div class="make_item">

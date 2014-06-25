@@ -33,6 +33,7 @@
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/flash_detect_min.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>

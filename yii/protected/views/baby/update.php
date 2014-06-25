@@ -1,4 +1,5 @@
 
+<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step4.png" /></div>
 <?php $form=$this->beginWidget('CActiveForm', array(
     'id'=>'baby-update-form',
     'enableAjaxValidation'=>false,

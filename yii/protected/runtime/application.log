@@ -2320,3 +2320,585 @@ in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
 2014/06/23 03:57:03 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
 in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
 in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:00 [warning] [application] Failed to set unsafe attribute "uid" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:00 [warning] [application] Failed to set unsafe attribute "createtime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:00 [warning] [application] Failed to set unsafe attribute "updatetime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:52 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:52 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:52 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:52 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:15:58 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:15:58 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:15:58 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:15:58 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/24 14:16:12 [warning] [application] Failed to set unsafe attribute "point_sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:16:12 [warning] [application] Failed to set unsafe attribute "year" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:16:12 [warning] [application] Failed to set unsafe attribute "mon" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:16:12 [warning] [application] Failed to set unsafe attribute "day" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/24 14:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:24:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:24:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:25:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:27:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo?update=1
+---
+2014/06/24 14:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/24 14:33:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/24 15:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.fancybox.pack.js".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('jquery.fancybox...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//jquery.fancybox.pack.js
+HTTP_REFERER=http://localhost/ave_1000/yii/about/
+---
+2014/06/24 15:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jquery.fancybox.pack.js".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('jquery.fancybox...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//jquery.fancybox.pack.js
+HTTP_REFERER=http://localhost/ave_1000/yii/about/
+---
+2014/06/24 15:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/fancybg.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/common/f...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/common/fancybg.png
+HTTP_REFERER=http://localhost/ave_1000/yii/css/jquery.fancybox.css
+---
+2014/06/24 15:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox_sprite.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fancybox_sp...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/css/fancybox_sprite.png
+HTTP_REFERER=http://localhost/ave_1000/yii/css/jquery.fancybox.css
+---
+2014/06/24 15:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fancybox_sprite.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fancybox_sp...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/css/fancybox_sprite.png
+---
+2014/06/24 15:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/fancybg.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/common/f...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/common/fancybg.png
+HTTP_REFERER=http://localhost/ave_1000/yii/about/
+---
+2014/06/24 16:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/common/fancybg.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/common/f...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/common/fancybg.png
+HTTP_REFERER=http://localhost/ave_1000/yii/css/jquery.fancybox.css
+---
+2014/06/25 02:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/baike_probg2.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/baike_pr...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/baike_probg2.png
+HTTP_REFERER=http://localhost/ave_1000/yii/css/style.css
+---
+2014/06/25 02:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/baike_probg2.png".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('images/baike_pr...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/images/baike_probg2.png
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/pla...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/player.swf
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/pla...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/player.swf
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 02:36:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 02:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:24:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 04:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
