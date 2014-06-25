@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/SiteController.php" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -242,10 +240,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.5697464">
+            <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="73" selection-start="4057" selection-end="4057" vertical-scroll-proportion="2.4306703">
               <folding />
             </state>
           </provider>
@@ -269,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/information/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
@@ -285,6 +291,7 @@
         <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
         <option value="$PROJECT_DIR$/yii/css/style.css" />
+        <option value="$PROJECT_DIR$/yii/protected/controllers/SiteController.php" />
       </list>
     </option>
   </component>
@@ -993,13 +1000,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../avene_mls/tips/protected/views/index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="50" selection-start="10726" selection-end="10734" vertical-scroll-proportion="0.49544072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../avene_mls/tips/js/lp.base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1097" column="22" selection-start="43050" selection-end="43050" vertical-scroll-proportion="0.5694581">
@@ -1114,7 +1114,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.5697464">
+        <state line="775" column="116" selection-start="62579" selection-end="62579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="73" selection-start="4057" selection-end="4057" vertical-scroll-proportion="2.4306703">
           <folding />
         </state>
       </provider>
