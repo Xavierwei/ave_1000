@@ -126,7 +126,7 @@
 					<embed name="player" src="<?=Yii::app()->baseUrl.'/'?>video/player.swf" allowFullScreen="true" flashVars="source={{video_id}}.mp4&autoplay=true&skinMode=show&onPlay=play()&onPlayComplete=playComplete()&fengmian=video/1.jpg" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="450" allowScriptAccess="always"></embed>
 				</object>
 				{{else}}
-				<video autoplay="autoplay" width="640" height="360" controls><source src="video/{{video_id}}.mp4" type="video/mp4" /></video>
+				<video autoplay="autoplay" width="640" height="360" controls><source src="<?=Yii::app()->baseUrl.'/'?>video/{{video_id}}.mp4" type="video/mp4" /></video>
 				{{/if}}
 			</div>
 		</div>

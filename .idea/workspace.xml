@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/home_head.png" afterPath="$PROJECT_DIR$/yii/images/home_head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/imgm/home_head.png" afterPath="$PROJECT_DIR$/yii/imgm/home_head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/myinfo_product.png" afterPath="$PROJECT_DIR$/yii/images/myinfo_product.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/common/index.js" afterPath="$PROJECT_DIR$/yii/js/common/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index/index.js" afterPath="$PROJECT_DIR$/yii/js/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/guide/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403687469527" ignored="false" />
+    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403703037305" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642295996" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402052567247" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402841216259" ignored="false" />
@@ -30,10 +31,10 @@
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838978430" ignored="false" />
     <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402840904421" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403675425357" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403703486148" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402022048050" ignored="false" />
     <file path="/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983411" ignored="false" />
-    <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402824773890" ignored="false" />
+    <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403666501767" ignored="false" />
     <file path="/default.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402470411176" ignored="false" />
     <file path="/stand.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402025369743" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/track.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
@@ -49,14 +50,14 @@
     <file path="/GuideController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055628694" ignored="false" />
     <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403662027668" ignored="false" />
     <file path="/AboutController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055847276" ignored="false" />
-    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403611864404" ignored="false" />
+    <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403701973195" ignored="false" />
     <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403494714849" ignored="false" />
-    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402927247464" ignored="false" />
+    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403701988096" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402059720388" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402645882427" ignored="false" />
     <file path="/ques_1.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402130354872" ignored="false" />
-    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403674983895" ignored="false" />
+    <file path="/activity.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403656811208" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/messages/en_us/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491379183" ignored="false" />
     <file path="$PROJECT_DIR$/../malibu/protected/controllers/MediaController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402466532073" ignored="false" />
     <file path="$PROJECT_DIR$/../avene_sun/js/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402397672372" ignored="false" />
@@ -85,7 +86,7 @@
     <file path="/main.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402639401302" ignored="false" />
     <file path="$PROJECT_DIR$/../lemans_p1/protected/messages/zh_cn/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402491395181" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/js/common/switchPage.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671632580" ignored="false" />
-    <file path="/myinfo.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403674101644" ignored="false" />
+    <file path="/myinfo.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403612851695" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/map.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402537841686" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671082441" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/js/common/map.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671402252" ignored="false" />
@@ -165,28 +166,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="228" selection-end="240" vertical-scroll-proportion="38.92857">
+              <folding>
+                <marker date="1403701973000" expanded="true" signature="1476:1613" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="1874:2011" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="2318:2547" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="2414:2547" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="2464:2547" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="2774:2914" placeholder="..." />
+                <marker date="1403701973000" expanded="true" signature="3238:3278" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="43" selection-start="3591" selection-end="3599" vertical-scroll-proportion="0.0">
+            <state line="119" column="52" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.67286247">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="38" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="0" selection-start="3381" selection-end="3381" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="32" selection-start="2870" selection-end="2879" vertical-scroll-proportion="-11.964286">
+              <folding>
+                <marker date="1403702013000" expanded="true" signature="5800:5895" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/guide/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="321" column="77" selection-start="15384" selection-end="15384" vertical-scroll-proportion="-24.857143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="0" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="25" selection-start="26516" selection-end="26516" vertical-scroll-proportion="0.30326593">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myinfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/record/myinfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-10.214286">
+            <state line="574" column="38" selection-start="45983" selection-end="45983" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,31 +266,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/information/update.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/login.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/yii/js/common/index.js" />
-        <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
-        <option value="$PROJECT_DIR$/yii/js/index/index.js" />
-        <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
+        <option value="$PROJECT_DIR$/../avene_mls/tips/js/lp.base.js" />
+        <option value="$PROJECT_DIR$/yii/js/common/index.js" />
+        <option value="$PROJECT_DIR$/yii/js/index/index.js" />
+        <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
         <option value="$PROJECT_DIR$/yii/css/style.css" />
+        <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="23" />
-    <option name="width" value="1432" />
-    <option name="height" value="830" />
+    <option name="x" value="151" />
+    <option name="y" value="54" />
+    <option name="width" value="1957" />
+    <option name="height" value="1265" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,6 +339,486 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="record" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="information" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="care" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinaWeibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baike" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baike" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,14 +897,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="23" width="1432" height="830" extended-state="0" />
-    <editor active="false" />
+    <frame x="151" y="54" width="1957" height="1265" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983023" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.94711995" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20041864" sideWeight="0.9973799" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -454,88 +990,128 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../avene_mls/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1711" selection-end="1828" vertical-scroll-proportion="0.35019454" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../avene_mls/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="6" selection-start="5728" selection-end="5733" vertical-scroll-proportion="0.33265924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="2009" selection-end="2009" vertical-scroll-proportion="-26.464285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="15" selection-start="2695" selection-end="2695" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.bak.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="38" selection-start="2679" selection-end="2994" vertical-scroll-proportion="0.6160081" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/guide/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="2007" selection-end="2017" vertical-scroll-proportion="0.3381877" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="4" selection-start="7412" selection-end="9071" vertical-scroll-proportion="0.029641185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="602" selection-end="602" vertical-scroll-proportion="0.029641185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="48" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.028400598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1410" selection-end="1410" vertical-scroll-proportion="0.028400598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="38" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.029641185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="676" selection-end="676" vertical-scroll-proportion="0.029641185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="900" selection-end="900" vertical-scroll-proportion="-1.5117005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="43" selection-start="3591" selection-end="3599" vertical-scroll-proportion="0.0">
+        <state line="32" column="38" selection-start="2679" selection-end="2994" vertical-scroll-proportion="0.6160081">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/myinfo.php">
+    <entry file="file://$PROJECT_DIR$/../avene_mls/tips/protected/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="-10.214286">
+        <state line="236" column="50" selection-start="10726" selection-end="10734" vertical-scroll-proportion="0.49544072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../avene_mls/tips/js/lp.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1097" column="22" selection-start="43050" selection-end="43050" vertical-scroll-proportion="0.5694581">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="2894" selection-end="2894" vertical-scroll-proportion="-0.36676797">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="609" selection-end="609" vertical-scroll-proportion="0.228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="4" selection-start="7412" selection-end="9071" vertical-scroll-proportion="0.44174266">
+          <folding>
+            <marker date="1401761327000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/baike/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/common/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="38" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3381" selection-end="3381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="32" selection-start="2870" selection-end="2879" vertical-scroll-proportion="-11.964286">
+          <folding>
+            <marker date="1403702013000" expanded="true" signature="5800:5895" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/guide/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="77" selection-start="15384" selection-end="15384" vertical-scroll-proportion="-24.857143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="25" selection-start="26516" selection-end="26516" vertical-scroll-proportion="0.30326593">
+        <state line="574" column="38" selection-start="45983" selection-end="45983" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="228" selection-end="240" vertical-scroll-proportion="38.92857">
+          <folding>
+            <marker date="1403701973000" expanded="true" signature="1476:1613" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="1874:2011" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="2318:2547" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="2414:2547" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="2464:2547" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="2774:2914" placeholder="..." />
+            <marker date="1403701973000" expanded="true" signature="3238:3278" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="52" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.67286247">
           <folding />
         </state>
       </provider>

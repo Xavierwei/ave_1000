@@ -2914,3 +2914,146 @@ in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
 2014/06/25 07:37:30 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
 in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
 in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:49:14 [warning] [application] Failed to set unsafe attribute "uid" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:49:14 [warning] [application] Failed to set unsafe attribute "createtime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:49:14 [warning] [application] Failed to set unsafe attribute "updatetime" of "Information".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:51:53 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:51:53 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:51:53 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:51:53 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 14:51:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/25 14:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 15:12:20 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:12:20 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:12:20 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:12:20 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/25 15:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/baby/update
+---
+2014/06/25 15:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('upload/26/2014/...')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/upload/26/2014/6/26_ba74fc207af8175e47762f4314f42389_thumb.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/record/myinfo
+---
+2014/06/25 15:13:55 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:13:55 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:13:55 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:13:55 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/25 15:23:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/2_1...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/2_1.mp4
+---
+2014/06/25 15:23:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 15:23:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/1.j...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/1.jpg
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 15:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/2_1...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/2_1.mp4
+HTTP_REFERER=http://localhost/ave_1000/yii/guide/
+---
+2014/06/25 15:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/web/CController.php(270): CController->missingAction('video')
+#1 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(282): CController->run('video')
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('guide/video/2_1...')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ave_1000/yii/guide/video/2_1.mp4
+---

@@ -2,7 +2,7 @@
 	<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step3.png" /></div>
     <div class="make_tit"></div>
     <div class="make_txt">您的孩子信息已被记录，继续制作电子档案，完善个人信息。</div>
-    <div class="make_item">
+    <div class="make_item touxiang_pho">
         <div class="make_itemtit">STEP1 上传儿童照片</div>
         <div class="make_com cs-clear">
             <div class="make_pho" id="avatar_wrap">
@@ -18,22 +18,22 @@
         </div>
 <!--        <div class="make_btn"></div>-->
     </div>
-    <div class="make_item">
+    <div class="make_item huanchu_pho">
         <div class="make_itemtit">STEP2 上传患处照片</div>
         <div class="make_com cs-clear">
             <div class="make_pho" id="photo1_wrap">
-                <img src="<?=Yii::app()->baseUrl . ($model->photo1 ? $model->photo1 : '/images/make_up.jpg')?>" />
+                <img class="<?=$model->photo1 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo1 ? $model->photo1 : '/images/make_up.jpg')?>" />
                 <div class="make_phobg"><input id="photo1" name="photo1" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho" id="photo2_wrap">
-                <img src="<?=Yii::app()->baseUrl . ($model->photo2 ? $model->photo2 : '/images/make_up.jpg')?>" />
-                <div class="make_phobg"><input  id="photo2" name="photo2" type="file" ></div>
+                <img class="<?=$model->photo2 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo2 ? $model->photo2 : '/images/make_up.jpg')?>" />
+                <div class="make_phobg make_phobg_dotted"><input  id="photo2" name="photo2" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho" id="photo3_wrap">
-                <img src="<?=Yii::app()->baseUrl . ($model->photo3 ? $model->photo3 : '/images/make_up.jpg')?>" />
-                <div class="make_phobg"><input  id="photo3" name="photo3" type="file" ></div>
+                <img class="<?=$model->photo3 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo3 ? $model->photo3 : '/images/make_up.jpg')?>" />
+                <div class="make_phobg make_phobg_dotted"><input  id="photo3" name="photo3" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
         </div>
