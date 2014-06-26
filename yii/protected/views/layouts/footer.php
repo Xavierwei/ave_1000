@@ -34,6 +34,8 @@
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fileupload.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
@@ -115,7 +117,16 @@
             uploadImg('case','<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
         }
         else {
+	        $('#avatar,#photo1,#photo2,#photo3,#case').fileupload({
+		        url: '<?=Yii::app()->createUrl('/uploadify/uploadone')?>',
+		        dataType: 'json',
+		        done: function (e, data) {
+			        $(this).parents('.make_pho').find('img').attr('src',"<?=Yii::app()->baseUrl?>" + data.result.file);
+		        },
+		        progressall: function (e, data) {
 
+		        }
+	        });
         }
 
 	});
