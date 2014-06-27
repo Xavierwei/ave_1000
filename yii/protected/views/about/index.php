@@ -13,31 +13,31 @@
 		<div class="about_tit about_tit2_1">湿疹的表现</div>
 		<div class="about_2_1 cs-clear">
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>干燥</p>
 			</div>
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>瘙痒</p>
 			</div>
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>红斑</p>
 			</div>
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>水疱</p>
 			</div>
 			<div class="about_2_1_i" style="margin-left:100px;">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>抓痕</p>
 			</div>
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>糜烂</p>
 			</div>
 			<div class="about_2_1_i">
-				<a class="fancybox-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
+				<a class="gm-img" href="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg"><img src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" /></a>
 				<p>苔藓样</p>
 			</div>
 		</div>

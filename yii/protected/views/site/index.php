@@ -3,7 +3,8 @@
     <!--  -->
     <div class="sec_home_head" data-style="opacity:0;" data-animate="opacity:1;" data-delay="800" data-time="500">
         <div class="sec_home_head_con">雅漾携手中国医师协会皮肤科医师分会（CDA），正式启动雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，为一千名湿疹儿童免费送上湿疹护理套装，携爱助力儿童家庭。</div>
-        <a class="sec_home_head_more" href="<?=Yii::app()->createUrl('/site/activity/')?>"></a>
+	    <div class="sec_home_head_hospital popshow_hos"></div>
+	    <a class="sec_home_head_more" href="<?=Yii::app()->createUrl('/site/activity/')?>"></a>
         <div class="sec_home_head_num"><?=$recordCount?></div>
 
         <a href="<?=Yii::app()->createUrl('/information/update')?>" class="sec_home_head_btn1"  title="立即申请"></a>
@@ -45,31 +46,59 @@
     </div>
 </div>
 <div class="popshare"></div>
+<div class="pop home_pop" id="pop_hos">
+	<div class="popclose"></div>
+	<div class="home_popcom">
+		<h2>医院列表</h2>
+		<div class="homepopfm_list hos_list cs-clear">
+			<div class="col">
+				<h4>北京</h4>
+				<p>北京儿童医院</p>
+				<p>首都儿研所</p>
+				<p>北大医院</p>
+				<p>中国医大盛京医院</p>
+				<h4>大连</h4>
+				<p>大连儿童医院</p>
+				<h4>哈尔滨</h4>
+				<p>哈尔滨儿童医院</p>
+				<h4>长春</h4>
+				<p>长春儿童医院</p>
+				<h4>天津</h4>
+				<p>天津儿童医院</p>
+				<h4>郑州</h4>
+				<p>郑州儿童医院</p>
+				<h4>西安</h4>
+				<p>西安市儿童医院</p>
+				<h4>重庆</h4>
+				<p>重庆儿童医院</p>
+				<h4>上海</h4>
+				<p>华山医院</p>
+				<p>复旦大学附属儿科医院</p>
+				<h4>杭州</h4>
+				<p>浙江省中医院</p>
+				<h4>南京</h4>
+				<p>中国医学科学院皮肤病医院</p>
+				<h4>深圳</h4>
+				<p>深圳儿童医院</p>
+				<h4>广州</h4>
+				<p>广州儿童医院</p>
+				<h4>武汉</h4>
+				<p>武汉第一人民医院</p>
+				<h4>长沙</h4>
+				<p>湖南省儿童医院</p>
+				<h4>青海</h4>
+				<p>青海省儿童医院</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
 <div class="pop home_pop" id="pop_list">
     <div class="popclose"></div>
     <div class="home_popcom">
         <h2>所有参与家庭</h2>
         <div class="homepopfm_list cs-clear">
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
-            <p class="cs-clear"><span>某某某</span><span>2岁</span><span>上海</span></p>
+	        自2014年7月15日起，被选中的儿童名单将每两周在活动官网上陆续公布，请密切关注。
         </div>
     </div>
 </div>

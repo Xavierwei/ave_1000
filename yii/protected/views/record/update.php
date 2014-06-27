@@ -27,20 +27,20 @@
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho" id="photo2_wrap">
-                <img class="<?=$model->photo2 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo2 ? $model->photo2 : '/images/t.gif')?>" />
-                <div class="make_phobg make_phobg_dotted"><input  id="photo2" name="photo2" type="file" ></div>
+                <img class="<?=$model->photo2 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo2 ? $model->photo2 : '/images/make_phobg_dotted.gif')?>" />
+                <div class="make_phobg make_phobg_dotted"><input id="photo2" name="photo2" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
             <div class="make_pho" id="photo3_wrap">
-                <img class="<?=$model->photo3 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo3 ? $model->photo3 : '/images/t.gif')?>" />
-                <div class="make_phobg make_phobg_dotted"><input  id="photo3" name="photo3" type="file" ></div>
+                <img class="<?=$model->photo3 ? 'pho_uploaded' : ''?>" src="<?=Yii::app()->baseUrl . ($model->photo3 ? $model->photo3 : '/images/make_phobg_dotted.gif')?>" />
+                <div class="make_phobg make_phobg_dotted"><input id="photo3" name="photo3" type="file" ></div>
                 <div class="make_phoclose"></div>
             </div>
         </div>
 <!--        <div class="make_btn"></div>-->
     </div>
     <div class="make_item">
-        <div class="make_itemtit">STEP3 上传真实病例扫描页(可选)</div>
+        <div class="make_itemtit">STEP3 上传真实病例(可选)</div>
         <div class="make_com cs-clear">
             <div class="make_pho" id="case_wrap">
                 <img src="<?=Yii::app()->baseUrl . ($model->case ? $model->case : '/images/make_up2.jpg')?>" />

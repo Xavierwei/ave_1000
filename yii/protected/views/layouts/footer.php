@@ -121,7 +121,8 @@
 		        url: '<?=Yii::app()->createUrl('/uploadify/uploadone')?>',
 		        dataType: 'json',
 		        done: function (e, data) {
-			        $(this).parents('.make_pho').find('img').attr('src',"<?=Yii::app()->baseUrl?>" + data.result.file);
+			        $(this).parents('.make_pho').find('img').attr('src',"<?=Yii::app()->baseUrl?>" + data.result.file).addClass('pho_uploaded');
+			        $('#Record_'+$(this).attr('name')).val(data.result.file);
 		        },
 		        progressall: function (e, data) {
 
@@ -132,10 +133,6 @@
 	});
 
 	$(".nextForm").click(function(){
-		if($('.touxiang_pho .pho_uploaded').length == 0)
-		{
-			alert("请上传儿童照片");
-		}
 		if($('.huanchu_pho .pho_uploaded').length == 0)
 		{
 			alert("请上传至少一张患处照片");
