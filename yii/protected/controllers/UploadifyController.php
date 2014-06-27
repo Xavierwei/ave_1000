@@ -29,16 +29,18 @@ class UploadifyController extends Controller
             $upNew->setSavename($saveName);                                         //赋值保存文件名
 
             //上传错误返回信息
-            if (!$upNew->run('Filedata',1))
-            {
-                    //通过$upNew->errmsg()只能得到最后一个出错的信息，
-                    //详细的信息在$upNew->getInfo()中可以得到。
-                exit( CJSON::encode( array ( 'state' => 'error' , 'message' => '上传错误,请重试' ) ) );
-            }
-            else
-            {
-                exit( CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  $savePath . $upNew->getInfo()[0]['saveName'] ) ) );
-            }
+	        foreach($_FILES as $key => $file) {
+		        if (!$upNew->run($key,1))
+		        {
+			        //通过$upNew->errmsg()只能得到最后一个出错的信息，
+			        //详细的信息在$upNew->getInfo()中可以得到。
+			        exit( CJSON::encode( array ( 'state' => 'error' , 'message' => '上传错误,请重试' ) ) );
+		        }
+		        else
+		        {
+			        exit( CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  $savePath . $upNew->getInfo()[0]['saveName'] ) ) );
+		        }
+	        }
 
         }
     }

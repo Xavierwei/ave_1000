@@ -119,6 +119,8 @@ $(document).ready(function() {
         }
     });
 
+
+
 //	setInterval(function(){
 //		var index = $('.knowtxt').data('index');
 //		index++;

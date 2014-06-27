@@ -34,6 +34,8 @@
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fileupload.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
 <script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
@@ -71,14 +73,14 @@
 				var json = $.parseJSON(data);
 				if (json.state == 'success')
 				{
-					$('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?=Yii::app()->baseUrl?>'+json.file);
+					$('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?=Yii::app()->baseUrl?>'+json.file).addClass('pho_uploaded');
 					$('#'+form).val(json.file);
 					$('#'+inputid).parent('.make_phobg').next('.make_phoclose').click(function(e)
 					{
 						if(confirm('确认删除?'))
 						{
 							$('#'+inputid).uploadify('cancel', file.id);
-							$('#'+inputid).parent('.make_phobg').prev('img').attr('src',backimg);
+							$('#'+inputid).parent('.make_phobg').prev('img').attr('src',backimg).removeClass('pho_uploaded');
 							$('#'+form).val('');
 						}
 						e = e || window.event;
@@ -115,13 +117,30 @@
             uploadImg('case','<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
         }
         else {
+	        $('#avatar,#photo1,#photo2,#photo3,#case').fileupload({
+		        url: '<?=Yii::app()->createUrl('/uploadify/uploadone')?>',
+		        dataType: 'json',
+		        done: function (e, data) {
+			        $(this).parents('.make_pho').find('img').attr('src',"<?=Yii::app()->baseUrl?>" + data.result.file);
+		        },
+		        progressall: function (e, data) {
 
+		        }
+	        });
         }
 
 	});
 
 	$(".nextForm").click(function(){
-		if($('.make_checked').attr('class'))
+		if($('.touxiang_pho .pho_uploaded').length == 0)
+		{
+			alert("请上传儿童照片");
+		}
+		if($('.huanchu_pho .pho_uploaded').length == 0)
+		{
+			alert("请上传至少一张患处照片");
+		}
+		else if($('.make_checked').attr('class'))
 		{
 			$("#record-update-form").submit();
 		}
