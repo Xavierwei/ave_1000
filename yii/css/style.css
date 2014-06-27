@@ -176,8 +176,10 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .about_txt1 p{padding: 10px 0 0;}
 .about_img1{position: absolute;top:60px;right: 0}
 .sec_about2{padding:0 0 32px;}
-.about_2_1_i {float:left;font-size:14px;text-align:center;margin:20px;}
-.about_2_1_i .gm-img {display:block;}
+.about_2_1_i {float:left;font-size:14px;text-align:center;margin:20px 59px;}
+.about_2_1_i .gm-img {display:block;width:191px;height:143px;position: relative;}
+.about_2_1_i .gm-img img {position:absolute;top:0;left:0;}
+.about_2_1_i .gm-img .p2 {display:none;}
 .about_vs { background: url('../images/about_vsbg.jpg') no-repeat; width: 840px; height: 315px; margin: 0 auto; position: relative; font-size: 14px; }
 .vs_sz{float: left;width: 320px;display: inline;margin: 0 50px 0 60px;}
 .about_vs h3 { font-weight: normal; color: #ef896f; text-align: center; font-size: 14px; line-height: 90px; padding-top: 23px; }
@@ -441,11 +443,12 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .profile_txtcom{background: url('../images/profile_txtcom.jpg') no-repeat;width:960px;margin: 0 auto;height: 225px;padding:30px 0 0;}
 .profile_txtcom textarea{color:#999;font-family: "Microsoft YaHei", arial, SimHei, sans-serif;width: 900px;margin: 0 auto;padding:0;display: block;font-size: 14px;border:0;height: 160px;background: none}
 .profile_txtcom textarea:focus {color:#000;}
-.profile_hosp{background:url('../images/profile_hosp.png') no-repeat;width: 940px;height: 90px;margin: 15px auto 30px;position: relative;}
-.profile_selcity_txt{left: 160px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
-.profile_selcity{left: 160px;top: 20px;width: 270px;height: 46px;}
-.profile_selhosp_txt{left: 464px;top: 10px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
-.profile_selhosp{left: 464px;top: 20px;width: 270px;height: 46px;}
+.profile_hosp {background:url('../images/profile_hosp.png') no-repeat;width: 940px;height: 90px;margin: 15px auto 30px;position: relative;}
+.profile_hosp .make_check {float:none;position: absolute;width:24px;height:24px;}
+.profile_selcity_txt {left: 160px;top: 37px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
+.profile_selcity{left: 160px;top: 49px;width: 270px;height: 46px;}
+.profile_selhosp_txt{left: 464px;top: 37px;height: 46px;line-height: 42px;width: 250px;padding: 0 10px;}
+.profile_selhosp{left: 464px;top: 49px;width: 270px;height: 46px;}
 .profile_btn{border:none;font-size:0;background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
 
 .profile_selcity_txt1 {top:2px;left:342px;}

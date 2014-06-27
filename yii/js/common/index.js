@@ -122,6 +122,16 @@ $(document).ready(function() {
 	});
 
 
+	$('.about_2_1_i .gm-img').hover(function(){
+		$(this).find('.p2').fadeIn();
+	},function(){
+		$(this).find('.p2').fadeOut();
+	});
+
+
+	$('.profile_hosp .make_check').click(function(){
+		$('.make_check').fadeIn();
+	});
 
 	// header nav list
     var dNav = $('.header .nav');

@@ -88,6 +88,7 @@
     </div>
     <!--  -->
     <div class="profile_hosp">
+	    <div class="make_check"></div>
         <p class="profile_seltxt profile_selcity_txt"><?=$model->point_city ? $model->point_city : '请选择所在城市'?></p>
         <select name="Baby[point_city]"  class="profile_sel profile_selcity" id="city_sel">
             <option>请选择所在城市</option>
