@@ -83,11 +83,12 @@
             <p>欢迎写下您的原因、描述孩子病情或私人感想，增进我们对患病孩子与您家庭的了解。</p>
         </div>
         <div class="profile_txtcom">
-            <?php echo $form->textArea($model,'reason',array('class'=>'profile_txtcom', 'placeholder'=>'可备注关于湿疹的其他个人信息，如儿童患病时间、具体症状、特殊情况等。')); ?>
+            <?php echo $form->textArea($model,'reason',array('class'=>'profile_txtcom', 'value'=>'希望通过这次活动能让我的孩子早日康复')); ?>
         </div>
     </div>
     <!--  -->
     <div class="profile_hosp">
+	    <div class="make_check"></div>
         <p class="profile_seltxt profile_selcity_txt"><?=$model->point_city ? $model->point_city : '请选择所在城市'?></p>
         <select name="Baby[point_city]"  class="profile_sel profile_selcity" id="city_sel">
             <option>请选择所在城市</option>
