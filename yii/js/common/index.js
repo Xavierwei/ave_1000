@@ -116,6 +116,16 @@ $(document).ready(function() {
 		$(this).removeClass('make_checked');
 	})
 
+    $('.profile_hosp .make_check').live('click',function(){
+        if($(this).hasClass('make_checked')) {
+            $(this).next().hide();
+        }
+        else {
+            $(this).next().show();
+        }
+
+    })
+
 	$('.fancybox-img').fancybox({
 		scrolling : false,
 		fitToView: false
