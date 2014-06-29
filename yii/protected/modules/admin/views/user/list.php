@@ -5,7 +5,7 @@
 	));?>
 	<table class="contentTab listTab" width="100%">
 		<tr>
-			<td class="titleTd" colspan="10">会员管理</td>
+			<td class="titleTd" colspan="10">用户查看</td>
 		</tr>
 		<?php
 			if(Yii::app()->user->hasFlash('submit')){
@@ -13,7 +13,7 @@
 			}
 		?>
 		<tr>
-			<th class="leftTd" width="20"><?php echo CHtml::checkBox('',false,array('class'=>'checkAll'))?></th>
+<!--			<th class="leftTd" width="20">--><?php //echo CHtml::checkBox('',false,array('class'=>'checkAll'))?><!--</th>-->
 			<th><?php echo $form->labelEx($model,'uid'); ?></th>
 			<th><?php echo $form->labelEx($model,'username'); ?></th>
             <th><?php echo $form->labelEx($model,'roletype'); ?></th>
@@ -22,7 +22,7 @@
 		</tr>
 		<?php foreach($data as $key=>$item){ ?>
 			<tr>
-				<td class="leftTd"><?php echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?></td>
+<!--				<td class="leftTd">--><?php //echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?><!--</td>-->
 				<td><?php echo $item->uid;?></td>
 				<td><?php echo CHtml::link($item->username,array('/admin/user/edit/','id'=>$item->uid)); ?></td>
 				<td><?php echo $item->roletype==User::GENERAL_TYPE?'标准用户':'微博用户';?></td>
