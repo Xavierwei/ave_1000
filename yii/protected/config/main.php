@@ -30,12 +30,17 @@ return array(
 			'ipFilters'=>array('127.0.0.1','172.16.111.87','::1'),
 		),
 
+        'admin'=>array(),
+
 	),
 
 	// application components
 	'components'=>array(
 		'user'=>array(
-			// enable cookie-based authentication
+            'class'=>'WebUser',
+            'stateKeyPrefix'=>'member',
+//            'loginUrl'=>'/login/',
+            'autoRenewCookie'=>true,
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format

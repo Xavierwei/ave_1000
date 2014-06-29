@@ -26,7 +26,7 @@ $(function(){
 	//登出
 	$(".logout").click(function(){
 		if (window.confirm("您确定要退出吗？")){
-			parent.location.replace($(this).attr('rel'));
+			parent.location.replace($(this).attr('href'));
 		}
 	});
 

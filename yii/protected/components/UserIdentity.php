@@ -10,6 +10,8 @@ class UserIdentity extends CUserIdentity
     private $_id;
     private $_user;
     private $_username;
+    public $user;
+
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -67,5 +69,15 @@ class UserIdentity extends CUserIdentity
     public function getName()
     {
         return $this->_username;
+    }
+
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    public function setUser(CActiveRecord $user)
+    {
+        $this->user=$user->attributes;
     }
 }
