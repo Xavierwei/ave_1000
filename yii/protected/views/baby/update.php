@@ -90,8 +90,9 @@
     <div class="profile_hosp">
 	    <div class="make_check"></div>
         <div class="profile_hosp_mask"></div>
+        <input hidden type="'text" name="Baby[point_city]" id="Baby_point_city" value="<?=$model->point_city ? $model->point_city : ''?>"/>
         <p class="profile_seltxt profile_selcity_txt"><?=$model->point_city ? $model->point_city : '请选择所在城市'?></p>
-        <select name="Baby[point_city]"  class="profile_sel profile_selcity" id="city_sel">
+        <select  class="profile_sel profile_selcity" id="city_sel">
             <option>请选择所在城市</option>
             <option>北京</option>
             <option>沈阳</option>
@@ -111,7 +112,7 @@
             <option>长沙</option>
             <option>青海</option>
         </select>
-        <p class="profile_seltxt profile_selhosp_txt">请选择推荐医院</p>
+        <p class="profile_seltxt profile_selhosp_txt"><?=$model->point_hospital ? $model->point_hospital : '请选择推荐医院'?></p>
         <div class="city_selcom">
             <input hidden type="'text" name="Baby[point_hospital]" id="Baby_point_hospital" value="<?=$model->point_hospital ? $model->point_hospital : ''?>"/>
             <select  class="profile_sel profile_selhosp city" >

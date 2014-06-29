@@ -39,7 +39,7 @@ class Baby extends OrionModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, nickname, birthday, address, city, tel, reason, point_city, point_hospital', 'required'),
+			array('name, nickname, birthday, address, city, tel, reason', 'required'),
 			array('name', 'length', 'max'=>10),
 			array('nickname', 'length', 'max'=>30),
 			array('sex', 'length', 'max'=>3),

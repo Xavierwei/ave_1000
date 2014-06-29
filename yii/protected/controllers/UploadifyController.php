@@ -28,6 +28,7 @@ class UploadifyController extends Controller
             $saveName=$uid. '_' . md5(time().rand(0,9999));             //设置保存名称
             $upNew->setSavename($saveName);                                         //赋值保存文件名
 
+            //print_r($_FILES);
             //上传错误返回信息
 	        foreach($_FILES as $key => $file) {
 		        if (!$upNew->run($key,1))

@@ -85,7 +85,13 @@ $(document).ready(function() {
 		$('.city_selcom').children('.profile_selhosp').hide()
 		$('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex ).show()
 		$('.city_selcom').prev('.profile_seltxt').html($('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() )
-		$('#Baby_point_hospital').val($('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() );
+        $('#Baby_point_city').val($('.profile_selcity_txt').html());
+        $('#Baby_point_hospital').val($('.city_selcom').children('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() );
+        if($('.profile_selcity_txt').html() == '请选择所在城市')
+        {
+            $('#Baby_point_city').val('');
+            $('#Baby_point_hospital').val('');
+        }
 	})
 	//login
 	$('.login_ed').live('click',function(){
