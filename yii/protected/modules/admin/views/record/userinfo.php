@@ -28,7 +28,7 @@
     </div>
     <?php if(!$update):?>
     <div class="careword_link">
-        <a href="<?=Yii::app()->createUrl('record/update')?>" class="careword_link1">修改信息</a>
+<!--        <a href="--><?//=Yii::app()->createUrl('record/update')?><!--" class="careword_link1">修改信息</a>-->
         <a href="javascript:void(0)" class="careword_link2 popshow">申请状态查询</a>
     </div>
     <?php endif;?>
