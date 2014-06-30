@@ -21,7 +21,7 @@
 	<div class="baike_pro1_2" data-style="opacity:0;" data-animate="opacity:1;" data-delay="500" data-time="500">
 		<div class="baike_pro1_2_m"></div>
 		<div class="baike_protit">雅漾舒护活泉喷雾</div>
-		<a target="_blank" href="http://www.eau-thermale-avene.cn/trixera" class="baike_promore"></a>
+		<a target="_blank" href="http://www.eau-thermale-avene.cn/eta-eau-thermale-water" class="baike_promore"></a>
 		<div class="baike_protxt">
 			<div><span>舒缓护理</span></div>
 			<div>天然泉水，直接从源泉取水，无菌灌装；<br/>纯净无菌，含所需的微量元素和二氧化硅，低矿物含量，喷雾后可在肌肤表面形成舒缓、可透气的保护膜；<br/>增强肌肤耐受性，降低敏感度。</div>

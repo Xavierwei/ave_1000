@@ -19,7 +19,8 @@ function years(obj, Cyear) {
 
 function months(){
     var month = document.getElementById("month");
-    month.length = 0;  
+    month.length = 0;
+    month.options.add(new Option("",""));
     for (i = 1; i < 13; i++) {
         i = i< 10 ? '0'+i : i;
         month.options.add(new Option(i, i));  
@@ -38,7 +39,8 @@ function change_date(){
     date.length=0;  
       
     //根据年月获取天数  
-    var max = (new Date(vYear,vMonth, 0)).getDate();  
+    var max = (new Date(vYear,vMonth, 0)).getDate();
+    date.options.add(new Option("",""));
     for (var i=1; i <= max; i++) {
         i = i< 10 ? '0'+i : i;
         date.options.add(new Option(i, i));  
