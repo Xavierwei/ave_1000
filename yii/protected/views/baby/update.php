@@ -61,18 +61,19 @@
             </select>
             <?php echo $form->textField($model,'tel',array('class'=>'profile_ipt profile_tel')); ?>
             <p class="profile_seltxt profile_selyear_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></p>
-            <select name="Baby[year]"  class="profile_sel profile_selyear" id="year" onfocus="years('year',new Date().getFullYear()+1),change_date()" onchange="change_date()">
-                <option><?=$model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></option>
+            <select name="Baby[year]"  class="profile_sel profile_selyear" id="year">
+                <option>1994</option>
+                <option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option>
             </select>
 
             <p class="profile_seltxt profile_selmon_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?></p>
-            <select name="Baby[mon]" class="profile_sel profile_selmon" id="month" onfocus="months(),change_date()" onchange="change_date()">
-                <option><?=$model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?></option>
+            <select name="Baby[mon]" class="profile_sel profile_selmon" id="month">
+                <option value=""></option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
             </select>
 
             <p class="profile_seltxt profile_selday_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?></p>
             <select name="Baby[day]" class="profile_sel profile_selday" id="date">
-                <option><?=$model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?></option>
+                <option value=""></option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
             </select>
         </div>
     </div>

@@ -28,6 +28,17 @@ function months(){
     
 }
 
+function days(){
+    var day = document.getElementById("date");
+    day.length = 0;
+    day.options.add(new Option("",""));
+    for (i = 1; i < 32; i++) {
+        i = i< 10 ? '0'+i : i;
+        day.options.add(new Option(i, i));
+    }
+
+}
+
 
 function change_date(){  
    // var birthday = document.birthday;  
@@ -40,9 +51,8 @@ function change_date(){
       
     //根据年月获取天数  
     var max = (new Date(vYear,vMonth, 0)).getDate();
-    date.options.add(new Option("",""));
     for (var i=1; i <= max; i++) {
         i = i< 10 ? '0'+i : i;
-        date.options.add(new Option(i, i));  
+        date.options.add(new Option(i, i));
     }  
 }

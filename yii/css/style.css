@@ -826,7 +826,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .profile_selhosp_txt{top:264px;left:20px;}
     body .profile_selsex_txt {top:104px;}
     body .profile_selcity_txt1 {top:346px;}
-    body .profile_selcity1 {top:346px;}
+    body .profile_selcity1 {top:346px;width:433px;}
     .profile_hosp .profile_sel{width: 540px;height: 68px;}
     .profile_selcity{top:154px;left:20px;}
     .profile_selhosp{top:265px;left:20px;}
@@ -871,9 +871,9 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .sec_home_head_num {position: absolute;font-size:26px;color:#f58774;position: absolute;right:auto;left:131px;top:1292px;width:192px;text-align: center;}
     .sec_home_head_btn1{position: absolute;width: 504px;height: 100px;right:83px;top:1503px;background: url('../images/t.gif') repeat}
     .sec_home_head_btn2{position: absolute;width: 504px;height: 100px;right:83px;top:1665px;background: url('../images/t.gif') repeat;}
-    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:664px;}
-    .sec_home_head_btns .popshow_list {cursor:pointer;position: absolute;width:160px;height:30px;top:16px;left:28px;}
-    .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:80px;height:30px;top:16px;left:198px;}
+    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:1380px;}
+    .sec_home_head_btns .popshow_list {cursor:pointer;position: absolute;width:256px;height:44px;top:16px;left:28px;}
+    .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:129px;height:44px;top:16px;left:307px;}
     .sec_home_head_hospital {top:624px;left:55px;width:500px;}
 
     body .about_2_1_i {margin:20px 49px!important;}
@@ -907,7 +907,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .profile_formpho .make_pho{position: relative;width: 395px;height: 387px;}
     .careword_mess .myinfo_title {top:370px;right:30px;}
     .profile_hosp .make_check {width:46px;height:46px;top:73px;left:30px;}
-    .profile_selsex {top:110px;}
+    .profile_selsex {top:110px;width:433px;}
 }
 
 
