@@ -32,6 +32,21 @@ function play() {
 }
 
 $(document).ready(function() {
+
+    //
+    $('.sec_home_head_btn2').click(function(){
+        ga('send', 'event', '1000family', 'hp_weibo_share', 'weibo_share');
+    });
+
+    $('.actinfor_btn2').click(function(){
+        ga('send', 'event', '1000family', 'activity_weibo_share', 'weibo_share');
+    });
+
+    $('.myinfo_btn2').click(function(){
+        ga('send', 'event', '1000family', 'myinfo_weibo_share', 'weibo_share');
+    });
+
+
     // weixin popup
     $('.ft_weixin').live({
         'mouseenter':function(){

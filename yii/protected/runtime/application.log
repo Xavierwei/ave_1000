@@ -3927,3 +3927,48 @@ in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
 2014/07/01 10:30:59 [warning] [application] Failed to set unsafe attribute "updatetime" of "Information".
 in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/InformationController.php (36)
 in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:26:00 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php:322
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#4 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/ave_1000/yii/admin
+---
+2014/07/01 13:26:02 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php:322
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#4 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/ave_1000/yii/admin
+---
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "password2" of "User".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (172)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "roletype" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "email" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "createtime" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "updatetime" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "lastip" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 13:36:48 [warning] [application] Failed to set unsafe attribute "uid" of "LoginForm".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/SiteController.php (177)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)

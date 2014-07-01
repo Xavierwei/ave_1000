@@ -231,7 +231,7 @@ class SiteController extends Controller
                     $model->login();
 //                    $this->redirect(Yii::app()->createUrl('/site/activity'));
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('注册成功');location.replace('".Yii::app()->createUrl('/site/activity')."')</script>";
+                    echo "location.replace('".Yii::app()->createUrl('/information/update')."')</script>";
                 }
                 else
                 {
