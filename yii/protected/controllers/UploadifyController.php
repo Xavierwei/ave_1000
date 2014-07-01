@@ -36,7 +36,7 @@ class UploadifyController extends Controller
                 else
                 {
                     $fileInfo = $upNew->getInfo();
-                    echo CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  $savePath . $fileInfo[0]['saveName'] ) );
+                    echo CJSON::encode( array ( 'state' => 'success' ,  'message' => '上传成功' , 'file' =>  $savePath . $fileInfo[0]['thumbSaveName'] ) );
                 }
             }
 
