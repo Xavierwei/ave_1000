@@ -212,7 +212,7 @@ class SiteController extends Controller
                 $model=new LoginForm;
                 $model->username=Yii::app()->session['token']['uid'];
                 if($model->validate() && $model->login())
-                    $this->redirect(Yii::app()->homeUrl);
+                    $this->redirect(Yii::app()->createUrl('/information/update'));
                 else
                 {
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
@@ -231,7 +231,7 @@ class SiteController extends Controller
                     $model->login();
 //                    $this->redirect(Yii::app()->createUrl('/site/activity'));
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "location.replace('".Yii::app()->createUrl('/information/update')."')</script>";
+                    echo "<script>location.replace('".Yii::app()->createUrl('/information/update')."')</script>";
                 }
                 else
                 {
