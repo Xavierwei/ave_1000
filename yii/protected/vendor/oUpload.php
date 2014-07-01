@@ -145,7 +145,6 @@ class oUpload{
 //                    break;
                     case 3:
                         $Original = imagerotate($Original, -180, 0);//right-top Rotate180FlipNone
-                        ImageJpeg($Original,'L:\Camera\test.jpg',100);
                         break;
 //                case 4:
 //                    img.RotateFlip(RotateFlipType.RotateNoneFlipY);//vertical flip
@@ -155,14 +154,12 @@ class oUpload{
 //                    break;
                     case 6:
                         $Original = imagerotate($Original, -90, 0);//right-top Rotate90FlipNone
-                        ImageJpeg($Original,'L:\Camera\test.jpg',100);
                         break;
 //                case 7:
 //                    img.RotateFlip(RotateFlipType.Rotate270FlipX);
 //                    break;
                     case 8:
                         $Original = imagerotate($Original, -270, 0);//left-bottom Rotate270FlipNone
-                        ImageJpeg($Original,'L:\Camera\test.jpg',100);
 //                    width = height;
 //                    height = ow;
                         break;
