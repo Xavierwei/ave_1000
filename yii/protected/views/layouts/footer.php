@@ -78,18 +78,9 @@
 					$('#'+form).val(json.file);
 					$('#'+inputid).parent('.make_phobg').next('.make_phoclose').click(function(e)
 					{
-						if(confirm('确认删除?'))
-						{
 							$('#'+inputid).uploadify('cancel', file.id);
 							$('#'+inputid).parent('.make_phobg').prev('img').attr('src',backimg).removeClass('pho_uploaded');
 							$('#'+form).val('');
-						}
-						e = e || window.event;
-						if(e.stopPropagation) { //W3C阻止冒泡方法
-							e.stopPropagation();
-						} else {
-							e.cancelBubble = true; //IE阻止冒泡方法
-						}
 					});
 				}
 				else
@@ -101,16 +92,19 @@
 	}
 
 	$(".make_phoclose").click(function(e){
-		form = $(this).prev('.make_phobg').children().attr('id');
-		backimg = form == 'case' ? '<?php echo Yii::app()->baseUrl.'/'?>images/make_up2.jpg' : '<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg';
-		$(this).prev('.make_phobg').prev('img').attr('src',backimg);
-		$('#Record_'+form).val('');
+        if(confirm('确认删除?'))
+        {
+            form = $(this).prev('.make_phobg').children().attr('id');
+            backimg = form == 'case' ? '<?php echo Yii::app()->baseUrl.'/'?>images/make_up2.jpg' : '<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg';
+            $(this).prev('.make_phobg').prev('img').attr('src',backimg);
+            $('#Record_'+form).val('');
+        }
 	});
 
 
 	$(document).ready(function(){
         var width = $(window).width();
-        if(!$('html').hasClass('video')) {
+        if(navigator.platform.indexOf("Win")==0) {
             uploadImg('avatar','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
             uploadImg('photo1','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
             uploadImg('photo2','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');
