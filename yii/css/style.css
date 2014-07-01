@@ -395,8 +395,11 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .make_itemtit{background: url('../images/make_itemtit.jpg') no-repeat;width: 350px;height: 70px;position: absolute;left:0;top:-34px;font-size: 19px;color:#e5856c;line-height: 60px;padding-left:26px}
 .make_com{padding:40px 0 0 40px;}
 .make_pho{position: relative;width: 266px;height: 215px;padding: 17px 0 0 20px;float: left;}
+.make_pho:hover {opacity:0.8}
 .make_pho img{width: 206px;height: 194px;}
 .make_pho input {display: none;}
+html.video .make_pho input {display: block;width:230px;height:250px;opacity:0;}
+
 .make_formate {margin:20px 0 0;}
 .make_formate p {margin:0 0 10px 0;}
 .make_phobg{background: url('../images/make_phobg.png') no-repeat;width:250px;height: 230px;left:0;top: 0;position: absolute;}

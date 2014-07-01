@@ -65,13 +65,13 @@
 			'buttonText' : '',//设置按钮文本
 			'buttonImage' :backimg,
 			'multi'    : false,//允许同时上传多张图片
-			queueSizeLimit:1,//一次最多只允许上传1张图片
+			//queueSizeLimit:1,//一次最多只允许上传1张图片
 			'uploadLimit' : 0,//可以上传无限次
 			'fileTypeDesc' : 'Image Files',//只允许上传图像
 			'fileTypeExts' : '*.gif; *.jpg; *.png',//限制允许上传的图片后缀
 			'fileSizeLimit' : '1000KB',//限制上传的图片不得超过1000KB
 			'onUploadSuccess' : function(file, data, response) {//每次成功上传后执行的回调函数，从服务端返回数据到前端
-				var json = $.parseJSON(data);
+                var json = $.parseJSON(data);
 				if (json.state == 'success')
 				{
 					$('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?php echo Yii::app()->baseUrl?>'+json.file).addClass('pho_uploaded');
@@ -110,7 +110,7 @@
 
 	$(document).ready(function(){
         var width = $(window).width();
-        if(width > 640) {
+        if(!$('html').hasClass('video')) {
             uploadImg('avatar','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
             uploadImg('photo1','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
             uploadImg('photo2','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');

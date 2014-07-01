@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/controllers/TestController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/pic/1_2.jpg" afterPath="$PROJECT_DIR$/yii/pic/1_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/home_head.png" afterPath="$PROJECT_DIR$/yii/images/home_head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/imgm/home_head.png" afterPath="$PROJECT_DIR$/yii/imgm/home_head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/models/Baby.php" afterPath="$PROJECT_DIR$/yii/protected/models/Baby.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/about/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/about/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/baby/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
@@ -34,7 +26,7 @@
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/monitoring.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/race.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838978430" ignored="false" />
     <file path="/lemans.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402840904421" ignored="false" />
-    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404134819853" ignored="false" />
+    <file path="/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404205907678" ignored="false" />
     <file path="/countdown.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402022048050" ignored="false" />
     <file path="/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402061983411" ignored="false" />
     <file path="/lp.base.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403666501767" ignored="false" />
@@ -55,7 +47,7 @@
     <file path="/AboutController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055847276" ignored="false" />
     <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404134185140" ignored="false" />
     <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404136093080" ignored="false" />
-    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404132944828" ignored="false" />
+    <file path="/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404205620131" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402059720388" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/en_us.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/script/zh_cn.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402645882427" ignored="false" />
@@ -200,15 +192,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="19" selection-start="1078" selection-end="1089" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UploadifyController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -254,20 +237,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+            <state line="394" column="94" selection-start="33056" selection-end="33056" vertical-scroll-proportion="0.123839006">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BabyController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BabyController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/controllers/BabyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.3381877">
+            <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-7.464286">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="42" selection-start="5323" selection-end="5323" vertical-scroll-proportion="-7.464286">
+              <folding>
+                <marker date="1404205640000" expanded="true" signature="6798:6893" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -308,7 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/about.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/baike.php" />
@@ -320,10 +313,11 @@
         <option value="$PROJECT_DIR$/yii/protected/controllers/TestController.php" />
         <option value="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
-        <option value="$PROJECT_DIR$/yii/css/style.css" />
         <option value="$PROJECT_DIR$/yii/protected/models/Baby.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/yii/css/style.css" />
       </list>
     </option>
   </component>
@@ -981,13 +975,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/protected/components/Drtool.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5733945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/components/OrionModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="24" selection-start="233" selection-end="233" vertical-scroll-proportion="-0.37767583">
@@ -1056,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/yiilite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6963" column="20" selection-start="205503" selection-end="205503" vertical-scroll-proportion="0.62459546">
@@ -1086,7 +1066,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/controllers/BabyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.3381877">
+        <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="-7.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="42" selection-start="5323" selection-end="5323" vertical-scroll-proportion="-7.464286">
+          <folding>
+            <marker date="1404205640000" expanded="true" signature="6798:6893" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="94" selection-start="33056" selection-end="33056" vertical-scroll-proportion="0.123839006">
           <folding />
         </state>
       </provider>
