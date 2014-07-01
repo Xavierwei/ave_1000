@@ -39,16 +39,17 @@ class Baby extends OrionModel
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('name, nickname, birthday, address, city, tel, reason', 'required'),
+			array('name, nickname,parent, birthday, address, city, tel, reason', 'required'),
 			array('name', 'length', 'max'=>10),
 			array('nickname', 'length', 'max'=>30),
+            array('parent', 'length', 'max'=>30),
 			array('sex', 'length', 'max'=>3),
 			array('address', 'length', 'max'=>255),
 			array('city, point_city', 'length', 'max'=>15),
 			array('tel, point_hospital', 'length', 'max'=>60),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('uid, name, nickname, sex, birthday, address, city, tel, reason, point_city, point_hospital, createtime, updatetime', 'safe', 'on'=>'search'),
+			array('uid, name, nickname,parent, sex, birthday, address, city, tel, reason, point_city, point_hospital, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -74,6 +75,7 @@ class Baby extends OrionModel
 			'uid' => '唯一id',
 			'name' => '姓名',
 			'nickname' => '昵称',
+            'parent' => '家长',
 			'sex' => '性别',
 			'birthday' => '出生日期',
 			'address' => '地址',
@@ -108,6 +110,7 @@ class Baby extends OrionModel
 		$criteria->compare('uid',$this->uid,true);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('nickname',$this->nickname,true);
+        $criteria->compare('parent',$this->parent,true);
 		$criteria->compare('sex',$this->sex,true);
 		$criteria->compare('birthday',$this->birthday,true);
 		$criteria->compare('address',$this->address,true);

@@ -1,5 +1,5 @@
 
-<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step4.png" /></div>
+<div class="activity_step"><img src="<?php echo Yii::app()->baseUrl?>/images/step4.png" /></div>
 <?php $form=$this->beginWidget('CActiveForm', array(
     'id'=>'baby-update-form',
     'enableAjaxValidation'=>false,
@@ -8,72 +8,46 @@
     <div class="profile_form">
         <div class="profile_formpho">
             <div class="make_pho">
-                <img src="<?=Yii::app()->baseUrl . $record= $record ? str_replace('.jpg','_thumb.jpg',$record->avatar) : '/images/make_updemo.jpg'?>" />
+                <img src="<?php echo Yii::app()->baseUrl . $record= $record ? str_replace('.jpg','_thumb.jpg',$record->avatar) : '/images/make_updemo.jpg'?>" />
                 <div class="make_phobg make_phobg2"></div>
             </div>
         </div>
         <div class="profile_fromcom">
             <?php echo $form->textField($model,'name',array('class'=>'profile_ipt profile_name')); ?>
-            <p class="profile_seltxt profile_selcity_txt1">选择</p>
-            <select name="Baby[city]"  class="profile_sel profile_selcity1" id="city_sel">
-                <option value="北京">北京市</option>
-                <option value="浙江省">浙江省</option>
-                <option value="天津市">天津市</option>
-                <option value="安徽省">安徽省</option>
-                <option value="上海市">上海市</option>
-                <option value="福建省">福建省</option>
-                <option value="重庆市">重庆市</option>
-                <option value="江西省">江西省</option>
-                <option value="山东省">山东省</option>
-                <option value="河南省">河南省</option>
-                <option value="湖北省">湖北省</option>
-                <option value="湖南省">湖南省</option>
-                <option value="广东省">广东省</option>
-                <option value="海南省">海南省</option>
-                <option value="山西省">山西省</option>
-                <option value="青海省">青海省</option>
-                <option value="江苏省">江苏省</option>
-                <option value="辽宁省">辽宁省</option>
-                <option value="吉林省">吉林省</option>
-                <option value="台湾省">台湾省</option>
-                <option value="河北省">河北省</option>
-                <option value="贵州省">贵州省</option>
-                <option value="四川省">四川省</option>
-                <option value="云南省">云南省</option>
-                <option value="陕西省">陕西省</option>
-                <option value="甘肃省">甘肃省</option>
-                <option value="黑龙江省">黑龙江省</option>
-                <option value="香港特别行政区">香港特别行政区</option>
-                <option value="澳门特别行政区">澳门特别行政区</option>
-                <option value="广西壮族自治区">广西壮族自治区</option>
-                <option value="宁夏回族自治区">宁夏回族自治区</option>
-                <option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
-                <option value="内蒙古自治区">内蒙古自治区</option>
-                <option value="西藏自治区">西藏自治区</option>
+            <p class="profile_seltxt profile_selcity_txt0">选择</p>
+            <select class="profile_sel2 profile_selcity0" id="city_sel0">
             </select>
+            <p class="profile_seltxt profile_selcity_txt1">选择</p>
+            <select class="profile_sel2 profile_selcity1" id="city_sel">
+            </select>
+            <input type="hidden" name="Baby[city]" id="city_val" value="<?php echo $model->city;?>" />
 
             <?php echo $form->textField($model,'nickname',array('class'=>'profile_ipt profile_nick')); ?>
             <?php echo $form->textField($model,'address',array('class'=>'profile_ipt profile_add')); ?>
             <p class="profile_seltxt profile_selsex_txt">男</p>
             <select name="Baby[point_sex]"  class="profile_sel profile_selsex" id="sex_sel">
-                <option value="男">男</option>
+                <option selected="selected" value="男">男</option>
                 <option value="女">女</option>
             </select>
             <?php echo $form->textField($model,'tel',array('class'=>'profile_ipt profile_tel')); ?>
-            <p class="profile_seltxt profile_selyear_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></p>
+
+            <?php echo $form->textField($model,'parent',array('class'=>'profile_ipt profile_parent')); ?>
+            <p class="profile_seltxt profile_selyear_txt"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></p>
             <select name="Baby[year]"  class="profile_sel profile_selyear" id="year">
-                <option>1994</option>
+                <option selected="selected" value="<?php echo $model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?>"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('Y') : substr($model->birthday,0,4)?></option>
                 <option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option>
             </select>
 
-            <p class="profile_seltxt profile_selmon_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?></p>
+            <p class="profile_seltxt profile_selmon_txt"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?></p>
             <select name="Baby[mon]" class="profile_sel profile_selmon" id="month">
-                <option value=""></option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                <option selected="selected" value="<?php echo $model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?>"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('mm') : substr($model->birthday,5,2)?></option>
+                <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
             </select>
 
-            <p class="profile_seltxt profile_selday_txt"><?=$model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?></p>
+            <p class="profile_seltxt profile_selday_txt"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?></p>
             <select name="Baby[day]" class="profile_sel profile_selday" id="date">
-                <option value=""></option><option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+                <option selected="selected" value="<?php echo $model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?>"><?php echo $model->birthday == '0000-00-00 00:00:00' ? date('dd') : substr($model->birthday,8,2)?></option>
+                <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
             </select>
         </div>
     </div>
@@ -91,8 +65,8 @@
     <div class="profile_hosp">
 	    <div class="make_check"></div>
         <div class="profile_hosp_mask"></div>
-        <input hidden type="'text" name="Baby[point_city]" id="Baby_point_city" value="<?=$model->point_city ? $model->point_city : ''?>"/>
-        <p class="profile_seltxt profile_selcity_txt"><?=$model->point_city ? $model->point_city : '请选择所在城市'?></p>
+        <input hidden type="'text" name="Baby[point_city]" id="Baby_point_city" value="<?php echo $model->point_city ? $model->point_city : ''?>"/>
+        <p class="profile_seltxt profile_selcity_txt"><?php echo $model->point_city ? $model->point_city : '请选择所在城市'?></p>
         <select  class="profile_sel profile_selcity" id="city_sel">
             <option>请选择所在城市</option>
             <option>北京</option>
@@ -113,9 +87,9 @@
             <option>长沙</option>
             <option>青海</option>
         </select>
-        <p class="profile_seltxt profile_selhosp_txt"><?=$model->point_hospital ? $model->point_hospital : '请选择推荐医院'?></p>
+        <p class="profile_seltxt profile_selhosp_txt"><?php echo $model->point_hospital ? $model->point_hospital : '请选择推荐医院'?></p>
         <div class="city_selcom">
-            <input hidden type="'text" name="Baby[point_hospital]" id="Baby_point_hospital" value="<?=$model->point_hospital ? $model->point_hospital : ''?>"/>
+            <input hidden type="'text" name="Baby[point_hospital]" id="Baby_point_hospital" value="<?php echo $model->point_hospital ? $model->point_hospital : ''?>"/>
             <select  class="profile_sel profile_selhosp city" >
                 <option>请选择推荐医院</option>
             </select>
@@ -179,4 +153,4 @@
     <!--  -->
 </div>
 <?php $this->endWidget(); ?>
-<script src="<?=Yii::app()->baseUrl.'/'?>js/days.js"></script>
+<script src="<?php echo Yii::app()->baseUrl.'/'?>js/days.js"></script>

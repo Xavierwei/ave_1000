@@ -77,6 +77,8 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .sec_home_head_btns {position: absolute;width:300px;height:60px;right:14px;top:142px;}
 .sec_home_head_btns .popshow_list {cursor:pointer;position: absolute;width:160px;height:30px;top:16px;left:28px;}
 .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:80px;height:30px;top:16px;left:198px;}
+.home_head_pop_hover {position: absolute;width:387px;height:212px;bottom:43px;left:247px;}
+.home_head_pop {background: url('../images/home_head_popup.png') no-repeat;width:591px;height:436px;position:absolute;top:0;left:0;display: none;}
 
 .sec_video{position: relative;height: 488px;width: 980px;margin: 25px auto 0}
 .home .video{background: url('../images/videobg.png') no-repeat;width: 625px;height: 482px;position: relative;}
@@ -429,14 +431,17 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .profile_add{left:344px;width: 218px;top:50px;}
 .profile_sex{top: 102px;}
 .profile_tel{left:344px;width: 218px;top:102px;}
-.profile_sel{position: absolute;width: 106px;top: 162px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); cursor: pointer;}
-.profile_selmon{left:184px;}
-.profile_selday{left:330px;}
+.profile_sel,.profile_sel2{position: absolute;width: 106px;top: 162px;left:36px;height: 32px;opacity: 0;filter:alpha(opacity=0); cursor: pointer;}
+.profile_selyear {left:342px;width:62px;top:150px;}
+.profile_selmon{left:434px;width:52px;top:150px;}
+.profile_selday{left:515px;width:52px;top:150px;}
 .profile_seltxt{position: absolute;top: 152px;left:36px;width: 80px;height: 32px;line-height: 32px;font-size: 14px;padding:0 10px;}
-.profile_selmon_txt{left:184px;}
-.profile_selday_txt{left:330px;}
+.profile_selyear_txt{left:342px;}
+.profile_selmon_txt{left:440px;}
+.profile_selday_txt{left:515px;}
 .profile_selsex {top:110px;left:4px;}
 .profile_selsex_txt {top:104px;left:4px;}
+.profile_parent {top:152px;left:31px;width:200px;}
 .profile_txt{width: 940px;margin: 0 auto}
 .profile_txttit{background: url('../images/profile_txttit.png') no-repeat;padding-left:70px;font-size: 14px;height:70px;}
 .profile_txttit h1{font-size: 18px;color:#f69788;font-weight: normal;padding:5px 0 2px}
@@ -451,8 +456,10 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .profile_selhosp{left: 464px;top: 49px;width: 270px;height: 46px;}
 .profile_btn{border:none;font-size:0;background: url('../images/profile_btn.jpg') no-repeat;width: 165px;height: 58px;margin: 0 auto;display: block;}
 
-.profile_selcity_txt1 {top:2px;left:342px;}
-.profile_selcity1 {top:9px;left:352px;width:230px;}
+.profile_selcity_txt0 {top:2px;left:349px;}
+.profile_selcity_txt1 {top:2px;left:502px;}
+.profile_selcity0 {top:1px;left:349px;width:80px;}
+.profile_selcity1 {top:1px;left:502px;width:80px;}
 .profile_hosp_mask {background: rgba(255,255,255,0.5);position: absolute;width:780px;height:60px;top:28px;z-index:999;}
 
 /**/
@@ -795,7 +802,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .login_box .login_fi{margin-bottom: 37px}
     .login_box .login_btn{width: 260px}
     .login_box .login_weibo_link {position: absolute;width:400px;height:140px;bottom:60px;left:90px;}
-    .profile_form{background: url('../imgm/profile_form.jpg') no-repeat;width: 620px;height: 1200px;margin:60px auto}
+    .profile_form{background: url('../imgm/profile_form.jpg') no-repeat;width: 620px;height: 1320px;margin:60px auto}
     .profile_formpho{left:120px;top:90px}
     .profile_formpho .make_pho{padding: 18px 0 0 18px}
     .profile_formpho .make_pho img{width: 352px;height: 340px;}
@@ -825,11 +832,14 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .profile_selcity_txt{top:153px;left:20px;}
     .profile_selhosp_txt{top:264px;left:20px;}
     body .profile_selsex_txt {top:104px;}
-    body .profile_selcity_txt1 {top:346px;}
-    body .profile_selcity1 {top:346px;width:433px;}
+    body .profile_selcity_txt0 {top:340px;left:3px;}
+    body .profile_selcity_txt1 {top:340px;left:290px;}
+    body .profile_selcity0 {width:203px;top:344px;left:9px;}
+    body .profile_selcity1 {top:346px;width:203px;left:288px;}
     .profile_hosp .profile_sel{width: 540px;height: 68px;}
     .profile_selcity{top:154px;left:20px;}
     .profile_selhosp{top:265px;left:20px;}
+    .profile_parent {top:687px;left:8px;}
     .profile_hosp_mask {height:200px;top:144px;}
     .profile_btn{background: url('../imgm/profile_btn.jpg') no-repeat;width: 293px;height: 83px;}
     .careword_com{background: url('../imgm/careword_com.jpg') no-repeat;width: 640px;height: 670px;}
@@ -868,10 +878,10 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
     .sec_home_head {position:relative;background: url('../imgm/home_head.png') no-repeat;width:640px;height:1831px;margin:50px auto 0 auto;}
     .sec_home_head_con {width:286px;position: absolute;top:172px;left:315px;font-size:24px;line-height: 200%;}
     .sec_home_head_more {position: absolute;top:718px;left:52px;display: block;width:250px;height:50px;}
-    .sec_home_head_num {position: absolute;font-size:26px;color:#f58774;position: absolute;right:auto;left:131px;top:1292px;width:192px;text-align: center;}
-    .sec_home_head_btn1{position: absolute;width: 504px;height: 100px;right:83px;top:1503px;background: url('../images/t.gif') repeat}
-    .sec_home_head_btn2{position: absolute;width: 504px;height: 100px;right:83px;top:1665px;background: url('../images/t.gif') repeat;}
-    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:1380px;}
+    .sec_home_head_num {position: absolute;font-size:26px;color:#f58774;position: absolute;right:auto;left:157px;top:1371px;width:192px;text-align: center;}
+    .sec_home_head_btn1{position: absolute;width: 504px;height: 100px;right:83px;top:789px;background: url('../images/t.gif') repeat}
+    .sec_home_head_btn2{position: absolute;width: 504px;height: 100px;right:83px;top:1618px;background: url('../images/t.gif') repeat;}
+    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:1480px;}
     .sec_home_head_btns .popshow_list {cursor:pointer;position: absolute;width:256px;height:44px;top:16px;left:28px;}
     .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:129px;height:44px;top:16px;left:307px;}
     .sec_home_head_hospital {top:624px;left:55px;width:500px;}

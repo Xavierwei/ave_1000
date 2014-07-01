@@ -4,30 +4,32 @@
     <div class="sec_home_head" data-style="opacity:0;" data-animate="opacity:1;" data-delay="800" data-time="500">
         <div class="sec_home_head_con">雅漾携手中国医师协会皮肤科医师分会（CDA），正式启动雅漾“1000Families·湿疹儿童优享乐生活”关爱行动，为一千名湿疹儿童免费送上湿疹护理套装，携爱助力儿童家庭。</div>
 	    <div class="sec_home_head_hospital popshow_hos"></div>
-	    <a class="sec_home_head_more" href="<?=Yii::app()->createUrl('/site/activity/')?>"></a>
-        <div class="sec_home_head_num"><?=$recordCount?></div>
+	    <a class="sec_home_head_more" href="<?php echo Yii::app()->createUrl('/site/activity/')?>"></a>
+        <div class="sec_home_head_num"><?php echo $visitCount?></div>
 
-        <a href="<?=Yii::app()->createUrl('/information/update')?>" class="sec_home_head_btn1"  title="立即申请"></a>
+        <a href="<?php echo Yii::app()->createUrl('/information/update')?>" class="sec_home_head_btn1"  title="立即申请"></a>
         <a href="http://service.weibo.com/share/share.php?title=%231000Families%23%e4%bd%a0%e7%9f%a5%e9%81%93%e5%90%97%ef%bc%8c%e5%9c%a8%e4%b8%ad%e5%9b%bd%e6%ad%a3%e6%9c%89%e6%95%b0%e7%99%be%e4%b8%87%e5%84%bf%e7%ab%a5%e5%92%8c%e5%ae%b6%e5%ba%ad%e6%ad%a3%e5%9c%a8%e5%bf%8d%e5%8f%97%e6%b9%bf%e7%96%b9%e6%89%80%e5%b8%a6%e6%9d%a5%e7%9a%84%e7%97%9b%e8%8b%a6%e3%80%82%e9%9b%85%e6%bc%be%e5%8f%91%e8%b5%b7%e2%80%9c%e5%8d%83%e5%ae%b6%e4%b8%87%e6%8a%a4%e2%80%9d%e5%85%b3%e7%88%b1%e8%a1%8c%e5%8a%a8%ef%bc%8c%e4%b8%ba1000%e5%90%8d%e6%b9%bf%e7%96%b9%e5%84%bf%e7%ab%a5%e5%85%8d%e8%b4%b9%e9%80%81%e4%b8%8a%e4%bb%b7%e5%80%bc2500%e5%85%83%e7%9a%84%e6%b9%bf%e7%96%b9%e6%8a%a4%e7%90%86%e5%a5%97%e8%a3%85%e3%80%82%e6%ac%a2%e8%bf%8e%e7%82%b9%e5%87%bb%e9%93%be%e6%8e%a5%e5%85%b3%e6%b3%a8%e6%b4%bb%e5%8a%a8%ef%bc%8c%e4%ba%86%e8%a7%a3%e6%9b%b4%e5%a4%9a%e6%b4%bb%e5%8a%a8%e4%bf%a1%e6%81%af%ef%bc%8c%e7%bb%99%e4%ba%88%e6%b9%bf%e7%96%b9%e5%84%bf%e7%ab%a5%e4%b8%80%e4%bb%bd%e5%85%b3%e6%80%80%e4%b8%8e%e6%94%af%e6%8c%81%ef%bc%9ahttp%3a%2f%2ft.cn%2fRvwx3b6&amp;pic=http://www.eau-thermale-avene.cn/eczemakids/weibo-banner2.jpg&amp;appkey=4266983005" target="_blank" class="sec_home_head_btn2"  title="分享到微博"></a>
         <div class="sec_home_head_btns">
             <div class="popshow_list"></div>
             <div class="popshow_rule"></div>
         </div>
+        <div class="home_head_pop_hover"></div>
+        <div class="home_head_pop"></div>
     </div>
     <!--  -->
     <!--  -->
     <div class="section sec_home2 cs-clear">
         <div class="home_carefor home_infor" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1100" data-time="500">
-            <h2><a href="<?=Yii::app()->createUrl('/care/')?>">雅漾关怀</a></h2>
-            <a href="<?=Yii::app()->createUrl('/care/')?>" class="home_more"></a>
+            <h2><a href="<?php echo Yii::app()->createUrl('/care/')?>">雅漾关怀</a></h2>
+            <a href="<?php echo Yii::app()->createUrl('/care/')?>" class="home_more"></a>
             <div class="home_infopop">
                 <div class="home_carefor_share"></div>
                 <div class="home_carefor_txt">为了每个孩子的清澈笑容，雅漾一直致力于特应性皮炎儿童的护理，并携手中国医师协会皮肤科医师分会，设立首家面向中国特应性患儿及家长的免费教育课堂“雅漾特应性皮炎之家”及国内首个特应性皮炎基金会“特应性皮炎基金会”。</div>
             </div>
         </div>
         <div class="home_about home_infor" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1300" data-time="500">
-            <h2><a href="<?=Yii::app()->createUrl('/about/')?>">关于湿疹</a></h2>
-            <a href="<?=Yii::app()->createUrl('/about/')?>" class="home_more"></a>
+            <h2><a href="<?php echo Yii::app()->createUrl('/about/')?>">关于湿疹</a></h2>
+            <a href="<?php echo Yii::app()->createUrl('/about/')?>" class="home_more"></a>
             <div class="home_infopop">
                 <div class="home_about_share"></div>
                 <div class="home_about_txt">什么是湿疹？湿疹与特应性皮炎如何区分？如何诊断是否已患有湿疹？点击了解更多信息。</div>
@@ -36,8 +38,8 @@
     </div>
     <!--  -->
     <div class="section sec_home3 home_baike home_infor" data-style="opacity:0;" data-animate="opacity:1;" data-delay="1400" data-time="500">
-        <h2><a href="<?=Yii::app()->createUrl('/guide/')?>">湿疹护理</a></h2>
-        <a href="<?=Yii::app()->createUrl('/guide/')?>" class="home_more"></a>
+        <h2><a href="<?php echo Yii::app()->createUrl('/guide/')?>">湿疹护理</a></h2>
+        <a href="<?php echo Yii::app()->createUrl('/guide/')?>" class="home_more"></a>
         <div class="home_baike_title">护理<span>湿疹</span>不容忽视的<span>14</span>个问题，<br />简单易行的科学<span>护理方法</span>及权威<span>专家问答</span>。</div>
         <div class="home_infopop">
             <div class="home_baike_share"></div>

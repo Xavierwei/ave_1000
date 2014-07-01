@@ -6,7 +6,7 @@
 			<p>湿疹是一种常见皮肤病，由多种内外因素引起的表皮及真皮浅层炎症性皮肤病。主要特点是剧烈瘙痒，皮损具有多形性、对称性、渗出性，易反复发作。</p>
 			<p>湿疹病因复杂，常为内外因相互作用结果。内因如慢性消化系统疾病、情绪变化、内分泌失调、感染、新陈代谢障碍等，外因如生活环境、气候变化、食物等，外界刺激如日光、寒冷、干燥、炎热、热水烫洗以及各种动物皮毛、植物、化妆品、肥皂、人造纤维等均可诱发。是复杂的内外因子引起的一种迟发型变态反应。</p>
 		</div>
-		<img src="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg" class="about_img1" />
+		<img src="<?php echo Yii::app()->baseUrl.'/'?>images/about_img1.jpg" class="about_img1" />
 	</div>
 
 	<div class="seciont sec_about2_1" data-style="opacity:0;" data-animate="opacity:1;" data-delay="900" data-time="500">
@@ -14,36 +14,36 @@
 		<div class="about_2_1 cs-clear">
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" />
-					<img class="p2" src="<?=Yii::app()->baseUrl.'/'?>pic/1_2.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1_2.jpg" />
 				</div>
 				<p>红斑</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" />
-					<img class="p2" src="<?=Yii::app()->baseUrl.'/'?>pic/2_2.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/2_2.jpg" />
 				</div>
 				<p>糜烂</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" />
-					<img class="p2" src="<?=Yii::app()->baseUrl.'/'?>pic/3_2.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/3_2.jpg" />
 				</div>
 				<p>渗液</p>
 			</div>
 			<div class="about_2_1_i" style="margin-left:216px;">
 				<div class="gm-img">
-					<img class="p1" src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" />
-					<img class="p2" src="<?=Yii::app()->baseUrl.'/'?>pic/4_2.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/4_2.jpg" />
 				</div>
 				<p>苔藓样</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?=Yii::app()->baseUrl.'/'?>pic/1.jpg" />
-					<img class="p2" src="<?=Yii::app()->baseUrl.'/'?>pic/5_2.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/5_2.jpg" />
 				</div>
 				<p>抓痕</p>
 			</div>

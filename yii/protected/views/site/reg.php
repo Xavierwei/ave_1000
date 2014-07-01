@@ -18,6 +18,6 @@
                 <div class="login_fi"><input class="login_btn" type="submit" /></div>
             <?php $this->endWidget(); ?>
         </div>
-        <a href="<?=Yii::app()->createUrl('/weibo')?>"><p class="login_weibo"></p></a>
+        <a href="<?php echo Yii::app()->createUrl('/weibo')?>"><p class="login_weibo"></p></a>
     </div>
 </div>

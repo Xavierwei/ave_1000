@@ -132,10 +132,21 @@ $(document).ready(function() {
 //		$('.knowtxt').data('index', index);
 //	},4000);
 
-	var autoplay = getQueryString('autoplay');
+    $.initProv("#city_sel0", "#city_sel", "", "");
+
+
+    var autoplay = getQueryString('autoplay');
 	if(autoplay) {
 		$('.video_play').trigger('click');
 	}
+
+    $('.home_head_pop_hover').mouseenter(function(){
+        $('.home_head_pop').delay(200).fadeIn();
+    });
+
+    $('.sec_home_head').mouseleave(function(){
+        $('.home_head_pop').delay(200).fadeOut();
+    });
 
 })
 

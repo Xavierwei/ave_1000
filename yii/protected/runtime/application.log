@@ -3747,3 +3747,150 @@ in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
 2014/06/30 09:16:11 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
 in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
 in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 09:56:18 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 09:56:18 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 09:56:18 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 09:56:18 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "point_sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "year" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "mon" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "day" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:07 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:34 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:34 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:34 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 10:03:34 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:00 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "point_sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "year" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "mon" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "day" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:39:36 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:41:45 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:41:45 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:41:45 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 14:41:45 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "point_sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "year" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "mon" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "day" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (32)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:24 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (38)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:39 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:39 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:39 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/06/30 15:15:39 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/01 03:56:31 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AdminModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php:322
+Stack trace:
+#0 /Applications/MAMP/htdocs/ave_1000/framework/YiiBase.php(196): YiiBase::import('admin.AdminModu...', true)
+#1 /Applications/MAMP/htdocs/ave_1000/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#2 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#3 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#4 /Applications/MAMP/htdocs/ave_1000/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /Applications/MAMP/htdocs/ave_1000/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/ave_1000/yii/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/ave_1000/yii/admin
+---

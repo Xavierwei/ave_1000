@@ -8,7 +8,7 @@
         </div>
         <div class="ft_weixin">
             <div class="weixin_pop">
-                <img src="<?=Yii::app()->baseUrl.'/'?>images/weixin_img.gif" />
+                <img src="<?php echo Yii::app()->baseUrl.'/'?>images/weixin_img.gif" />
                 <p><span>雅漾微信</span>扫描二维码，立即关注雅漾官方微信</p>
             </div>
         </div>
@@ -23,26 +23,27 @@
     </div>
 </div>
 <!--  -->
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/modernizr.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/jquery.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/handlebars.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/jquery.validate.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/jquery.queryloader2.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/scrollfix.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/jquery.easing.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/lib/flash_detect_min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.ui.widget.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/jquery.fileupload.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>/js/index/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/modernizr.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/handlebars.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.validate.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.queryloader2.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/scrollfix.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.easing.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/flash_detect_min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/city.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/index/index.js"></script>
 
-<script src="<?=Yii::app()->baseUrl.'/'?>js/index.js"></script>
-<script type="text/javascript" src="<?=Yii::app()->baseUrl.'/'?>js/jquery.jcarousel.min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl.'/'?>js/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/jquery.jcarousel.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery('#mycarousel').jcarousel({
@@ -58,8 +59,8 @@
 			'height' : '194px',
 			'auto'     : true,//开启自动上传
 			'removeTimeout' : 0,//文件队列上传完成1秒后删除
-			'swf'      : '<?=Yii::app()->baseUrl.'/'?>js/uploadify/uploadify.swf',
-			'uploader' :'<?=Yii::app()->createUrl('/uploadify/uploadone')?>',
+			'swf'      : '<?php echo Yii::app()->baseUrl.'/'?>js/uploadify/uploadify.swf',
+			'uploader' :'<?php echo Yii::app()->createUrl('/uploadify/uploadone')?>',
 			'method'   : 'post',//方法，服务端可以用$_POST数组获取数据
 			'buttonText' : '',//设置按钮文本
 			'buttonImage' :backimg,
@@ -73,7 +74,7 @@
 				var json = $.parseJSON(data);
 				if (json.state == 'success')
 				{
-					$('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?=Yii::app()->baseUrl?>'+json.file).addClass('pho_uploaded');
+					$('#'+inputid).parent('.make_phobg').prev('img').attr('src','<?php echo Yii::app()->baseUrl?>'+json.file).addClass('pho_uploaded');
 					$('#'+form).val(json.file);
 					$('#'+inputid).parent('.make_phobg').next('.make_phoclose').click(function(e)
 					{
@@ -101,7 +102,7 @@
 
 	$(".make_phoclose").click(function(e){
 		form = $(this).prev('.make_phobg').children().attr('id');
-		backimg = form == 'case' ? '<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg' : '<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg';
+		backimg = form == 'case' ? '<?php echo Yii::app()->baseUrl.'/'?>images/make_up2.jpg' : '<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg';
 		$(this).prev('.make_phobg').prev('img').attr('src',backimg);
 		$('#Record_'+form).val('');
 	});
@@ -110,18 +111,18 @@
 	$(document).ready(function(){
         var width = $(window).width();
         if(width > 640) {
-            uploadImg('avatar','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
-            uploadImg('photo1','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
-            uploadImg('photo2','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');
-            uploadImg('photo3','<?=Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo3');
-            uploadImg('case','<?=Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
+            uploadImg('avatar','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_avatar');
+            uploadImg('photo1','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo1');
+            uploadImg('photo2','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo2');
+            uploadImg('photo3','<?php echo Yii::app()->baseUrl.'/'?>images/make_up.jpg','Record_photo3');
+            uploadImg('case','<?php echo Yii::app()->baseUrl.'/'?>images/make_up2.jpg','Record_case');
         }
         else {
 	        $('#avatar,#photo1,#photo2,#photo3,#case').fileupload({
-		        url: '<?=Yii::app()->createUrl('/uploadify/uploadone')?>',
+		        url: '<?php echo Yii::app()->createUrl('/uploadify/uploadone')?>',
 		        dataType: 'json',
 		        done: function (e, data) {
-			        $(this).parents('.make_pho').find('img').attr('src',"<?=Yii::app()->baseUrl?>" + data.result.file).addClass('pho_uploaded');
+			        $(this).parents('.make_pho').find('img').attr('src',"<?php echo Yii::app()->baseUrl?>" + data.result.file).addClass('pho_uploaded');
 			        $('#Record_'+$(this).attr('name')).val(data.result.file);
 		        },
 		        progressall: function (e, data) {
@@ -129,6 +130,8 @@
 		        }
 	        });
         }
+
+
 
 	});
 
@@ -147,12 +150,13 @@
 		}
 	});
 	<?php endif;?>
+
 </script>
 
 
 <!--IE6透明判断-->
 <!--[if IE 6]>
-<script src="<?=Yii::app()->baseUrl.'/'?>/lib/DD_belatedPNG.js"></script>
+<script src="<?php echo Yii::app()->baseUrl.'/'?>/lib/DD_belatedPNG.js"></script>
 <script>
 	DD_belatedPNG.fix('*');
 	document.execCommand("BackgroundImageCache", false, true);

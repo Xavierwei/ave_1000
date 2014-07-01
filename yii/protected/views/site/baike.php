@@ -62,7 +62,7 @@
     <a class="baike_guanyu" href="#">湿 疹／特 应 性 皮 炎 护 理</a>
     <!--  -->
     <div class="baike_video">
-        <img src="<?=Yii::app()->baseUrl.'/'?>images/video_demo2.jpg">
+        <img src="<?php echo Yii::app()->baseUrl.'/'?>images/video_demo2.jpg">
         <a class="video_play"></a>
     </div>
     <!--  -->
@@ -77,20 +77,20 @@
     <div class="baike_ques">
 
         <ul id="mycarousel" class="jcarousel-skin-tango">
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_1.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_2.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_3.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_4.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_5.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_6.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_7.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_8.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_9.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_10.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_11.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_12.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_13.jpg" width="170" height="170" alt="" /></a></li>
-            <li><a href="ques.html"><img src="<?=Yii::app()->baseUrl.'/'?>images/ques/ques_14.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_1.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_2.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_3.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_4.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_5.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_6.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_7.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_8.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_9.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_10.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_11.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_12.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_13.jpg" width="170" height="170" alt="" /></a></li>
+            <li><a href="ques.html"><img src="<?php echo Yii::app()->baseUrl.'/'?>images/ques/ques_14.jpg" width="170" height="170" alt="" /></a></li>
         </ul>
     </div>
     <!--  -->

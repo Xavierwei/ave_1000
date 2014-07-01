@@ -1,5 +1,5 @@
 
-<div class="activity_step"><img src="<?=Yii::app()->baseUrl?>/images/step1.png" /></div>
+<div class="activity_step"><img src="<?php echo Yii::app()->baseUrl?>/images/step1.png" /></div>
 <div class="login">
     <!--  -->
     <div class="login_box">
@@ -17,13 +17,13 @@
             <div class="login_fi"><input class="login_btn" type="submit" /></div>
             <?php $this->endWidget(); ?>
         </div>
-        <a class="login_weibo_link" href="<?=Yii::app()->createUrl('/weibo')?>"><p class="login_weibo"></p></a>
+        <a class="login_weibo_link" href="<?php echo Yii::app()->createUrl('/weibo')?>"><p class="login_weibo"></p></a>
     </div>
     <!--  -->
     <div class="login_box2" style="display:none;">
         <p class="login_ed2"></p>
 
-        <a href="<?=Yii::app()->createUrl('/weibo')?>" class="login_weibo2"></a>
+        <a href="<?php echo Yii::app()->createUrl('/weibo')?>" class="login_weibo2"></a>
         <div class="login_form3">
             <?php $form=$this->beginWidget('CActiveForm', array(
                 'id'=>'login-form',

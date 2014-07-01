@@ -43,8 +43,8 @@
         <meta name="keywords" content="雅漾1000Families,雅漾关怀湿疹儿童,雅漾湿疹,雅漾湿疹儿童,雅漾千家万户行动" />
         <meta name="description" content="雅漾携手CDA启动千家万护行动帮助更多用户了解儿童湿疹相关知识,包含湿疹介绍、湿疹相关常见问题及湿疹百科等。" />
     <?php endif;?>
-	<link href="<?=Yii::app()->baseUrl.'/'?>css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-    <link href="<?=Yii::app()->baseUrl.'/'?>css/style.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo Yii::app()->baseUrl.'/'?>css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->baseUrl.'/'?>css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -58,30 +58,30 @@
 <!--  -->
 <div class="header" data-style="margin-top:-90px;" data-animate="margin-top:0px;" data-delay="0" data-time="500" data-easing="easeOutQuart">
 	<div class="logo">
-        <a href="<?=Yii::app()->homeUrl?>" class="logolink"></a>
+        <a href="<?php echo Yii::app()->homeUrl?>" class="logolink"></a>
     </div>
     <div class="famliyicon"></div>
     <div class="nav cs-clear">
-        <a class="navitem nav1" href="<?=Yii::app()->homeUrl?>"><span class="<?=Yii::app()->request->pathInfo == 'index' ? 'on' : ''?>">首页</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>site/activity/"><span class="<?=Yii::app()->request->pathInfo == 'site/activity' ? 'on' : ''?>">千家万护</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>about/"><span class="<?=Yii::app()->request->pathInfo == 'about' ? 'on' : ''?>">关于湿疹</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>guide/"><span class="<?=Yii::app()->request->pathInfo == 'guide' ? 'on' : ''?>">湿疹护理</span></a>
-        <a class="navitem nav1" href="<?=Yii::app()->baseUrl.'/'?>care/"><span class="<?=Yii::app()->request->pathInfo == 'care' ? 'on' : ''?>">雅漾关怀</span></a>
+        <a class="navitem nav1" href="<?php echo Yii::app()->homeUrl?>"><span class="<?php echo Yii::app()->request->pathInfo == 'index' ? 'on' : ''?>">首页</span></a>
+        <a class="navitem nav1" href="<?php echo Yii::app()->baseUrl.'/'?>site/activity/"><span class="<?php echo Yii::app()->request->pathInfo == 'site/activity' ? 'on' : ''?>">千家万护</span></a>
+        <a class="navitem nav1" href="<?php echo Yii::app()->baseUrl.'/'?>about/"><span class="<?php echo Yii::app()->request->pathInfo == 'about' ? 'on' : ''?>">关于湿疹</span></a>
+        <a class="navitem nav1" href="<?php echo Yii::app()->baseUrl.'/'?>guide/"><span class="<?php echo Yii::app()->request->pathInfo == 'guide' ? 'on' : ''?>">湿疹护理</span></a>
+        <a class="navitem nav1" href="<?php echo Yii::app()->baseUrl.'/'?>care/"><span class="<?php echo Yii::app()->request->pathInfo == 'care' ? 'on' : ''?>">雅漾关怀</span></a>
         <?php if(Yii::app()->user->isGuest):?>
-            <a class="navitem nav1 dis_mobile" href="<?=Yii::app()->createUrl('/site/login')?>"><span>登录 / 注册</span></a>
+            <a class="navitem nav1 dis_mobile" href="<?php echo Yii::app()->createUrl('/site/login')?>"><span>登录 / 注册</span></a>
         <?php else:?>
-            <a class="navitem nav1 dis_mobile" href="<?=Yii::app()->createUrl('/record/myinfo')?>"><span><?=Yii::app()->user->name?></span></a>
-            <a class="navitem nav1 dis_mobile" href="<?=Yii::app()->createUrl('/site/logout')?>"><span>退出</span></a>
+            <a class="navitem nav1 dis_mobile" href="<?php echo Yii::app()->createUrl('/record/myinfo')?>"><span><?php echo Yii::app()->user->name?></span></a>
+            <a class="navitem nav1 dis_mobile" href="<?php echo Yii::app()->createUrl('/site/logout')?>"><span>退出</span></a>
         <?php endif?>
     </div>
     <p class="navbtn dis_mobile"></p>
     <?php if(Yii::app()->user->isGuest):?>
-        <a class="nav_login" href="<?=Yii::app()->createUrl('/site/login')?>"><span class="">登录 / 注册</span></a>
+        <a class="nav_login" href="<?php echo Yii::app()->createUrl('/site/login')?>"><span class="">登录 / 注册</span></a>
     <?php else:?>
         <p class="nav_login">
-            <a  href="<?=Yii::app()->createUrl('/record/myinfo')?>"><span class=""><?=Yii::app()->user->name?> </span></a>
+            <a  href="<?php echo Yii::app()->createUrl('/record/myinfo')?>"><span class=""><?php echo Yii::app()->user->name?> </span></a>
              /
-            <a href="<?=Yii::app()->createUrl('/site/logout')?>"><span class=""> 退出</span></a>
+            <a href="<?php echo Yii::app()->createUrl('/site/logout')?>"><span class=""> 退出</span></a>
         </p>
     <?php endif?>
 </div>

@@ -6,7 +6,7 @@
             <p>湿疹是一种常见皮肤病，由多种内外因素引起的表皮及真皮浅层炎症性皮肤病。主要特点是剧烈瘙痒，皮损具有多形性、对称性、渗出性，易反复发作。</p>
             <p>湿疹病因复杂，常为内外因相互作用结果。内因如慢性消化系统疾病、情绪变化、内分泌失调、感染、新陈代谢障碍等，外因如生活环境、气候变化、食物等，外界刺激如日光、寒冷、干燥、炎热、热水烫洗以及各种动物皮毛、植物、化妆品、肥皂、人造纤维等均可诱发。是复杂的内外因子引起的一种迟发型变态反应。</p>
         </div>
-        <img src="<?=Yii::app()->baseUrl.'/'?>images/about_img1.jpg" class="about_img1" />
+        <img src="<?php echo Yii::app()->baseUrl.'/'?>images/about_img1.jpg" class="about_img1" />
     </div>
     <!--  -->
     <div class="seciont sec_about2">
@@ -36,7 +36,7 @@
             <p>作为儿童早期常见的一种慢性炎症性疾病,越来越多的孩子遭受着特应性皮炎的困扰:皮肤瘙痒、红肿、水疱,甚至因此彻夜难眠, 不仅给孩子的身心造成诸多伤害,对家庭而言也是一种沉重的负担。 </p>
             <p>目前,我国0~6岁儿童特应性皮炎的发病率为3%,受困扰的患儿高达230万~300万,并且发病率呈逐年上升趋势,情况不容乐观。</p>
         </div>
-        <img src="<?=Yii::app()->baseUrl.'/'?>images/about_img2.jpg" class="about_img2" />
+        <img src="<?php echo Yii::app()->baseUrl.'/'?>images/about_img2.jpg" class="about_img2" />
     </div>
     <!--  -->
     <div class="seciont sec_about4">
