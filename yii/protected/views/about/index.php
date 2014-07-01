@@ -14,35 +14,35 @@
 		<div class="about_2_1 cs-clear">
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1_2.jpg" />
 				</div>
 				<p>红斑</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/2_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/2_2.jpg" />
 				</div>
 				<p>糜烂</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/3_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/3_2.jpg" />
 				</div>
 				<p>渗液</p>
 			</div>
 			<div class="about_2_1_i" style="margin-left:216px;">
 				<div class="gm-img">
-					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/4_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/4_2.jpg" />
 				</div>
 				<p>苔藓样</p>
 			</div>
 			<div class="about_2_1_i">
 				<div class="gm-img">
-					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/1.jpg" />
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/5_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/5_2.jpg" />
 				</div>
 				<p>抓痕</p>

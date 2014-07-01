@@ -2,37 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f82dee-bba8-4370-988e-dc0bfbab95d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii/protected/controllers/TestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/pic/1_2.jpg" afterPath="$PROJECT_DIR$/yii/pic/1_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/home_head.png" afterPath="$PROJECT_DIR$/yii/images/home_head.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/imgm/home_head.png" afterPath="$PROJECT_DIR$/yii/imgm/home_head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/images/profile_form.jpg" afterPath="$PROJECT_DIR$/yii/images/profile_form.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/imgm/profile_form.jpg" afterPath="$PROJECT_DIR$/yii/imgm/profile_form.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/models/Baby.php" afterPath="$PROJECT_DIR$/yii/protected/models/Baby.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/about.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/activity.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" afterPath="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/baike.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/baike.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/carefor.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/carefor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/index.bak.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/index.bak.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/js/index/index.js" afterPath="$PROJECT_DIR$/yii/js/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/about/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/about/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/care/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/guide/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/index.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/login.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/otherinfo.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/otherinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/site/reg.php" afterPath="$PROJECT_DIR$/yii/protected/views/site/reg.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/css/style.css" afterPath="$PROJECT_DIR$/yii/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/baby/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/information/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/information/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/views/record/update.php" afterPath="$PROJECT_DIR$/yii/protected/views/record/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/modules/admin/views/record/userinfo.php" afterPath="$PROJECT_DIR$/yii/protected/modules/admin/views/record/userinfo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ave_1000.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404130760226" ignored="false" />
+    <file path="/Dummy.txt" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404198558101" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/js.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642295996" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/ie8.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402052567247" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/css/style.css" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402841216259" ignored="false" />
@@ -66,7 +51,7 @@
     <file path="/.htaccess" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055171864" ignored="false" />
     <file path="/CareController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055386043" ignored="false" />
     <file path="/GuideController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055628694" ignored="false" />
-    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404131242465" ignored="false" />
+    <file path="/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404193334403" ignored="false" />
     <file path="/AboutController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402055847276" ignored="false" />
     <file path="/update.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404134185140" ignored="false" />
     <file path="/header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404136093080" ignored="false" />
@@ -144,8 +129,8 @@
     <file path="/activities_header.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634838204" ignored="false" />
     <file path="$PROJECT_DIR$/../malibu/protected/controllers/ActivitiesController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634859733" ignored="false" />
     <file path="/ActivitiesController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402634857336" ignored="false" />
-    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402641282929" ignored="false" />
-    <file path="/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402838253651" ignored="false" />
+    <file path="$PROJECT_DIR$/../malibu/protected/views/activities/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404195067829" ignored="false" />
+    <file path="/winner.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404195066680" ignored="false" />
     <file path="/httpd-vhosts.conf" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642582702" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/config/main.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402642922136" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/views/index/teamrace.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402646923138" ignored="false" />
@@ -153,7 +138,7 @@
     <file path="/news_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402672038462" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/news_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402672106738" ignored="false" />
     <file path="/switchPage.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671608994" ignored="false" />
-    <file path="/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403004528181" ignored="false" />
+    <file path="/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199236061" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/storelocator_cn.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402671452969" ignored="false" />
     <file path="$PROJECT_DIR$/../porsche_lemans/web/api/protected/controllers/IndexController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402834708822" ignored="false" />
     <file path="/IndexController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1402832914467" ignored="false" />
@@ -166,7 +151,7 @@
     <file path="$USER_HOME$/Project/avene/edm/edm_0611/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403004528180" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/index.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403616434649" ignored="false" />
     <file path="/login.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403705974337" ignored="false" />
-    <file path="/UploadifyController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403751681394" ignored="false" />
+    <file path="/UploadifyController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404193079547" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/privacy.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403754371240" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/lookbook.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403754371240" ignored="false" />
     <file path="$PROJECT_DIR$/../lily_official/html/include/footer.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1403754371240" ignored="false" />
@@ -187,7 +172,15 @@
     <file path="/detail.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404118355774" ignored="false" />
     <file path="/Baby.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404131840401" ignored="false" />
     <file path="/city.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404134102751" ignored="false" />
-    <file path="/a.dummy" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404136119355" ignored="false" />
+    <file path="/a.dummy" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404198567862" ignored="false" />
+    <file path="/TestController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404192237159" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/index.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199236061" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/index_en.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199367324" ignored="false" />
+    <file path="/index_en.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199243643" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/js/global.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199353782" ignored="false" />
+    <file path="/global.js" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199329783" ignored="false" />
+    <file path="$PROJECT_DIR$/../upstudios/detail_en.html" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404199387437" ignored="false" />
+    <file path="/BabyController.php" changelist="98f82dee-bba8-4370-988e-dc0bfbab95d0" time="1404200871134" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,28 +200,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WeiboController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/WeiboController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="211" selection-end="211" vertical-scroll-proportion="-6.785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="61" selection-start="586" selection-end="586" vertical-scroll-proportion="0.2074883">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="19" selection-start="1078" selection-end="1089" vertical-scroll-proportion="-13.571428">
+            <state line="38" column="19" selection-start="1078" selection-end="1089" vertical-scroll-proportion="-0.6785714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadifyController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="5" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/about/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="25" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/TestController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="4" selection-start="55" selection-end="107" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeiboController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/WeiboController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="40" selection-start="137" selection-end="141" vertical-scroll-proportion="-2.7142856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BabyController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yii/protected/controllers/BabyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.3381877">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Baby.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/models/Baby.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="21" selection-start="945" selection-end="945" vertical-scroll-proportion="-4.071429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="34" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-12.892858">
               <folding />
             </state>
           </provider>
@@ -252,13 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yii/protected/views/care/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/guide/index.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/information/update.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/record/myinfo.php" />
-        <option value="$PROJECT_DIR$/yii/protected/views/record/otherinfo.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/record/update.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/about.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/activity.php" />
@@ -268,6 +317,13 @@
         <option value="$PROJECT_DIR$/yii/protected/views/site/login.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/reg.php" />
         <option value="$PROJECT_DIR$/yii/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/yii/protected/controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/about/index.php" />
+        <option value="$PROJECT_DIR$/yii/css/style.css" />
+        <option value="$PROJECT_DIR$/yii/protected/models/Baby.php" />
+        <option value="$PROJECT_DIR$/yii/protected/views/baby/update.php" />
+        <option value="$PROJECT_DIR$/yii/protected/controllers/BabyController.php" />
       </list>
     </option>
   </component>
@@ -309,7 +365,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -582,6 +637,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -604,7 +681,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sinaWeibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ave_1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,6 +815,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -698,9 +824,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yii/protected/controllers" />
       <recent name="$PROJECT_DIR$/yii/protected/views/site" />
       <recent name="$PROJECT_DIR$/yii/js" />
-      <recent name="$PROJECT_DIR$/yii/protected/controllers" />
       <recent name="$PROJECT_DIR$/yii/protected/views/about" />
       <recent name="$PROJECT_DIR$/yii/protected/views" />
     </key>
@@ -770,7 +896,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18436155" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19010043" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -855,114 +981,112 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/information/update.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/components/Drtool.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.392857">
+        <state line="8" column="12" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5733945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/footer.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/components/OrionModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="439" selection-end="439" vertical-scroll-proportion="-4.892857">
+        <state line="9" column="24" selection-start="233" selection-end="233" vertical-scroll-proportion="-0.37767583">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/layouts/header.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/RecordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="16" selection-start="2970" selection-end="2970" vertical-scroll-proportion="-4.571429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/myinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="93" selection-end="93" vertical-scroll-proportion="-2.7142856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/reg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="378" selection-end="378" vertical-scroll-proportion="0.24595469">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="37" selection-start="38" selection-end="38" vertical-scroll-proportion="0.029641185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.bak.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.11856474">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/carefor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="407" selection-end="407" vertical-scroll-proportion="0.21372855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/baike.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="18" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.21372855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/activity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="493" selection-end="493" vertical-scroll-proportion="0.21372855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="440" selection-end="440" vertical-scroll-proportion="0.21372855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="41" selection-start="57" selection-end="57" vertical-scroll-proportion="0.029641185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/record/otherinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="111" selection-end="111" vertical-scroll-proportion="0.08892356">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/WeiboController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="211" selection-end="211" vertical-scroll-proportion="-6.785714">
+        <state line="6" column="30" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="19" selection-start="1078" selection-end="1089" vertical-scroll-proportion="-13.571428">
+        <state line="38" column="19" selection-start="1078" selection-end="1089" vertical-scroll-proportion="-0.6785714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/yii/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="61" selection-start="586" selection-end="586" vertical-scroll-proportion="0.2074883">
+        <state line="6" column="43" selection-start="221" selection-end="221" vertical-scroll-proportion="0.17431192">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/web/helpers/CJSON.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="27" selection-start="3767" selection-end="3767" vertical-scroll-proportion="-1.8455539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="25" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="55" selection-end="107" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/WeiboController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/sinaWeibo/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="137" selection-end="141" vertical-scroll-proportion="-2.7142856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/yiilite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6963" column="20" selection-start="205503" selection-end="205503" vertical-scroll-proportion="0.62459546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/views/baby/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-12.892858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/models/Baby.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="945" selection-end="945" vertical-scroll-proportion="-4.071429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/controllers/BabyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.3381877">
           <folding />
         </state>
       </provider>

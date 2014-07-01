@@ -29,7 +29,18 @@ class BabyController extends Controller
         $record=Record::model()->findByPk(Yii::app()->user->id);
         if(isset($_POST['Baby']))
         {
-            $model->attributes=$_POST['Baby'];
+            //$model->attributes=$_POST['Baby'];
+
+            $model->name = $_POST['Baby']['name'];
+            $model->city = $_POST['Baby']['city'];
+            $model->nickname = $_POST['Baby']['nickname'];
+            $model->address = $_POST['Baby']['address'];
+            $model->sex = $_POST['Baby']['sex'];
+            $model->tel = $_POST['Baby']['tel'];
+            $model->parent = $_POST['Baby']['parent'];
+            $model->tel = $_POST['Baby']['tel'];
+            $model->reason = $_POST['Baby']['reason'];
+
             $model->birthday=$_POST['Baby']['year'].'-'.$_POST['Baby']['mon'].'-'.$_POST['Baby']['day'];
             if($model->validate())
             {

@@ -25,7 +25,7 @@
             <?php echo $form->textField($model,'nickname',array('class'=>'profile_ipt profile_nick')); ?>
             <?php echo $form->textField($model,'address',array('class'=>'profile_ipt profile_add')); ?>
             <p class="profile_seltxt profile_selsex_txt">男</p>
-            <select name="Baby[point_sex]"  class="profile_sel profile_selsex" id="sex_sel">
+            <select name="Baby[sex]"  class="profile_sel profile_selsex" id="sex_sel">
                 <option selected="selected" value="男">男</option>
                 <option value="女">女</option>
             </select>
