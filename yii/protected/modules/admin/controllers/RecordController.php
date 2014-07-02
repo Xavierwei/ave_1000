@@ -35,7 +35,7 @@ class RecordController extends BackendController
 
     public function actionSelect()
     {
-        $post=$_POST['Record'];
+        $post=$_REQUEST['Record'];
 
         $criteria = new CDbCriteria();
         $criteria->order='createtime DESC';
@@ -71,35 +71,35 @@ class RecordController extends BackendController
 		}else{
 			Yii::app()->user->setFlash('submit','审核提交失败！');
 		}
-		$this->redirect(array('list'));
+        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionAuditAll()
 	{
 		if(Yii::app()->request->getParam('id')&&is_array(Yii::app()->request->getParam('id'))){
 			$id = implode("','",Yii::app()->request->getParam('id'));
-			$count = Record::model()->updateAll(array("status"=>1)," `id` in ('".$id."')");
+			$count = Record::model()->updateAll(array("status"=>1)," `uid` in ('".$id."')");
 			if($count){
 				Yii::app()->user->setFlash('submit','审核提交成功！');
 			}else{
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-		$this->redirect(array('list'));
+        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionUnAuditAll()
 	{
 		if(Yii::app()->request->getParam('id')&&is_array(Yii::app()->request->getParam('id'))){
 			$id = implode("','",Yii::app()->request->getParam('id'));
-			$count = Record::model()->updateAll(array("status"=>0)," `id` in ('".$id."')");
+			$count = Record::model()->updateAll(array("status"=>0)," `uid` in ('".$id."')");
 			if($count){
 				Yii::app()->user->setFlash('submit','审核提交成功！');
 			}else{
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-		$this->redirect(array('list'));
+        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function loadModel()
