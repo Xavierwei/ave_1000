@@ -31,12 +31,13 @@ class RecordController extends BackendController
 
 	public function actionList()
 	{
-        $post=array('status'=>'','start'=>'','stop'=>'');
+        $post=array('status'=>'','start'=>'','stop'=>'','pageNum'=>'1');
+        $post['pageNum'] = isset($_GET['page']) ? $_GET['page'] : 1;
 		$criteria = new CDbCriteria();
         $criteria->order='createtime DESC';
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
-        $pager->pageSize = 20;      
+        $pager->pageSize = 15;
         $pager->applyLimit($criteria);
         $data = Record::model()->findAll($criteria);
         $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model(),'post'=>$post));
@@ -45,6 +46,7 @@ class RecordController extends BackendController
     public function actionSelect()
     {
         $post=$_REQUEST['Record'];
+        $post['pageNum'] = isset($_GET['page']) ? $_GET['page'] : 1;
 
         $criteria = new CDbCriteria();
         $criteria->order='createtime DESC';
@@ -66,7 +68,7 @@ class RecordController extends BackendController
 
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
-        $pager->pageSize = 20;
+        $pager->pageSize = 15;
         $pager->applyLimit($criteria);
         $data = Record::model()->findAll($criteria);
         $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model(),'post'=>$post));
@@ -121,7 +123,7 @@ class RecordController extends BackendController
 		}else{
 			Yii::app()->user->setFlash('submit','审核提交失败！');
 		}
-        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionAuditAll()
@@ -135,7 +137,7 @@ class RecordController extends BackendController
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionUnAuditAll()
@@ -149,7 +151,7 @@ class RecordController extends BackendController
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-        $this->redirect($this->createUrl('select',array('Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function loadModel()

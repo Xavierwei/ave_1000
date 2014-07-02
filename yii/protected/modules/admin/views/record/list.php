@@ -49,7 +49,7 @@
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
 				<td><?php echo date("Y-m-d H:i",$item->createtime);?></td>
 				<?php $audit = $item->status==1?'<img src="'.yii::app()->baseUrl.'/style/admin/images/audit.gif">':'<img src="'.yii::app()->baseUrl.'/style/admin/images/unaudit.gif">';?>
-				<td><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[status]'=>$post['status'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])); ?></td>
+				<td><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[status]'=>$post['status'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
 				<td>
                     <?php echo CHtml::link('查看',array('/admin/record/info/','id'=>$item->uid),array('target'=>"_blank")); ?>
 <!--                    --><?php //echo CHtml::link('<img src="'.yii::app()->baseUrl.'/style/admin/images/edit.gif">',array('/admin/record/edit/','id'=>$item->uid)); ?>
