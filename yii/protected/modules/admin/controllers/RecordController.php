@@ -4,6 +4,15 @@ class RecordController extends BackendController
 {
 	private $_model;
 
+    public function behaviors()
+    {
+        return array(
+            'eexcelview'=>array(
+                'class'=>'ext.eexcelview.EExcelBehavior',
+            ),
+        );
+    }
+
     public function actionInfo($id)
     {
         $this->layout='//layouts/main';
@@ -61,6 +70,22 @@ class RecordController extends BackendController
         $pager->applyLimit($criteria);
         $data = Record::model()->findAll($criteria);
         $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model(),'post'=>$post));
+    }
+
+    public function actionExport()
+    {
+        $model = $game->findAll($criteria);
+//        var_dump($model);
+
+        if($model)
+        {
+            foreach($model as $key => $value)
+            {
+                $model[$key]->datetime=date('Y/m/d H:i:s',$value->datetime);
+            }
+            $title='Export :'.date('Y/m/d H:i:s');
+            $this->toExcel($model,array(),$title);
+        }
     }
 
 	public function actionAudit(){

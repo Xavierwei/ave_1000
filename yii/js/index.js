@@ -73,7 +73,14 @@
             })
             $('.city_selcom .profile_sel').live('change',function(){
                 $('.city_selcom').prev('.profile_seltxt').html( $(this).val() )
-                $('#Baby_point_hospital').val($(this).val());
+                if($(this).val() == '请选择推荐医院')
+                {
+                    $('#Baby_point_hospital').val('');
+                }
+                else
+                {
+                    $('#Baby_point_hospital').val($(this).val());
+                }
             })
             //select city
             $('#city_sel').live('change',function(){
