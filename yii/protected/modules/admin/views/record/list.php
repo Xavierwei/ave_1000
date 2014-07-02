@@ -9,15 +9,15 @@
 		</tr>
         <tr class="heightLight">
             <td colspan="14">
-                <select class="select" name="News[menu_id]" id="News_menu_id">
-                    <option value="2" selected="selected">全部</option>
+                <select class="select" name="Record[status]" id="Record_status">
+                    <option value="" selected="selected">全部</option>
                     <option value="1">已审核</option>
                     <option value="0">未审核</option>
                 </select>
-                <label for="News_title"> 起始时间：</label><input value="" name="News[title]" id="News_title" type="text" class="button" onClick="WdatePicker()" >
-                <label for="News_title"> 结束时间：</label><input value="" name="News[title]" id="News_title" type="text" class="button" onClick="WdatePicker()">
+                <label for="Record_start"> 起始时间：</label><input value="" name="Record[start]" id="Record_start" type="text" class="button" onClick="WdatePicker()" >
+                <label for="Record_stop"> 结束时间：</label><input value="" name="Record[stop]" id="Record_stop" type="text" class="button" onClick="WdatePicker()">
                 <input class="button" onclick="formSubmit('<?=Yii::app()->createUrl('/admin/record/select')?>')" name="yt0" type="button" value="筛选">
-                <input class="button" onclick="formSubmit('/malibu/admin/news/List.html')" name="yt0" type="button" value="导出">
+                <input class="button" onclick="formSubmit('<?=Yii::app()->createUrl('/admin/record/export')?>')" name="yt0" type="button" value="导出">
             </td>
         </tr>
 		<?php

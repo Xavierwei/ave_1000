@@ -65,11 +65,11 @@
             'id'=>'record-update-form',
             'enableAjaxValidation'=>false,
         )); ?>
-        <?php echo $form->textField($model,'avatar',array('hidden'=>'hidden')); ?>
-        <?php echo $form->textField($model,'photo1',array('hidden'=>'hidden')); ?>
-        <?php echo $form->textField($model,'photo2',array('hidden'=>'hidden')); ?>
-        <?php echo $form->textField($model,'photo3',array('hidden'=>'hidden')); ?>
-        <?php echo $form->textField($model,'case',array('hidden'=>'hidden')); ?>
+        <?php echo $form->textField($model,'avatar',array('style'=>'display:none')); ?>
+        <?php echo $form->textField($model,'photo1',array('style'=>'display:none')); ?>
+        <?php echo $form->textField($model,'photo2',array('style'=>'display:none')); ?>
+        <?php echo $form->textField($model,'photo3',array('style'=>'display:none')); ?>
+        <?php echo $form->textField($model,'case',array('style'=>'display:none')); ?>
         <?php $this->endWidget(); ?>
         <a class="nextForm btn" href="javascript:void(0)"></a>
         <div class="record_error"></div>
