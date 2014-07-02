@@ -4,7 +4,7 @@
 <div class="careword">
     <div class="careword_com <?php echo $update==1?'careword_com_update':''?>">
         <div class="careword_pho">
-            <img src="<?php echo Yii::app()->baseUrl . ($record ? str_replace('.jpg','_thumb.jpg',$record->avatar) : '/images/video_demo.jpg')?>" />
+            <img src="<?php echo Yii::app()->baseUrl . ($record ? $record->avatar : '/images/video_demo.jpg')?>" />
             <div class="careword_phobg"></div>
         </div>
         <h2>我的电子个人档案</h2>

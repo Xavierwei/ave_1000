@@ -8,7 +8,7 @@
     <div class="profile_form">
         <div class="profile_formpho">
             <div class="make_pho">
-                <img src="<?php echo Yii::app()->baseUrl . $record= $record ? str_replace('.jpg','_thumb.jpg',$record->avatar) : '/images/make_updemo.jpg'?>" />
+                <img src="<?php echo Yii::app()->baseUrl . $record= $record ? $record->avatar : '/images/make_updemo.jpg'?>" />
                 <div class="make_phobg make_phobg2"></div>
             </div>
         </div>
