@@ -147,6 +147,8 @@ class SiteController extends Controller
 			// validate user input and redirect to the previous page if valid
 			if($model->validate() && $model->login())
 				$this->redirect(Yii::app()->createUrl('/information/update'));
+            else
+                $this->redirect(Yii::app()->createUrl('/site/login?error=login'));
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model,'regmodel'=>$regmodel));
@@ -185,7 +187,7 @@ class SiteController extends Controller
                 else
                 {
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('注册失败');history.back(-1)</script>";
+                    echo "<script>history.back(-1)</script>";
                 }
             }
             //$this->redirect(Yii::app()->user->returnUrl);
@@ -216,7 +218,7 @@ class SiteController extends Controller
                 else
                 {
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('登陆失败');history.back(-1)</script>";
+                    echo "<script>history.back(-1)</script>";
                 }
             }
             else        //未注册
@@ -236,7 +238,7 @@ class SiteController extends Controller
                 else
                 {
                     header('Content-type: ' . 'text/html' .';charset=utf-8');
-                    echo "<script>alert('注册失败');history.back(-1)</script>";
+                    echo "<script>history.back(-1)</script>";
                 }
             }
         }

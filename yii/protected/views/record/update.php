@@ -72,6 +72,7 @@
         <?php echo $form->textField($model,'case',array('hidden'=>'hidden')); ?>
         <?php $this->endWidget(); ?>
         <a class="nextForm btn" href="javascript:void(0)"></a>
+        <div class="record_error"></div>
     </div>
 </div>
 <div class="pop home_pop" id="pop_legal">

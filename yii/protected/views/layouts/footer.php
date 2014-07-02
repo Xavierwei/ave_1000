@@ -130,9 +130,10 @@
 	});
 
 	$(".nextForm").click(function(){
+        $('.record_error').html('');
 		if($('.huanchu_pho .pho_uploaded').length == 0)
 		{
-			alert("请上传至少一张患处照片");
+            $('.record_error').html("请上传至少一张患处照片");
 		}
 		else if($('.make_checked').attr('class'))
 		{
@@ -140,7 +141,7 @@
 		}
 		else
 		{
-			alert("您尚未阅读“隐私声明”");
+			$('.record_error').html("您尚未阅读“隐私声明”");
 		}
 	});
 	<?php endif;?>

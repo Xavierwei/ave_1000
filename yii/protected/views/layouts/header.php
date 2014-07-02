@@ -4,14 +4,12 @@
     <meta http-equiv="Content-Language" content="zh-CN" />
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=640, minimum-scale=0.5, maximum-scale=1, target-densityDpi=290,user-scalable = no" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <?php
         if(Yii::app()->request->pathInfo == 'index'):
     ?>
-        <title>雅漾1000Families 湿疹儿童 优享乐生活_雅漾AVENE官方网站</title>
+        <title>雅漾湿疹活动_雅漾关怀_雅漾1000Families_雅漾AVENE官方网站</title>
         <meta name="keywords" content="雅漾1000Families,雅漾关怀湿疹儿童,雅漾湿疹,雅漾湿疹儿童,雅漾千家万户行动" />
         <meta name="description" content="雅漾携手CDA启动千家万护行动帮助更多用户了解儿童湿疹相关知识,包含湿疹介绍、湿疹相关常见问题及湿疹百科等。" />
     <?php elseif(Yii::app()->request->pathInfo == 'site/activity'):?>
@@ -31,7 +29,7 @@
         <meta name="keywords" content="关于湿疹,湿疹介绍,湿疹简介" />
         <meta name="description" content="湿疹是一种常见皮肤病，由多种内外因素引起的表皮及真皮浅层炎症性皮肤病。主要特点是剧烈瘙痒，皮损具有多形性、对称性、渗出性，易反复发作。" />
     <?php elseif(Yii::app()->request->pathInfo == 'guide'):?>
-        <title>雅漾三重滋润霜_雅漾1000Families__雅漾AVENE官方网站</title>
+        <title>雅漾三重修护特润霜_雅漾1000Families__雅漾AVENE官方网站</title>
         <meta name="keywords" content="雅漾1000Families,雅漾“千家万护”行动,雅漾三重滋润霜,雅漾湿疹,漾舒护活泉喷雾" />
         <meta name="description" content="雅漾三重滋润霜特别针对特应性皮炎、慢性湿疹、皮肤瘙痒、干性和特干性皮肤的特效护理产品。" />
     <?php elseif(Yii::app()->request->pathInfo == 'wiki'):?>
@@ -45,16 +43,15 @@
     <?php endif;?>
 	<link href="<?php echo Yii::app()->baseUrl.'/'?>css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo Yii::app()->baseUrl.'/'?>css/style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-20215586-15']);
-        _gaq.push(['_trackPageview']);
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+        ga('create', 'UA-20215586-15', 'eau-thermale-avene.cn');
+        ga('send', 'pageview');
+
     </script>
 </head>
 <body>

@@ -148,6 +148,14 @@ $(document).ready(function() {
         $('.home_head_pop').delay(200).fadeOut();
     });
 
+    var error = getQueryString('error');
+    if(error) {
+        if(error=='login') {
+            $('.login_ed').click();
+            $('.login_error').show();
+        }
+    }
+
 })
 
 var getQueryString = function(name) {

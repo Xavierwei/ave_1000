@@ -33,6 +33,7 @@
                 <div class="login_fi"><?php echo $form->passwordField($model,'password',array('class'=>'login_ipt')); ?></div>
                 <div class="login_fi login_fibtn"><?php echo CHtml::submitButton('Login',array('class'=>'login_btn')); ?></div>
             <?php $this->endWidget(); ?>
+            <div class="login_error">用户名或密码错误，请重新输入</div>
         </div>
     </div>
 </div>
