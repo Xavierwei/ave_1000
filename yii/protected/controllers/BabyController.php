@@ -40,6 +40,8 @@ class BabyController extends Controller
             $model->parent = $_POST['Baby']['parent'];
             $model->tel = $_POST['Baby']['tel'];
             $model->reason = $_POST['Baby']['reason'];
+            $model->point_city = $_POST['Baby']['point_city'];
+            $model->point_hospital = $_POST['Baby']['point_hospital'];
 
             $model->birthday=$_POST['Baby']['year'].'-'.$_POST['Baby']['mon'].'-'.$_POST['Baby']['day'];
             if($model->validate())
