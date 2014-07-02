@@ -60,8 +60,8 @@
 		<tr>
 			<td class="pageTd" colspan="16">
 				<div class="action">
-					<?php echo CHtml::submitButton('审核',array('class'=>'button'));?>
-					<?php echo CHtml::Button('未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/').'","")'));?>
+					<?php echo CHtml::submitButton('批量审核',array('class'=>'button'));?>
+					<?php echo CHtml::Button('批量未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/').'","")'));?>
 <!--					--><?php //echo CHtml::Button('删除',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/deleteAll/').'","确定要删除吗？")'));?>
 				</div>
 				<?php    
