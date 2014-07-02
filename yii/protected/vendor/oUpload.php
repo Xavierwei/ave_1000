@@ -135,38 +135,38 @@ class oUpload{
             $Original = @$CreateFunction($fileArray["tmp_name"]);
             if (!$Original) {$this->errno = 19; return false;}
 
-            $info = exif_read_data($fileArray["tmp_name"], NULL, true, false);
-            if($info && isset($info['IFD0']['Orientation']))
-            {
-                switch ($info['IFD0']['Orientation'])
-                {
-//                case 2:
-//                    img.RotateFlip(RotateFlipType.RotateNoneFlipX);//horizontal flip
-//                    break;
-                    case 3:
-                        $Original = imagerotate($Original, -180, 0);//right-top Rotate180FlipNone
-                        break;
-//                case 4:
-//                    img.RotateFlip(RotateFlipType.RotateNoneFlipY);//vertical flip
-//                    break;
-//                case 5:
-//                    img.RotateFlip(RotateFlipType.Rotate90FlipX);
-//                    break;
-                    case 6:
-                        $Original = imagerotate($Original, -90, 0);//right-top Rotate90FlipNone
-                        break;
-//                case 7:
-//                    img.RotateFlip(RotateFlipType.Rotate270FlipX);
-//                    break;
-                    case 8:
-                        $Original = imagerotate($Original, -270, 0);//left-bottom Rotate270FlipNone
-//                    width = height;
-//                    height = ow;
-                        break;
-                    default:
-                        break;
-                }
-            }
+//            $info = exif_read_data($fileArray["tmp_name"], NULL, true, false);
+//            if($info && isset($info['IFD0']['Orientation']))
+//            {
+//                switch ($info['IFD0']['Orientation'])
+//                {
+////                case 2:
+////                    img.RotateFlip(RotateFlipType.RotateNoneFlipX);//horizontal flip
+////                    break;
+//                    case 3:
+//                        $Original = imagerotate($Original, -180, 0);//right-top Rotate180FlipNone
+//                        break;
+////                case 4:
+////                    img.RotateFlip(RotateFlipType.RotateNoneFlipY);//vertical flip
+////                    break;
+////                case 5:
+////                    img.RotateFlip(RotateFlipType.Rotate90FlipX);
+////                    break;
+//                    case 6:
+//                        $Original = imagerotate($Original, -90, 0);//right-top Rotate90FlipNone
+//                        break;
+////                case 7:
+////                    img.RotateFlip(RotateFlipType.Rotate270FlipX);
+////                    break;
+//                    case 8:
+//                        $Original = imagerotate($Original, -270, 0);//left-bottom Rotate270FlipNone
+////                    width = height;
+////                    height = ow;
+//                        break;
+//                    default:
+//                        break;
+//                }
+//            }
 
             $originalHeight = ImageSY($Original);
             $originalWidth = ImageSX($Original);

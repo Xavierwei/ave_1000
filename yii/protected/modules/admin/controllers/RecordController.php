@@ -22,28 +22,45 @@ class RecordController extends BackendController
 
 	public function actionList()
 	{
+        $post=array('status'=>'','start'=>'','stop'=>'');
 		$criteria = new CDbCriteria();
+        $criteria->order='createtime DESC';
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
         $pager->pageSize = 20;      
         $pager->applyLimit($criteria);
         $data = Record::model()->findAll($criteria);
-        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model()));
+        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model(),'post'=>$post));
 	}
 
     public function actionSelect()
     {
-        echo "<pre>";
-        print_r($_POST);
-        var_dump(isset($_POST['Record']));
+        $post=$_POST['Record'];
 
         $criteria = new CDbCriteria();
+        $criteria->order='createtime DESC';
+
+        if($post['status'] != '')
+        {
+            $criteria->addCondition('status = '.((int)$post['status']));
+        }
+
+        if($post['start'] != '')
+        {
+            $criteria->addCondition('createtime > '.strtotime($post['start']) . ' OR createtime = '.strtotime($post['start']));
+        }
+
+        if($post['stop'] != '')
+        {
+            $criteria->addCondition('createtime < '.strtotime($post['stop']) . ' OR createtime = '.strtotime($post['stop']));
+        }
+
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
         $pager->pageSize = 20;
         $pager->applyLimit($criteria);
         $data = Record::model()->findAll($criteria);
-        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model()));
+        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model(),'post'=>$post));
     }
 
 	public function actionAudit(){
