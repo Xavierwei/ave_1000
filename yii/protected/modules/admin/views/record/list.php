@@ -15,9 +15,9 @@
                     <option value="0">未审核</option>
                 </select>
                 <label for="News_title"> 起始时间：</label><input value="" name="News[title]" id="News_title" type="text" class="button" onClick="WdatePicker()" >
-                <label for="News_title"> 结束时间：</label><input value="" name="News[title]" id="News_title" type="text" class="button" >
-                <input class="button" onclick="formSubmit(&quot;/malibu/admin/news/List.html&quot;,&quot;&quot;)" name="yt0" type="button" value="筛选">
-                <input class="button" onclick="formSubmit(&quot;/malibu/admin/news/List.html&quot;,&quot;&quot;)" name="yt0" type="button" value="导出">
+                <label for="News_title"> 结束时间：</label><input value="" name="News[title]" id="News_title" type="text" class="button" onClick="WdatePicker()">
+                <input class="button" onclick="formSubmit('<?=Yii::app()->createUrl('/admin/record/select')?>')" name="yt0" type="button" value="筛选">
+                <input class="button" onclick="formSubmit('/malibu/admin/news/List.html')" name="yt0" type="button" value="导出">
             </td>
         </tr>
 		<?php
@@ -31,7 +31,7 @@
             <th>头像</th>
 			<th colspan="3">患处</th>
             <th>病例</th>
-			<th><?php echo $form->labelEx($model,'updatetime'); ?></th>
+			<th><?php echo $form->labelEx($model,'createtime'); ?></th>
 			<th><?php echo $form->labelEx($model,'status'); ?></th>
 			<th>操作</th>
 		</tr>
@@ -46,7 +46,7 @@
                 <td width="60"><?php echo $item->case!=''?CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')):'';?></td>
 <!--				<td>--><?php //echo CHtml::link($item->uid,array('/admin/record/edit/','id'=>$item->uid)); ?><!--</td>-->
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
-				<td><?php echo date("Y-m-d H:i",$item->updatetime);?></td>
+				<td><?php echo date("Y-m-d H:i",$item->createtime);?></td>
 				<?php $audit = $item->status==1?'<img src="'.yii::app()->baseUrl.'/style/admin/images/audit.gif">':'<img src="'.yii::app()->baseUrl.'/style/admin/images/unaudit.gif">';?>
 				<td><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid)); ?></td>
 				<td>

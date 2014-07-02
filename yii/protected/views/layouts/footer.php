@@ -23,24 +23,24 @@
     </div>
 </div>
 <!--  -->
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/modernizr.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/handlebars.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.validate.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.queryloader2.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/scrollfix.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/jquery.easing.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/lib/flash_detect_min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/uploadify/jquery.uploadify.min.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/skrollr.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.ui.widget.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/jquery.fileupload.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/city.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/loading.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/common/index.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/baike/index.js"></script>
-<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>/js/index/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/modernizr.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/handlebars.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/jquery.validate.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/jquery.queryloader2.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/scrollfix.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/jquery.easing.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>lib/flash_detect_min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/uploadify/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/common/skrollr.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/city.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/common/loading.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/common/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/baike/index.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/index/index.js"></script>
 
 <script src="<?php echo Yii::app()->baseUrl.'/'?>js/index.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/jquery.jcarousel.min.js"></script>
