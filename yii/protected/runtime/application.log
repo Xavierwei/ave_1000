@@ -4304,3 +4304,106 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/ave_1000/yii/login
 ---
+2014/07/02 13:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ave_1000/yii/admin/Record".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('ave_1000/yii/ad...')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/ave_1000/yii/admin/Record
+---
+2014/07/02 13:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ave_1000/yii/admin/Record".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('ave_1000/yii/ad...')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii//ave_1000/yii/admin/Record
+---
+2014/07/02 13:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "style/admin/My97DatePicker/WdatePicker.js".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('style/admin/My9...')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ave_1000/yii/style/admin/My97DatePicker/WdatePicker.js
+HTTP_REFERER=http://172.16.111.87/ave_1000/yii/admin/Record
+---
+2014/07/02 14:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countdown.php".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('countdown.php')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/countdown.php
+HTTP_REFERER=http://localhost.com/
+---
+2014/07/02 14:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('yii')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii
+---
+2014/07/02 14:12:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countdown.php".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('countdown.php')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/countdown.php
+HTTP_REFERER=http://localhost.com/
+---
+2014/07/02 14:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('yii')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii
+---
+2014/07/02 14:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('yii')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii
+---
+2014/07/02 14:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/07/02 14:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dffh".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('dffh')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dffh
+---
+2014/07/02 14:14:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countdown.php".' in E:\dev_code\php\ave_1000\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('countdown.php')
+#1 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/countdown.php
+HTTP_REFERER=http://localhost.com/
+---
+2014/07/02 14:14:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "countdown.php".' in E:\dev_code\php\ave_1000\framework\web\CController.php:483
+Stack trace:
+#0 E:\dev_code\php\ave_1000\framework\web\CController.php(270): CController->missingAction('countdown.php')
+#1 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(282): CController->run('countdown.php')
+#2 E:\dev_code\php\ave_1000\framework\web\CWebApplication.php(141): CWebApplication->runController('site/countdown....')
+#3 E:\dev_code\php\ave_1000\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\dev_code\php\ave_1000\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/countdown.php
+HTTP_REFERER=http://localhost.com/site/login
+---
