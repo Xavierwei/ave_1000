@@ -9,7 +9,7 @@
             <div class="dia_q"><span>Q1：</span>您孩子的皮肤干燥吗?</div>
             <div class="dia_a cs-clear">
                 <p class="dia_yes <?php echo $model->one==1 ? 'dia_yes_on' : ''?>"></p>
-                <?php echo $form->textField($model,'one',array('hidden'=>'hidden')); ?>
+                <?php echo $form->textField($model,'one',array('style'=>'display:none')); ?>
                 <p class="dia_no <?php echo $model->one==0 ? 'dia_no_on' : ''?>"></p>
             </div>
         </div>
@@ -17,7 +17,7 @@
             <div class="dia_q"><span>Q2：</span>孩子的直系家长们是否也得过湿疹、过敏性鼻炎、哮喘的疾病史?</div>
             <div class="dia_a cs-clear">
                 <p class="dia_yes <?php echo $model->two==1 ? 'dia_yes_on' : ''?>"></p>
-                <?php echo $form->textField($model,'two',array('hidden'=>'hidden')); ?>
+                <?php echo $form->textField($model,'two',array('style'=>'display:none')); ?>
                 <p class="dia_no <?php echo $model->two==0 ? 'dia_no_on' : ''?>"></p>
             </div>
         </div>
@@ -25,7 +25,7 @@
             <div class="dia_q"><span>Q3：</span>您孩子的皮肤的湿疹是否最长常发生在腘窝、肘窝、脚踝、颈部等部位?</div>
             <div class="dia_a cs-clear">
                 <p class="dia_yes <?php echo $model->three==1 ? 'dia_yes_on' : ''?>"></p>
-                <?php echo $form->textField($model,'three',array('hidden'=>'hidden')); ?>
+                <?php echo $form->textField($model,'three',array('style'=>'display:none')); ?>
                 <p class="dia_no <?php echo $model->three==0 ? 'dia_no_on' : ''?>"></p>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <div class="dia_q"><span>Q4：</span>您的孩子是两岁前发病的吗?</div>
             <div class="dia_a cs-clear">
                 <p class="dia_yes <?php echo $model->four==1 ? 'dia_yes_on' : ''?> "></p>
-                <?php echo $form->textField($model,'four',array('hidden'=>'hidden')); ?>
+                <?php echo $form->textField($model,'four',array('style'=>'display:none')); ?>
                 <p class="dia_no <?php echo $model->four==0 ? 'dia_no_on' : ''?>"></p>
             </div>
         </div>
