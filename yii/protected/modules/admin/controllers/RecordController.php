@@ -37,13 +37,13 @@ class RecordController extends BackendController
         print_r($_POST);
         var_dump(isset($_POST['Record']));
 
-//        $criteria = new CDbCriteria();
-//        $count = Record::model()->count($criteria);
-//        $pager = new CPagination($count);
-//        $pager->pageSize = 20;
-//        $pager->applyLimit($criteria);
-//        $data = Record::model()->findAll($criteria);
-//        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model()));
+        $criteria = new CDbCriteria();
+        $count = Record::model()->count($criteria);
+        $pager = new CPagination($count);
+        $pager->pageSize = 20;
+        $pager->applyLimit($criteria);
+        $data = Record::model()->findAll($criteria);
+        $this->render('list',array('data'=>$data,'page'=>$pager,'model'=>Record::model()));
     }
 
 	public function actionAudit(){
