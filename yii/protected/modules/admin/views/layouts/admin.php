@@ -7,6 +7,8 @@
 <?php Yii::app()->getClientScript()->registerScriptFile(yii::app()->baseUrl."/style/admin/script/admin.js");?>
 <?php Yii::app()->getClientScript()->registerCssFile(yii::app()->baseUrl."/style/admin/admin.css");?>
 <script language="javascript" type="text/javascript" src="<?=Yii::app()->baseUrl?>/style/admin/script/My97DatePicker/WdatePicker.js"></script>
+<link href="<?=Yii::app()->baseUrl?>/style/admin/script/fsgallery/css/fsgallery.css" rel="stylesheet" />
+<script src="<?=Yii::app()->baseUrl?>/style/admin/script/fsgallery/js/fs_forse.js"></script>
 </head>
 	<body>
 		<?php echo $content; ?>

@@ -40,11 +40,11 @@
 			<tr>
 				<td class="leftTd"><?php echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?></td>
 				<td><?php echo $item->uid;?></td>
-                <td width="60"><?php echo $item->avatar!=''?CHtml::image(Yii::app()->baseUrl.$item->avatar,$item->uid,array('height'=>'40px')):'';?></td>
-				<td width="60"><?php echo $item->photo1!=''?CHtml::image(Yii::app()->baseUrl.$item->photo1,$item->uid,array('height'=>'40px')):'';?></td>
-				<td width="60"><?php echo $item->photo2!=''?CHtml::image(Yii::app()->baseUrl.$item->photo2,$item->uid,array('height'=>'40px')):'';?></td>
-                <td width="60"><?php echo $item->photo3!=''?CHtml::image(Yii::app()->baseUrl.$item->photo3,$item->uid,array('height'=>'40px')):'';?></td>
-                <td width="60"><?php echo $item->case!=''?CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')):'';?></td>
+                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->avatar!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->avatar).'">'.CHtml::image(Yii::app()->baseUrl.$item->avatar,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+				<td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo1!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo1).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo1,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+				<td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo2!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo2).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo2,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo3!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo3).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo3,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->case!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->case).'">'.CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
 <!--				<td>--><?php //echo CHtml::link($item->uid,array('/admin/record/edit/','id'=>$item->uid)); ?><!--</td>-->
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
 				<td><?php echo date("Y-m-d H:i",$item->createtime);?></td>
@@ -80,3 +80,12 @@
 	</table>
 	<?php $this->endWidget(); ?>
 </div>
+<script>
+    $(document).ready(function() {
+        var count=<?=count($data);?>;
+        for(i=0;i<count;i++)
+        {
+            $('#gallery_'+ i +' img').fsgallery();
+        }
+    })
+</script>
