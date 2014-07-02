@@ -74,17 +74,42 @@ class RecordController extends BackendController
 
     public function actionExport()
     {
-        $model = $game->findAll($criteria);
-//        var_dump($model);
+        $post=$_REQUEST['Record'];
 
-        if($model)
+        $criteria = new CDbCriteria();
+        $criteria->order='createtime DESC';
+
+        if($post['status'] != '')
         {
-            foreach($model as $key => $value)
-            {
-                $model[$key]->datetime=date('Y/m/d H:i:s',$value->datetime);
-            }
-            $title='Export :'.date('Y/m/d H:i:s');
-            $this->toExcel($model,array(),$title);
+            $criteria->addCondition('status = '.((int)$post['status']));
+        }
+
+        if($post['start'] != '')
+        {
+            $criteria->addCondition('createtime > '.strtotime($post['start']) . ' OR createtime = '.strtotime($post['start']));
+        }
+
+        if($post['stop'] != '')
+        {
+            $criteria->addCondition('createtime < '.strtotime($post['stop']) . ' OR createtime = '.strtotime($post['stop']));
+        }
+
+        $criteria->select='uid,username,email,roletype,name,nickname,parent,sex,birthday,address,city,tel,reason,status,createtime';
+        $data = VUser::model()->findAll($criteria);
+        $temp=array();
+        foreach($data as $key=>$value)
+        {
+            $value->birthday=substr($value->birthday,0,11);
+            $value->roletype = $value->roletype == User::GENERAL_TYPE ? '标准用户' : '微博用户';
+            $value->status = $value->status == Record::ALLOW_STATUS ? '已审核' : '未审核';
+            $value->createtime=date('Y-m-H',$value->createtime);
+            $temp[]=$value;
+        }
+
+        if($temp)
+        {
+            $title='患病儿童 :'.$post['start'].'-'.$post['stop'];
+            $this->toExcel($temp,array(),$title);
         }
     }
 
