@@ -811,6 +811,8 @@ html.video .make_pho input {display: block;width:230px;height:250px;opacity:0;}
     .login_box .login_fi{margin-bottom: 37px}
     .login_box .login_btn{width: 260px}
     .login_box .login_weibo_link {position: absolute;width:400px;height:140px;bottom:60px;left:90px;}
+    .login input {font-size:23px;}
+    .login_fi label.error {font-size:20px;top:46px;}
     .profile_form{background: url('../imgm/profile_form.jpg') no-repeat;width: 620px;height: 1320px;margin:60px auto}
     .profile_formpho{left:120px;top:90px}
     .profile_formpho .make_pho{padding: 18px 0 0 18px}
@@ -883,14 +885,14 @@ html.video .make_pho input {display: block;width:230px;height:250px;opacity:0;}
     .sec_homebar2 {height: 573px;}
 
 
-
+    .home_head_pop_hover {display: none;}
     .sec_home_head {position:relative;background: url('../imgm/home_head.png') no-repeat;width:640px;height:1831px;margin:50px auto 0 auto;}
-    .sec_home_head_con {width:286px;position: absolute;top:172px;left:315px;font-size:24px;line-height: 200%;}
+    .sec_home_head_con {width:286px;position: absolute;top:172px;left:315px;font-size:23px;line-height: 200%;}
     .sec_home_head_more {position: absolute;top:718px;left:52px;display: block;width:250px;height:50px;}
-    .sec_home_head_num {position: absolute;font-size:26px;color:#f58774;position: absolute;right:auto;left:157px;top:1371px;width:192px;text-align: center;}
-    .sec_home_head_btn1{position: absolute;width: 504px;height: 100px;right:83px;top:789px;background: url('../images/t.gif') repeat}
-    .sec_home_head_btn2{position: absolute;width: 504px;height: 100px;right:83px;top:1618px;background: url('../images/t.gif') repeat;}
-    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:1480px;}
+    .sec_home_head_num {position: absolute;font-size:26px;color:#f58774;position: absolute;right:auto;left:157px;top:1279px;width:192px;text-align: center;}
+    .sec_home_head_btn1{position: absolute;width: 359px;height: 100px;right:13px;top:509px;background: url('../images/t.gif') repeat}
+    .sec_home_head_btn2{position: absolute;width: 504px;height: 100px;right:83px;top:1518px;background: url('../images/t.gif') repeat;}
+    .sec_home_head_btns {position: absolute;width:300px;height:60px;right:auto;left:68px;top:1386px;}
     .sec_home_head_btns .popshow_list {cursor:pointer;position: absolute;width:256px;height:44px;top:16px;left:28px;}
     .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:129px;height:44px;top:16px;left:307px;}
     .sec_home_head_hospital {top:624px;left:55px;width:500px;}

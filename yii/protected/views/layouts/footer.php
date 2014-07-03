@@ -174,5 +174,18 @@
 		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1036621629/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
 </noscript>
+<!--Darwin Track System Ver2.0 Begin-->
+<script type="text/javascript">
+    if (/sv/.test(document.cookie+window.location)) {
+        var _rsClientId="23";
+        var _rsStepId=0;
+        var _rsIsSVL=false;
+        var _rsDWLP=location.protocol.indexOf("https")>-1?"https:":"http:";
+        var _rsDWDN="//sv.dmclick.cn/";
+        var _rsDWURL = _rsDWLP+_rsDWDN+"23.js";
+        document.write(unescape("%3Cscript src='" + _rsDWURL + "' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+<!--Darwin Track System Ver2.0 End-->
 </body>
 </html>

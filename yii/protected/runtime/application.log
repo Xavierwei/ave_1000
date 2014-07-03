@@ -5335,3 +5335,315 @@ in E:\dev_code\php\ave_1000\yii\index.php (13)
 2014/07/02 16:28:23 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
 in E:\dev_code\php\ave_1000\yii\protected\controllers\BabyController.php (51)
 in E:\dev_code\php\ave_1000\yii\index.php (13)
+2014/07/02 10:35:36 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:36 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:36 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:36 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:35:54 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:36:46 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:10 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:10 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:10 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:10 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:23 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:32 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:32 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:32 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:32 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:48:49 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:49:49 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:49:49 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:49:49 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 10:49:49 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:10 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "uid" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "name" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "nickname" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "parent" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "sex" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "birthday" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "address" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "tel" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "reason" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "point_city" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "point_hospital" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "createtime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/02 11:27:51 [warning] [application] Failed to set unsafe attribute "updatetime" of "Baby".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/BabyController.php (51)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/03 06:35:31 [warning] [application] Failed to set unsafe attribute "uid" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/03 06:35:31 [warning] [application] Failed to set unsafe attribute "status" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/03 06:35:31 [warning] [application] Failed to set unsafe attribute "createtime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
+2014/07/03 06:35:31 [warning] [application] Failed to set unsafe attribute "updatetime" of "Record".
+in /Applications/MAMP/htdocs/ave_1000/yii/protected/controllers/RecordController.php (36)
+in /Applications/MAMP/htdocs/ave_1000/yii/index.php (13)
