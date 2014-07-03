@@ -64,7 +64,7 @@ class oUpload{
                 }
                 return $this->errno ?  false :  true;
             }else{//上传单个文件
-                $this->getExt($fileArr['name']);//取得扩展名
+                $this->getExt($fileArr['tmp_name']);//取得扩展名
                 $this->setSavename($changeName == 1 ? $this->saveName : $fileArr['name']);//设置保存文件名
                 if($this->copyfile($fileArr)){
                     $this->returnArray[] =  $this->returninfo;
@@ -135,7 +135,7 @@ class oUpload{
             $Original = @$CreateFunction($fileArray["tmp_name"]);
             if (!$Original) {$this->errno = 19; return false;}
 
-            if($this->ext == 'jpg' )
+            if($this->ext == 'jpg' ||  $this->ext == 'jpeg')
             {
                 $info = exif_read_data($fileArray["tmp_name"], NULL, true, false);
                 if($info && isset($info['IFD0']['Orientation']))
@@ -283,9 +283,18 @@ class oUpload{
 // 获取文件扩展名
 // @param $fileName 上传文件的原文件名
     public function getExt($fileName){
-        $ext = explode(".", $fileName);
-        $ext = $ext[count($ext) - 1];
-        $this->ext = strtolower($ext);
+        $mine=getimagesize($fileName)['mime'];
+        foreach($this->fileFormat as $key => $value)
+        {
+            if(stripos($mine,$value) > 0)
+            {
+                $this->ext=$value;
+                break;
+            }
+        }
+//        $ext = explode(".", $fileName);
+//        $ext = $ext[count($ext) - 1];
+//        $this->ext = strtolower($ext);
         return $this->ext;
     }
 

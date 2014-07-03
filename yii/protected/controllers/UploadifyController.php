@@ -31,7 +31,7 @@ class UploadifyController extends Controller
                 {
                     //通过$upNew->errmsg()只能得到最后一个出错的信息，
                     //详细的信息在$upNew->getInfo()中可以得到。
-                    echo CJSON::encode( array ( 'state' => 'error' , 'message' => '上传错误,请重试' )  );
+                    echo CJSON::encode( array ( 'state' => 'error' , 'message' => $upNew->errmsg() )  );
                 }
                 else
                 {

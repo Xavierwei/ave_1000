@@ -11,6 +11,7 @@ class TestController extends Controller
     public function  actionExif()
     {
         $img = 'L:\Camera\test\20140701_191359.jpg';
+        print_r( stripos(getimagesize($img)['mime'],'jp'));die;
         $Original = imagecreatefromjpeg($img);
         $info = exif_read_data($img, NULL, true, false);
         if(isset($info['IFD0']['Orientation']))
