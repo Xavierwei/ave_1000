@@ -11,14 +11,14 @@
         <tr class="heightLight">
             <td colspan="14">
                 <select class="select" name="Record[status]" id="Record_status">
-                    <option value=""    <?=$post['status']==''?'selected="selected"' : ''?>>全部</option>
-                    <option value="1"   <?=$post['status']=='1'?'selected="selected"' : ''?>>已审核</option>
-                    <option value="0"   <?=$post['status']=='0'?'selected="selected"' : ''?>>未审核</option>
+                    <option value=""    <?php echo $post['status']==''?'selected="selected"' : ''?>>全部</option>
+                    <option value="1"   <?php echo $post['status']=='1'?'selected="selected"' : ''?>>已审核</option>
+                    <option value="0"   <?php echo $post['status']=='0'?'selected="selected"' : ''?>>未审核</option>
                 </select>
-                <label for="Record_start"> 起始时间：</label><input value="<?=$post['start']?$post['start'] : ''?>" name="Record[start]" id="Record_start" type="text" class="button" onClick="WdatePicker()" >
-                <label for="Record_stop"> 结束时间：</label><input value="<?=$post['stop']?$post['stop'] : ''?>" name="Record[stop]" id="Record_stop" type="text" class="button" onClick="WdatePicker()">
-                <input class="button" onclick="formSubmit('<?=Yii::app()->createUrl('/admin/record/select')?>')" name="yt0" type="button" value="筛选">
-                <input class="button" onclick="formSubmit('<?=Yii::app()->createUrl('/admin/record/export')?>')" name="yt0" type="button" value="导出">
+                <label for="Record_start"> 起始时间：</label><input value="<?php echo$post['start']?$post['start'] : ''?>" name="Record[start]" id="Record_start" type="text" class="button" onClick="WdatePicker()" >
+                <label for="Record_stop"> 结束时间：</label><input value="<?php echo$post['stop']?$post['stop'] : ''?>" name="Record[stop]" id="Record_stop" type="text" class="button" onClick="WdatePicker()">
+                <input class="button" onclick="formSubmit('<?php echoYii::app()->createUrl('/admin/record/select')?>')" name="yt0" type="button" value="筛选">
+                <input class="button" onclick="formSubmit('<?php echoYii::app()->createUrl('/admin/record/export')?>')" name="yt0" type="button" value="导出">
             </td>
         </tr>
 		<?php
@@ -40,11 +40,11 @@
 			<tr>
 				<td class="leftTd"><?php echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?></td>
 				<td><?php echo $item->uid;?></td>
-                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->avatar!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->avatar).'">'.CHtml::image(Yii::app()->baseUrl.$item->avatar,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
-				<td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo1!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo1).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo1,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
-				<td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo2!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo2).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo2,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
-                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->photo3!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo3).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo3,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
-                <td width="60" id="<?='gallery_'.$key?>"><?php echo $item->case!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->case).'">'.CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+                <td width="60" id="<?php echo'gallery_'.$key?>"><?php echo $item->avatar!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->avatar).'">'.CHtml::image(Yii::app()->baseUrl.$item->avatar,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+				<td width="60" id="<?php echo'gallery_'.$key?>"><?php echo $item->photo1!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo1).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo1,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+				<td width="60" id="<?php echo'gallery_'.$key?>"><?php echo $item->photo2!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo2).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo2,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+                <td width="60" id="<?php echo'gallery_'.$key?>"><?php echo $item->photo3!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo3).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo3,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
+                <td width="60" id="<?php echo'gallery_'.$key?>"><?php echo $item->case!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->case).'">'.CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
 <!--				<td>--><?php //echo CHtml::link($item->uid,array('/admin/record/edit/','id'=>$item->uid)); ?><!--</td>-->
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
 				<td><?php echo date("Y-m-d H:i",$item->createtime);?></td>
@@ -82,7 +82,7 @@
 </div>
 <script>
     $(document).ready(function() {
-        var count=<?=count($data);?>;
+        var count=<?php echocount($data);?>;
         for(i=0;i<count;i++)
         {
             $('#gallery_'+ i +' img').fsgallery();
