@@ -2,7 +2,7 @@
 	<?php $form=$this->beginWidget('CActiveForm',array(
 		'id'=>'listForm',
         'method'=>'get',
-	    'action'=>array('/admin/record/auditAll/'),
+	    'action'=>Yii::app()->createUrl('/admin/record/auditAll/',array('page'=>$post['pageNum'],'Recordstatus]'=>$post['status'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])),
 	));?>
 	<table class="contentTab listTab" width="100%">
 		<tr>
@@ -61,7 +61,7 @@
 			<td class="pageTd" colspan="16">
 				<div class="action">
 					<?php echo CHtml::submitButton('批量审核',array('class'=>'button'));?>
-					<?php echo CHtml::Button('批量未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/').'","")'));?>
+					<?php echo CHtml::Button('批量未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/',array('page'=>$post['pageNum'],'Recordstatus]'=>$post['status'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])).'","")'));?>
 <!--					--><?php //echo CHtml::Button('删除',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/deleteAll/').'","确定要删除吗？")'));?>
 				</div>
 				<?php    
