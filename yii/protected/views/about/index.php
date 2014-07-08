@@ -33,7 +33,7 @@
 				</div>
 				<p>渗液</p>
 			</div>
-			<div class="about_2_1_i" style="margin-left:216px;">
+			<div class="about_2_1_i">
 				<div class="gm-img">
 					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/4_1.jpg" />
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/4_2.jpg" />
@@ -46,6 +46,13 @@
 					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/5_2.jpg" />
 				</div>
 				<p>抓痕</p>
+			</div>
+			<div class="about_2_1_i">
+				<div class="gm-img">
+					<img class="p1" src="<?php echo Yii::app()->baseUrl.'/'?>pic/6_1.jpg" />
+					<img class="p2" src="<?php echo Yii::app()->baseUrl.'/'?>pic/6_2.jpg" />
+				</div>
+				<p>干燥</p>
 			</div>
 		</div>
 	</div>
