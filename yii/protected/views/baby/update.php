@@ -95,33 +95,33 @@
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>北京儿童医院</option>
-                <option>首都儿研所</option>
-                <option>北大医院</option>
+                <option>首都儿童医院附属北京儿童医院</option>
+                <option>首都儿科研究所</option>
+                <option>北京大学附属第一医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>中国医大盛京医院</option>
+                <option>中国医科大学附属盛京医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>大连儿童医院</option>
+                <option>大连市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>哈尔滨儿童医院</option>
+                <option>哈尔滨市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>长春儿童医院</option>
+                <option>长春市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>天津儿童医院</option>
+                <option>天津市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>郑州儿童医院</option>
+                <option>郑州市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
@@ -129,11 +129,11 @@
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>重庆儿童医院</option>
+                <option>重庆医科大学附属儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>华山医院</option>
+                <option>复旦大学附属华山医院</option>
                 <option>复旦大学附属儿科医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
@@ -146,15 +146,15 @@
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>深圳儿童医院</option>
+                <option>深圳市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>广州儿童医院</option>
+                <option>广州市儿童医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>武汉第一人民医院</option>
+                <option>武汉市第一医院</option>
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
@@ -162,7 +162,7 @@
             </select>
             <select  class="profile_sel profile_selhosp city" style="display:none">
                 <option>请选择推荐医院</option>
-                <option>青海省儿童医院</option>
+                <option>青海省妇女儿童医院</option>
             </select>
         </div>
     </div>

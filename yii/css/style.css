@@ -46,6 +46,7 @@ a:hover{color:#797979}
 .famliyicon{background: url('../images/famliyicon.png') no-repeat;width: 124px;height: 125px;position: absolute;top: 30px;right: 0}
 .nav{position: absolute;left:220px;top:42px;width: 600px}
 .navitem{height: 55px;float: left;width:auto;padding:0 5px;}
+*html .navitem {width:100px;}
 .navitem span{width: auto;height: 32px;background: url('../images/navbg.png') no-repeat 0 1px;display: block;font-size:14px;margin: 0 auto;line-height: 30px;text-align: center;color:#24aae1;padding:0 20px;}
 .navitem span.on{background: url('../images/navbgon.png') no-repeat center;color:#f69788;display: block;
 background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;}
@@ -83,6 +84,7 @@ background-size:100% 100%;-webkit-background-size:100% 100%;-moz-background-size
 .sec_home_head_btns .popshow_rule {cursor:pointer;position: absolute;width:80px;height:30px;top:16px;left:198px;}
 .home_head_pop_hover {position: absolute;width:387px;height:212px;bottom:43px;left:247px;}
 .home_head_pop {background: url('../images/home_head_popup.png') no-repeat;width:591px;height:436px;position:absolute;top:0;left:0;display: none;}
+.home_head_pop_close {cursor:pointer;background: url('../images/close.png') no-repeat;width:18px;height:18px;position: absolute;right:20px;top:20px;}
 
 .sec_video{position: relative;height: 488px;width: 980px;margin: 25px auto 0}
 .home .video{background: url('../images/videobg.png') no-repeat;width: 625px;height: 482px;position: relative;}

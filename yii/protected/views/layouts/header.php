@@ -21,7 +21,7 @@
         <meta name="keywords" content="雅漾“千家万护”行动,雅漾1000Families" />
         <meta name="description" content='登陆雅漾“千家万护”行动官网获得更多关爱湿疹儿童活动信息。' />
     <?php elseif(Yii::app()->request->pathInfo == 'care'):?>
-        <title>雅漾关怀_雅漾1000Families__雅漾AVENE官方网站</title>
+        <title>雅漾湿疹活动_雅漾关怀_雅漾1000Families_雅漾AVENE官方网站</title>
         <meta name="keywords" content="雅漾关怀,雅漾关怀简介,雅漾湿疹活动" />
         <meta name="description" content="特应性皮炎作为一种儿童最常见的慢性皮肤疾病,严重干扰了儿童的成长和家长的正常生活。良好的患者教育能使患者和家长更科学、更深入的了解疾病的发病、表现及治疗和日常护理,更好地对抗战胜疾病。" />
     <?php elseif(Yii::app()->request->pathInfo == 'about'):?>

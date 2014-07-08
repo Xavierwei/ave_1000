@@ -148,6 +148,10 @@ $(document).ready(function() {
         $('.home_head_pop').delay(200).fadeOut();
     });
 
+    $('.home_head_pop_close').click(function(){
+        $('.home_head_pop').delay(200).fadeOut();
+    });
+
     var error = getQueryString('error');
     if(error) {
         if(error=='login') {
