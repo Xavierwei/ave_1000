@@ -34,7 +34,7 @@ $.initProv = function(prov, city, defaultProv, defaultCity) {
     var cityEl = $(city);
     var hasDefaultProv = (typeof(defaultCity) != 'undefined');
 
-    var provHtml = '';
+    var provHtml = provEl.html();
 
     provHtml += '<option value="-1">请选择</option>';
     for(var i = 0; i < $._cityInfo.length; i++) {
@@ -45,6 +45,7 @@ $.initProv = function(prov, city, defaultProv, defaultCity) {
     provEl.change(function() {
         $.initCities(provEl, cityEl);
         $('.profile_selcity_txt0').html($._cityInfo[provEl.val()].n);
+        $('#province_val').val($._cityInfo[provEl.val()].n);
     });
 };
 
@@ -52,7 +53,7 @@ $.initCities = function(provEl, cityEl, defaultCity) {
     var hasDefaultCity = (typeof(defaultCity) != 'undefined');
     if(provEl.val() != '' && parseInt(provEl.val()) >= 0) {
         var cities = $._cityInfo[parseInt(provEl.val())].c;
-        var cityHtml = '';
+        var cityHtml ='';
 
         cityHtml += '<option value="-1">请选择</option>';
         for(var i = 0; i < cities.length; i++) {
@@ -65,7 +66,7 @@ $.initCities = function(provEl, cityEl, defaultCity) {
             $('#city_val').val(cities[cityEl.val()]);
         });
     } else {
-        cityEl.html('<option value="-1">请先选择</option>');
+            cityEl.html(cityEl.html() + '<option value="-1">请选择</option>');
     }
 
 };

@@ -190,6 +190,7 @@ h1{font-size:18px;line-height:40px;font-family:'微软雅黑','黑体','宋体';
 	float:left;
 }
 /**内容**/
+label{margin-left: 6px;}
 .content{
 	padding:8px 10px;
 	margin:0 auto;
@@ -329,6 +330,10 @@ h1{font-size:18px;line-height:40px;font-family:'微软雅黑','黑体','宋体';
 }
 .button{
 	padding:2px 15px;
+}
+.small-button{
+    padding:2px 10px;
+    width: 14px;
 }
 .evenList{
 	background:#f6f7f9;

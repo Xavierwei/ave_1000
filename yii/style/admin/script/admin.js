@@ -73,6 +73,21 @@ $(function(){
         else
             return false;//阻止链接跳转
         });
+
+    //城市 医院 选择
+    $('.profile_sel').live('change',function(){
+        $('#Record_point_hospital').val($(this).val());
+    })
+    //select city
+        $('#city_sel').live('change',function(){
+            $('.profile_selhosp').hide()
+            $('.profile_selhosp').eq( $(this).get(0).selectedIndex ).show()
+            $('#Record_point_city').val($(this).val());
+            $('#Record_point_hospital').val($('.profile_selhosp').eq( $(this).get(0).selectedIndex).val() );
+        })
+
+    //省市城市选择
+        $.initProv("#city_sell0", "#city_sell", "", "");
 })
 
 //左侧菜单

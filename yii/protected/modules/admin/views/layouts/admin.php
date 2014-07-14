@@ -4,6 +4,7 @@
 <title>Avene</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <?php Yii::app()->getClientScript()->registerScriptFile(yii::app()->baseUrl."/style/admin/script/jquery.min.js");?>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl.'/'?>js/city.js"></script>
 <?php Yii::app()->getClientScript()->registerScriptFile(yii::app()->baseUrl."/style/admin/script/admin.js");?>
 <?php Yii::app()->getClientScript()->registerCssFile(yii::app()->baseUrl."/style/admin/admin.css");?>
 <script language="javascript" type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/style/admin/script/My97DatePicker/WdatePicker.js"></script>
