@@ -79,6 +79,7 @@
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\treeview\images\treeview-red.gif" afterPath="" />
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\treeview\jquery.treeview.css" afterPath="" />
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\yiitab\jquery.yiitab.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" afterPath="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" afterPath="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -134,7 +135,7 @@
       <file leaf-file-name="EExcelView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="18" selection-start="7208" selection-end="7208" vertical-scroll-proportion="-8.5" vertical-offset="4131" max-vertical-offset="4930">
+            <state line="252" column="36" selection-start="7134" selection-end="7134" vertical-scroll-proportion="1.8867924" vertical-offset="4384" max-vertical-offset="4930">
               <folding />
             </state>
           </provider>
@@ -199,9 +200,9 @@
       <file leaf-file-name="RecordController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="100" selection-start="7066" selection-end="7066" vertical-scroll-proportion="0.8516579" vertical-offset="2589" max-vertical-offset="4284">
+            <state line="182" column="0" selection-start="7113" selection-end="7113" vertical-scroll-proportion="0.4363002" vertical-offset="2844" max-vertical-offset="4284">
               <folding>
-                <marker date="1405392591900" expanded="true" signature="1451:1517" placeholder="..." />
+                <marker date="1405394206723" expanded="true" signature="1451:1517" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -210,7 +211,7 @@
       <file leaf-file-name="EExcelBehavior.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="26" selection-start="754" selection-end="754" vertical-scroll-proportion="-10.461538" vertical-offset="306" max-vertical-offset="2482">
+            <state line="46" column="114" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-10.461538" vertical-offset="510" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
@@ -266,10 +267,10 @@
         <option value="$PROJECT_DIR$/yii/style/admin/script/admin.js" />
         <option value="$PROJECT_DIR$/yii/js/city.js" />
         <option value="$PROJECT_DIR$/yii/style/admin/admin.css" />
-        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
-        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelView.php" />
         <option value="$PROJECT_DIR$/yii/protected/modules/admin/views/record/list.php" />
+        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelView.php" />
         <option value="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" />
+        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
       </list>
     </option>
   </component>
@@ -994,7 +995,11 @@
       <created>1405392101711</created>
       <updated>1405392101711</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix bug">
+      <created>1405392616022</created>
+      <updated>1405392616022</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1350,20 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="754" selection-end="754" vertical-scroll-proportion="-10.461538" vertical-offset="306" max-vertical-offset="2482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="18" selection-start="7208" selection-end="7208" vertical-scroll-proportion="-8.5" vertical-offset="4131" max-vertical-offset="4930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/views/record/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="12" selection-start="641" selection-end="641" vertical-scroll-proportion="-2.2452831" vertical-offset="0" max-vertical-offset="3978">
@@ -1389,11 +1380,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="114" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-10.461538" vertical-offset="510" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="36" selection-start="7134" selection-end="7134" vertical-scroll-proportion="1.8867924" vertical-offset="4384" max-vertical-offset="4930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="100" selection-start="7066" selection-end="7066" vertical-scroll-proportion="0.8516579" vertical-offset="2589" max-vertical-offset="4284">
+        <state line="182" column="0" selection-start="7113" selection-end="7113" vertical-scroll-proportion="0.4363002" vertical-offset="2844" max-vertical-offset="4284">
           <folding>
-            <marker date="1405392591900" expanded="true" signature="1451:1517" placeholder="..." />
+            <marker date="1405394206723" expanded="true" signature="1451:1517" placeholder="..." />
           </folding>
         </state>
       </provider>
