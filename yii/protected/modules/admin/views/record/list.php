@@ -144,7 +144,7 @@
                 <label for="Record_start"> 起始时间：</label><input value="<?php echo $post['start']?$post['start'] : ''?>" name="Record[start]" id="Record_start" type="text" class="button" onClick="WdatePicker()" >
                 <label for="Record_stop"> 结束时间：</label><input value="<?php echo $post['stop']?$post['stop'] : ''?>" name="Record[stop]" id="Record_stop" type="text" class="button" onClick="WdatePicker()">
                 <input class="button" onclick="formSubmit('<?php echo Yii::app()->createUrl('/admin/record/select')?>')" name="yt0" type="button" value="筛选">
-                <input class="button" onclick="formSubmit('<?php echo Yii::app()->createUrl('/admin/record/export')?>')" name="yt0" type="button" value="导出">
+                <input class="button" onclick="formSubmit('<?php echo Yii::app()->createUrl('/admin/record/export')?>')" name="yt0" type="button" value="导出excel">
             </td>
         </tr>
 		<?php
