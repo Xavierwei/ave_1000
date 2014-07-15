@@ -183,7 +183,7 @@ class RecordController extends BackendController
 
         if($temp)
         {
-            $title='患病儿童 :'.$post['start'].'-'.$post['stop'];
+            $title='导出excel :'.$post['start'].'-'.$post['stop'];
             $this->toExcel($temp,array(),$title);
         }
     }
