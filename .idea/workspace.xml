@@ -209,9 +209,9 @@
       <file leaf-file-name="RecordController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="46" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.58464223" vertical-offset="1722" max-vertical-offset="4284">
+            <state line="181" column="41" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.58464223" vertical-offset="2742" max-vertical-offset="4284">
               <folding>
-                <marker date="1405388347070" expanded="true" signature="1451:1517" placeholder="..." />
+                <marker date="1405389892926" expanded="true" signature="1451:1517" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -978,7 +978,11 @@
       <created>1405387196744</created>
       <updated>1405387196744</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix  guolv">
+      <created>1405388369773</created>
+      <updated>1405388369773</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1003,7 +1007,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1065,7 +1069,8 @@
     <MESSAGE value="fix bug" />
     <MESSAGE value="fix name" />
     <MESSAGE value="fix export name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix export name" />
+    <MESSAGE value="fix  guolv" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix  guolv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1368,9 +1373,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="46" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.58464223" vertical-offset="1722" max-vertical-offset="4284">
+        <state line="181" column="41" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.58464223" vertical-offset="2742" max-vertical-offset="4284">
           <folding>
-            <marker date="1405388347070" expanded="true" signature="1451:1517" placeholder="..." />
+            <marker date="1405389892926" expanded="true" signature="1451:1517" placeholder="..." />
           </folding>
         </state>
       </provider>
