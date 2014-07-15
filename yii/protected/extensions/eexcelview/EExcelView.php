@@ -69,7 +69,9 @@ Yii::import('zii.widgets.grid.CGridView');
 			Yii::import(self::$phpExcelPathAlias, true);
 			self::$objPHPExcel = new PHPExcel();
 			self::$activeSheet = self::$objPHPExcel->getActiveSheet();
-			spl_autoload_register(array('YiiBase','autoload'));  
+			spl_autoload_register(array('YiiBase','autoload'));
+
+
 			
 			// Creating a workbook
 			$properties = self::$objPHPExcel->getProperties();
@@ -79,6 +81,8 @@ Yii::import('zii.widgets.grid.CGridView');
 			->setSubject($this->subject)
 			->setDescription($this->description)
 			->setCategory($this->category);
+
+
 
 			//$this->initColumns();
 		}
@@ -210,8 +214,19 @@ Yii::import('zii.widgets.grid.CGridView');
 				$value=$value===null ? "" : $column->grid->getFormatter()->format($value,$column->type);
 
 				// Write to the cell (and advance to the next)
-				self::$activeSheet->setCellValue( $this->columnName(++$i).($row+2) , $value);
-			endforeach;
+
+                if(strpos($value,'http://') === 0  ||   strpos($value,'http://'))
+                {
+                    //self::$activeSheet->setCellValue( $this->columnName(++$i).($row+2) , $value);
+                    self::$activeSheet->setCellValue($this->columnName($i).($row+2) , $value);
+                    self::$activeSheet->getCell($this->columnName($i).($row+2))->getHyperlink()->setUrl($value);
+                    self::$activeSheet->getCell($this->columnName($i).($row+2))->getHyperlink()->setTooltip('Navigate to website');
+                    self::$activeSheet->getStyle($this->columnName(++$i).($row+2))->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
+                }
+                else
+                    self::$activeSheet->setCellValue( $this->columnName(++$i).($row+2) , $value);
+
+            endforeach;
 			
 			// As we are done with this row we DONT need this specific record
 			unset(self::$data[$row]);		
@@ -237,17 +252,21 @@ Yii::import('zii.widgets.grid.CGridView');
 				
 		public function run()
 		{
+
 			$this->renderHeader();
 			$this->renderBody();	
 			$this->renderFooter();
-			
+            //print_r(self::$objPHPExcel);die;
+
 			//set auto width
 			if($this->autoWidth)
 				foreach($this->columns as $n=>$column)
 					self::$objPHPExcel->getActiveSheet()->getColumnDimension($this->columnName($n+1))->setAutoSize(true);
-			
+
+//            print_r(self::$objPHPExcel);die;
 			//create writer for saving
 			$objWriter = PHPExcel_IOFactory::createWriter(self::$objPHPExcel, $this->exportType);
+
 			if(!$this->stream)
 				$objWriter->save($this->filename);
 			else //output to browser
