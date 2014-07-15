@@ -6,10 +6,10 @@
 	));?>
 	<table class="contentTab listTab" width="100%">
 		<tr>
-			<td class="titleTd" colspan="14">患病儿童</td>
+			<td class="titleTd tal" colspan="20">患病儿童</td>
 		</tr>
-        <tr class="heightLight">
-            <td colspan="14">
+        <tr class="heightLight tal">
+            <td class="tal"  colspan="20">
                 <label for="Record_status"> 审核：</label>
                 <select class="select" name="Record[status]" id="Record_status">
                     <option value=""    <?php echo $post['status']==''?'selected="selected"' : ''?>>全部</option>
@@ -133,7 +133,10 @@
                     <option>请选择推荐医院</option>
                     <option>青海省妇女儿童医院</option>
                 </select>
-
+            </td>
+        </tr>
+        <tr class="heightLight">
+            <td class="tal"    colspan="20">
                 <label for="Record_age_start"> 宝贝年龄：</label>
                 <input value="<?php echo isset($post['age_start'])?$post['age_start'] : ''?>" name="Record[age_start]" id="Record_age_start" type="text" class="small-button"> -
                 <input value="<?php echo isset($post['age_stop'])?$post['age_stop'] : ''?>" name="Record[age_stop]" id="Record_age_stop" type="text" class="small-button">
@@ -152,8 +155,10 @@
 		<tr>
 			<th class="leftTd" width="20"><?php echo CHtml::checkBox('',false,array('class'=>'checkAll'))?></th>
 			<th>id</th>
+            <th>家长</th>
             <th>宝贝年龄</th>
             <th>宝贝性别</th>
+            <th>电话</th>
             <th>来自城市</th>
             <th>推荐医院</th>
             <th>头像</th>
@@ -167,10 +172,12 @@
 			<tr>
 				<td class="leftTd"><?php echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?></td>
 				<td width="30"><?php echo $item->uid;?></td>
-                <td width="50" style="text-align: center"><?php echo isset($item->baby->birthday) ? Drtool::age($item->baby->birthday) : '' ?></td>
-                <td width="50" style="text-align: center"><?php echo isset($item->baby->sex) ? $item->baby->sex : '' ?></td>
-                <td width="50" style="text-align: center"><?php echo isset($item->baby->city) ? $item->baby->city : '' ?></td>
-                <td width="120" style="text-align: center"><?php echo (isset($item->baby->point_city) ? $item->baby->point_city.'：' : '') . (isset($item->baby->point_hospital) ? $item->baby->point_hospital : '') ?></td>
+                <td width="50"><?php echo isset($item->baby->parent) ? $item->baby->parent : '' ?></td>
+                <td width="50"><?php echo isset($item->baby->birthday) ? Drtool::age($item->baby->birthday) : '' ?></td>
+                <td width="50"><?php echo isset($item->baby->sex) ? $item->baby->sex : '' ?></td>
+                <td width="110"><?php echo isset($item->baby->tel) ? $item->baby->tel : '' ?></td>
+                <td width="50"><?php echo isset($item->baby->city) ? $item->baby->city : '' ?></td>
+                <td><?php echo (isset($item->baby->point_city) ? $item->baby->point_city.'：' : '') . (isset($item->baby->point_hospital) ? $item->baby->point_hospital : '') ?></td>
                 <td width="60" id="<?php echo 'gallery_'.$key?>"><?php echo $item->avatar!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->avatar).'">'.CHtml::image(Yii::app()->baseUrl.$item->avatar,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
                 <td width="60" id="<?php echo 'gallery_'.$key?>"><?php echo $item->photo1!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo1).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo1,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
 				<td width="60" id="<?php echo 'gallery_'.$key?>"><?php echo $item->photo2!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->photo2).'">'.CHtml::image(Yii::app()->baseUrl.$item->photo2,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
@@ -178,10 +185,10 @@
                 <td width="60" id="<?php echo 'gallery_'.$key?>"><?php echo $item->case!=''?('<a href="'.Yii::app()->baseUrl.str_replace('_thumb','',$item->case).'">'.CHtml::image(Yii::app()->baseUrl.$item->case,$item->uid,array('height'=>'40px')).'</a>'):'';?></td>
 <!--				<td>--><?php //echo CHtml::link($item->uid,array('/admin/record/edit/','id'=>$item->uid)); ?><!--</td>-->
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
-				<td><?php echo date("Y-m-d H:i",$item->createtime);?></td>
+				<td width="110"><?php echo date("Y-m-d H:i",$item->createtime);?></td>
 				<?php $audit = $item->status==1?'<img src="'.yii::app()->baseUrl.'/style/admin/images/audit.gif">':'<img src="'.yii::app()->baseUrl.'/style/admin/images/unaudit.gif">';?>
-				<td><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[sex]'=>$post['sex'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[status]'=>$post['status'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
-				<td>
+				<td width="60"><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[sex]'=>$post['sex'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[status]'=>$post['status'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
+				<td width="40">
                     <?php echo CHtml::link('查看',array('/admin/record/info/','id'=>$item->uid),array('target'=>"_blank")); ?>
 <!--                    --><?php //echo CHtml::link('<img src="'.yii::app()->baseUrl.'/style/admin/images/edit.gif">',array('/admin/record/edit/','id'=>$item->uid)); ?>
 <!--                    --><?php //echo CHtml::link('<img src="'.yii::app()->baseUrl.'/style/admin/images/del.gif">',array('/admin/record/delete/','id'=>$item->uid),array('class'=>'delete','id'=>$item->uid)); ?>

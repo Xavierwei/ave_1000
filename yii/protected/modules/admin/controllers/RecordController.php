@@ -88,17 +88,17 @@ class RecordController extends BackendController
             $criteria->addCondition("birthday < '".date("Y-m-d H:i:s",mktime(24,60,60,12,31,date('Y',time())-$post['age_start'])) . "'" . " OR birthday = '".date("Y-m-d H:i:s",mktime(24,60,60,12,31,date('Y',time())-$post['age_start']))  . "'");
         }
 
-        if($post['point_city'] != '' || $post['point_city']!="请选择所在城市")
+        if($post['point_city'] != '' && $post['point_city']!="请选择所在城市")
         {
             $criteria->addCondition("point_city = '". $post['point_city']. "'");
         }
 
-        if($post['point_hospital'] != '' || $post['point_hospital']!="请选择推荐医院")
+        if($post['point_hospital'] != '' && $post['point_hospital']!="请选择推荐医院")
         {
             $criteria->addCondition("point_hospital = '". $post['point_hospital']. "'");
         }
 
-        if($post['city'] != '' || $post['city']!="请选择")
+        if($post['city'] != '' && $post['city']!="请选择")
         {
             $criteria->addCondition("city = '". $post['city']. "'");
         }
@@ -148,17 +148,17 @@ class RecordController extends BackendController
             $criteria->addCondition("birthday < '".date("Y-m-d H:i:s",mktime(24,60,60,12,31,date('Y',time())-$post['age_start'])) . "'" . " OR birthday = '".date("Y-m-d H:i:s",mktime(24,60,60,12,31,date('Y',time())-$post['age_start']))  . "'");
         }
 
-        if($post['point_city'] != '' || $post['point_city']!="请选择所在城市")
+        if($post['point_city'] != '' && $post['point_city']!="请选择所在城市")
         {
             $criteria->addCondition("point_city = '". $post['point_city']. "'");
         }
 
-        if($post['point_hospital'] != '' || $post['point_hospital']!="请选择推荐医院")
+        if($post['point_hospital'] != '' && $post['point_hospital']!="请选择推荐医院")
         {
             $criteria->addCondition("point_hospital = '". $post['point_hospital']. "'");
         }
 
-        if($post['city'] != '' || $post['city']!="请选择")
+        if($post['city'] != '' && $post['city']!="请选择")
         {
             $criteria->addCondition("city = '". $post['city']. "'");
         }

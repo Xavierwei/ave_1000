@@ -2,6 +2,7 @@
 *{margin:0px;padding:0px;}
 
 body {text-decoration:none; text-align:center;font-family:'微软雅黑';overflow-x:hidden;margin:0;padding:0;}
+.tal{text-align: left;}
 
 a{hide-focus: expression( this.hideFocus=true );outline: none;}
 /* 定义 公共 超链接 */
@@ -11,7 +12,7 @@ a:hover,a:active{text-decoration:none;color:#666}
 /* 网页标签 */
 form,input,select,textarea{font-size:12px; font-family:'微软雅黑';}
 ul li{list-style:none;vertical-align:middle;}
-table tr td{font-family:'微软雅黑';}
+table tr td,table tr,table tr th{font-family:'微软雅黑';text-align: center;}
 table .doubleTr{background:#F8F8F8;font-family:'微软雅黑';}
 img{border:none;}
 h1{font-size:18px;line-height:40px;font-family:'微软雅黑','黑体','宋体';text-align:center;}
@@ -195,7 +196,7 @@ label{margin-left: 6px;}
 	padding:8px 10px;
 	margin:0 auto;
 	background:#ffffff;
-	text-align:left;
+	text-align:center;
 	font-size:12px;
 	line-height:22px;
 }
@@ -217,13 +218,14 @@ label{margin-left: 6px;}
 .contentTab tr th{
 	font-weight:bold;
 	color:#333333;
-	text-align:left;
+	text-align:center;
 }
 .contentTab tr .leftTd{
 	border:1px solid #d9d9d9;
 	border-left:none;
 	border-right:none;
 	padding-left:10px;
+    text-align: left;
 }
 .contentTab tr .titleTd{
 	font-size:14px;
