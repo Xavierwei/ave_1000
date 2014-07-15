@@ -38,6 +38,7 @@ class RecordController extends BackendController
 		$criteria = new CDbCriteria();
         $criteria->with='baby';
         $criteria->order='t.createtime DESC';
+        $criteria->addCondition("name != ''");
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
         $pager->pageSize = 15;
@@ -57,6 +58,7 @@ class RecordController extends BackendController
         $criteria = new CDbCriteria();
         $criteria->with='baby';
         $criteria->order='t.createtime DESC';
+        $criteria->addCondition("name != ''");
 
         if($post['status'] != '')
         {
@@ -117,6 +119,7 @@ class RecordController extends BackendController
 
         $criteria = new CDbCriteria();
         $criteria->order='createtime DESC';
+        $criteria->addCondition("name != ''");
 
         if($post['status'] != '')
         {
