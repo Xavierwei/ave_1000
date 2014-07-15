@@ -79,7 +79,7 @@
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\treeview\images\treeview-red.gif" afterPath="" />
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\treeview\jquery.treeview.css" afterPath="" />
       <change type="DELETED" beforePath="E:\dev_code\php\ave_1000\yii\assets\a5c8524\yiitab\jquery.yiitab.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" afterPath="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" afterPath="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/runtime/application.log" afterPath="$PROJECT_DIR$/yii/protected/runtime/application.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yii/protected/config/main.php" afterPath="$PROJECT_DIR$/yii/protected/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -170,15 +170,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yii/js/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.0" vertical-offset="2179" max-vertical-offset="3162">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/views/layouts/admin.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -206,13 +197,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecordController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RecordController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="41" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.58464223" vertical-offset="2742" max-vertical-offset="4284">
+            <state line="189" column="22" selection-start="7265" selection-end="7265" vertical-scroll-proportion="-12.230769" vertical-offset="2895" max-vertical-offset="4284">
               <folding>
                 <marker date="1405389892926" expanded="true" signature="1451:1517" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EExcelBehavior.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="117" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.83071554" vertical-offset="306" max-vertical-offset="2482">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -256,7 +256,6 @@
         <option value="$PROJECT_DIR$/yii/js/index.js" />
         <option value="$PROJECT_DIR$/yii/protected/models/Baby.php" />
         <option value="$PROJECT_DIR$/yii/protected/models/Record.php" />
-        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
         <option value="$PROJECT_DIR$/yii/protected/modules/admin/models/VUser.php" />
         <option value="$PROJECT_DIR$/yii/protected/controllers/UploadifyController.php" />
         <option value="$PROJECT_DIR$/yii/protected/controllers/TestController.php" />
@@ -270,6 +269,7 @@
         <option value="$PROJECT_DIR$/yii/style/admin/admin.css" />
         <option value="$PROJECT_DIR$/yii/protected/modules/admin/views/record/list.php" />
         <option value="$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php" />
+        <option value="$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php" />
       </list>
     </option>
   </component>
@@ -982,7 +982,11 @@
       <created>1405388369773</created>
       <updated>1405388369773</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix photo">
+      <created>1405389993037</created>
+      <updated>1405389993037</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1007,7 +1011,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1070,7 +1074,8 @@
     <MESSAGE value="fix name" />
     <MESSAGE value="fix export name" />
     <MESSAGE value="fix  guolv" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix  guolv" />
+    <MESSAGE value="fix photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix photo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1234,11 +1239,6 @@
         <state line="26" column="0" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1394" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="57" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2482" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/controllers/WeiboController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="13" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.7042578" vertical-offset="102" max-vertical-offset="1224" />
@@ -1373,10 +1373,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yii/protected/modules/admin/controllers/RecordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="41" selection-start="7031" selection-end="7031" vertical-scroll-proportion="0.58464223" vertical-offset="2742" max-vertical-offset="4284">
+        <state line="189" column="22" selection-start="7265" selection-end="7265" vertical-scroll-proportion="-12.230769" vertical-offset="2895" max-vertical-offset="4284">
           <folding>
             <marker date="1405389892926" expanded="true" signature="1451:1517" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yii/protected/extensions/eexcelview/EExcelBehavior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="117" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.83071554" vertical-offset="306" max-vertical-offset="2482">
+          <folding />
         </state>
       </provider>
     </entry>

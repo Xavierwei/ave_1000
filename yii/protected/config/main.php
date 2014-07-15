@@ -11,6 +11,8 @@ return array(
 
     'defaultController'=>'site',
 
+    'timeZone'=>'Asia/Chongqing',
+
 	// preloading 'log' component
 	'preload'=>array('log'),
 
