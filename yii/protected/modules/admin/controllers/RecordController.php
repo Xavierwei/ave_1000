@@ -175,11 +175,11 @@ class RecordController extends BackendController
             $value->roletype = $value->roletype == User::GENERAL_TYPE ? '标准用户' : '微博用户';
             $value->status = $value->status == Record::ALLOW_STATUS ? '已审核' : '未审核';
             $value->createtime=date('Y-m-H',$value->createtime);
-            $value->avatar= $value->avatar == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . $value->avatar;
-            $value->photo1=$value->photo1 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . $value->photo1;
-            $value->photo2=$value->photo2 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . $value->photo2;
-            $value->photo3=$value->photo3 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . $value->photo3;
-            $value->case    =$value->case == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . $value->case;
+            $value->avatar= $value->avatar == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . str_replace('_thumb','',$value->avatar);
+            $value->photo1=$value->photo1 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . str_replace('_thumb','',$value->photo1);
+            $value->photo2=$value->photo2 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . str_replace('_thumb','',$value->photo2);
+            $value->photo3=$value->photo3 == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . str_replace('_thumb','',$value->photo3);
+            $value->case    =$value->case == '' ? '' : Yii::app()->request->hostInfo . Yii::app()->baseUrl . str_replace('_thumb','',$value->case);
 
             $temp[]=$value;
         }
