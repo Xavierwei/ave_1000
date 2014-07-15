@@ -1,4 +1,5 @@
-$._cityInfo = [{"n":"北京市","c":["北京市"]},
+$._cityInfo = [{"n":"请选择","c":["请选择"]},
+    {"n":"北京市","c":["北京市"]},
     {"n":"天津市","c":["天津市"]},
     {"n":"上海市","c":["上海市"]},
     {"n":"重庆市","c":["重庆市"]},
@@ -36,7 +37,6 @@ $.initProv = function(prov, city, defaultProv, defaultCity) {
 
     var provHtml = provEl.html();
 
-    provHtml += '<option value="-1">请选择</option>';
     for(var i = 0; i < $._cityInfo.length; i++) {
         provHtml += '<option value="' + i + '"' + ((hasDefaultProv && $._cityInfo[i].n == defaultProv) ? ' selected="selected"' : '') + '>' + $._cityInfo[i].n + '</option>';
     }
@@ -55,18 +55,19 @@ $.initCities = function(provEl, cityEl, defaultCity) {
         var cities = $._cityInfo[parseInt(provEl.val())].c;
         var cityHtml ='';
 
-        cityHtml += '<option value="-1">请选择</option>';
         for(var i = 0; i < cities.length; i++) {
             cityHtml += '<option value="' + i + '"' + ((hasDefaultCity && cities[i] == defaultCity) ? ' selected="selected"' : '') + '>' + cities[i] + '</option>';
         }
         cityEl.html(cityHtml);
+        $('#city_val').val(cities[cityEl.val()]);
 
         cityEl.change(function() {
             $('.profile_selcity_txt1').html(cities[cityEl.val()]);
             $('#city_val').val(cities[cityEl.val()]);
         });
-    } else {
-            cityEl.html(cityEl.html() + '<option value="-1">请选择</option>');
     }
+//    else {
+//            cityEl.html(cityEl.html() + '<option value="-1">请选择</option>');
+//    }
 
 };
