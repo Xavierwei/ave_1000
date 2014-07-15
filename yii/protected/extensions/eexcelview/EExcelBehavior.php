@@ -44,7 +44,7 @@ class EExcelBehavior extends CBehavior
 	 * @param null array $documentDetails details of the document
 	 * @param null string $exportType format to export (Excel5,Excel2007, PDF, HTML, CSV). Defaults to Excel2007 (xlsx)
 	 */
-	public function toExcel($model=null, $columns=array(), $title=null, $documentDetails=array(), $exportType='CSV')
+	public function toExcel($model=null, $columns=array(), $title=null, $documentDetails=array(), $exportType='Excel5')
 	{
 		// Be sure to be attached to an instance of CController
 		if(! $this->owner instanceof CController){
@@ -133,7 +133,7 @@ class EExcelBehavior extends CBehavior
 
 
 		$arg = CMap::mergeArray($config, $documentDetails);
-		
+
 		$this->owner->widget('ext.eexcelview.EExcelView', $arg);
 		
 		Yii::app()->end();
