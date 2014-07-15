@@ -21,7 +21,7 @@
                 <select class="select" name="Record[sex]" id="Record_sex">
                     <option value=""    <?php echo $post['sex'] == '' ? 'selected="selected"' : '' ?>>全部</option>
                     <option value="男"   <?php echo $post['sex'] == '男' ? 'selected="selected"' : '' ?>>男</option>
-                    <option value="女"   <? $post['sex'] == '女' ? 'selected="selected"' : '' ?>>女</option>
+                    <option value="女"   <?php echo  $post['sex'] == '女' ? 'selected="selected"' : '' ?>>女</option>
                 </select>
 
                 <label for="Record_city"> 来自城市：</label>
