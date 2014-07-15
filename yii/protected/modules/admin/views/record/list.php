@@ -155,7 +155,7 @@
 		<tr>
 			<th class="leftTd" width="20"><?php echo CHtml::checkBox('',false,array('class'=>'checkAll'))?></th>
 			<th>id</th>
-            <th>家长</th>
+            <th>宝贝姓名</th>
             <th>宝贝年龄</th>
             <th>宝贝性别</th>
             <th>电话</th>
@@ -172,7 +172,7 @@
 			<tr>
 				<td class="leftTd"><?php echo CHtml::checkBox('id[]',false,array('value'=>$item->uid))?></td>
 				<td width="30"><?php echo $item->uid;?></td>
-                <td width="50"><?php echo isset($item->baby->parent) ? $item->baby->parent : '' ?></td>
+                <td width="50"><?php echo isset($item->baby->name) ? $item->baby->name : '' ?></td>
                 <td width="50"><?php echo isset($item->baby->birthday) ? Drtool::age($item->baby->birthday) : '' ?></td>
                 <td width="50"><?php echo isset($item->baby->sex) ? $item->baby->sex : '' ?></td>
                 <td width="110"><?php echo isset($item->baby->tel) ? $item->baby->tel : '' ?></td>
