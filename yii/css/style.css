@@ -508,7 +508,7 @@ html.video .make_pho input {display: block;width:230px;height:250px;opacity:0;}
 .home_pop{background: url('../images/home_pop.png') no-repeat;width: 640px;height: 470px;margin:-235px 0 0 -320px;}
 .home_popcom{padding: 50px; }
 .home_popcom h2{font-size: 26px;color:#f69788;text-align: center;font-weight: normal;height: 60px;}
-.homepopfm_list{height:290px;overflow:auto;font-size: 16px;line-height: 27px;}
+.homepopfm_list{color:#f69788;text-align:center;height:290px;overflow:auto;font-size: 16px;line-height: 27px;}
 .homepopfm_list span{text-align: center;width: 150px;float: left;}
 .act_popcom{padding:80px 30px 0 150px;}
 .act_popcom h2{width:300px;}

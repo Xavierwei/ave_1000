@@ -102,7 +102,7 @@
     <div class="home_popcom">
         <h2>所有参与家庭</h2>
         <div class="homepopfm_list cs-clear">
-	        自2014年7月15日起，被选中的儿童名单将每两周在活动官网上陆续公布，请密切关注。
+            首期名单正在审核中，我们将尽快公布！
         </div>
     </div>
 </div>
