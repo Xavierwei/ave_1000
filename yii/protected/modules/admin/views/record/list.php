@@ -17,6 +17,13 @@
                     <option value="0"   <?$post['status']=='0'?'selected="selected"' : ''?>>未审核</option>
                 </select>
 
+	            <label for="Record_status"> 标记：</label>
+	            <select class="select" name="Record[mark]" id="Record_status">
+		            <option value=""    <?php echo $post['mark']==''?'selected="selected"' : ''?>>全部</option>
+		            <option value="1"   <?php echo $post['mark']=='1'?'selected="selected"' : ''?>>已审核</option>
+		            <option value="0"   <?$post['mark']=='0'?'selected="selected"' : ''?>>未审核</option>
+	            </select>
+
                 <label for="Record_sex"> 宝贝性别：</label>
                 <select class="select" name="Record[sex]" id="Record_sex">
                     <option value=""    <?php echo $post['sex'] == '' ? 'selected="selected"' : '' ?>>全部</option>
@@ -157,7 +164,8 @@
 			<th>id</th>
             <th>宝贝姓名</th>
             <th>宝贝年龄</th>
-            <th>宝贝性别</th>
+			<th>宝贝性别</th>
+			<th>家长姓名</th>
             <th>电话</th>
             <th>来自城市</th>
             <th>推荐医院</th>
@@ -166,6 +174,7 @@
             <th>病例</th>
 			<th><?php echo $form->labelEx($model,'createtime'); ?></th>
 			<th><?php echo $form->labelEx($model,'status'); ?></th>
+			<th><?php echo $form->labelEx($model,'mark'); ?></th>
 			<th>操作</th>
 		</tr>
 		<?php foreach($data as $key=>$item){ ?>
@@ -175,6 +184,7 @@
                 <td width="50"><?php echo isset($item->baby->name) ? $item->baby->name : '' ?></td>
                 <td width="50"><?php echo isset($item->baby->birthday) ? Drtool::age($item->baby->birthday) : '' ?></td>
                 <td width="50"><?php echo isset($item->baby->sex) ? $item->baby->sex : '' ?></td>
+				<td width="50"><?php echo isset($item->baby->parent) ? $item->baby->parent : '' ?></td>
                 <td width="110"><?php echo isset($item->baby->tel) ? $item->baby->tel : '' ?></td>
                 <td width="50"><?php echo isset($item->baby->city) ? $item->baby->city : '' ?></td>
                 <td><?php echo (isset($item->baby->point_city) ? $item->baby->point_city.'：' : '') . (isset($item->baby->point_hospital) ? $item->baby->point_hospital : '') ?></td>
@@ -187,7 +197,9 @@
 <!--				<td>--><?php //echo $item->comment_number;?><!--</td>-->
 				<td width="110"><?php echo date("Y-m-d H:i",$item->createtime);?></td>
 				<?php $audit = $item->status==1?'<img src="'.yii::app()->baseUrl.'/style/admin/images/audit.gif">':'<img src="'.yii::app()->baseUrl.'/style/admin/images/unaudit.gif">';?>
-				<td width="60"><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[sex]'=>$post['sex'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[status]'=>$post['status'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
+				<td width="60"><?php echo CHtml::link($audit,array('/admin/record/audit/','id'=>$item->uid,'Record[sex]'=>$post['sex'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[status]'=>$post['status'],'Record[mark]'=>$post['mark'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
+				<?php $audit = $item->mark==1?'<img src="'.yii::app()->baseUrl.'/style/admin/images/audit.gif">':'<img src="'.yii::app()->baseUrl.'/style/admin/images/unaudit.gif">';?>
+				<td width="60"><?php echo CHtml::link($audit,array('/admin/record/mark/','id'=>$item->uid,'Record[sex]'=>$post['sex'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[status]'=>$post['status'],'Record[mark]'=>$post['mark'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'],'page'=>$post['pageNum'])); ?></td>
 				<td width="40">
                     <?php echo CHtml::link('查看',array('/admin/record/info/','id'=>$item->uid),array('target'=>"_blank")); ?>
 <!--                    --><?php //echo CHtml::link('<img src="'.yii::app()->baseUrl.'/style/admin/images/edit.gif">',array('/admin/record/edit/','id'=>$item->uid)); ?>
@@ -199,7 +211,9 @@
 			<td class="pageTd" colspan="16">
 				<div class="action">
 					<?php echo CHtml::submitButton('批量审核',array('class'=>'button'));?>
-					<?php echo CHtml::Button('批量未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/',array('page'=>$post['pageNum'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[sex]'=>$post['sex'],'Record[status]'=>$post['status'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])).'","")'));?>
+					<?php echo CHtml::Button('批量未审核',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unAuditAll/',array('page'=>$post['pageNum'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[sex]'=>$post['sex'],'Record[status]'=>$post['status'],'Record[mark]'=>$post['mark'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])).'","")'));?>
+					<?php echo CHtml::Button('批量标记',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/markAll/',array('page'=>$post['pageNum'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[sex]'=>$post['sex'],'Record[status]'=>$post['status'],'Record[mark]'=>$post['mark'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])).'","")'));?>
+					<?php echo CHtml::Button('批量取消标记',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/unMarkAll/',array('page'=>$post['pageNum'],'Record[city]'=>$post['city'],'Record[province]'=>$post['province'],'Record[point_hospital]'=>$post['point_hospital'],'Record[point_city]'=>$post['point_city'],'Record[sex]'=>$post['sex'],'Record[status]'=>$post['status'],'Record[mark]'=>$post['mark'],'Record[age_start]'=>$post['age_start'],'Record[age_stop]'=>$post['age_stop'],'Record[start]'=>$post['start'],'Record[stop]'=>$post['stop'])).'","")'));?>
 <!--					--><?php //echo CHtml::Button('删除',array('class'=>'button','onclick'=>'formSubmit("'.$this->createUrl('/admin/record/deleteAll/').'","确定要删除吗？")'));?>
 				</div>
 				<?php

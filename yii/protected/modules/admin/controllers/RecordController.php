@@ -31,13 +31,13 @@ class RecordController extends BackendController
 
 	public function actionList()
 	{
-        $post=array('status'=>'','start'=>'','stop'=>'','pageNum'=>'1','sex'=>'',
+        $post=array('status'=>'','mark'=>'','start'=>'','stop'=>'','pageNum'=>'1','sex'=>'',
                              'age_start'=>'','age_stop'=>'','point_hospital'=>'请选择推荐医院','point_city'=>'请选择所在城市',
                              'province'=>'请选择','city'=>'请选择');
         $post['pageNum'] = isset($_GET['page']) ? $_GET['page'] : 1;
 		$criteria = new CDbCriteria();
         $criteria->with='baby';
-        $criteria->order='t.createtime DESC';
+        $criteria->order='t.uid DESC';
         $criteria->addCondition("name != ''");
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
@@ -57,13 +57,18 @@ class RecordController extends BackendController
 
         $criteria = new CDbCriteria();
         $criteria->with='baby';
-        $criteria->order='t.createtime DESC';
+        $criteria->order='t.uid DESC';
         $criteria->addCondition("name != ''");
 
         if($post['status'] != '')
         {
             $criteria->addCondition('status = '.((int)$post['status']));
         }
+
+	    if($post['mark'] != '')
+	    {
+		    $criteria->addCondition('mark = '.((int)$post['mark']));
+	    }
 
         if($post['sex'] != '')
         {
@@ -105,6 +110,7 @@ class RecordController extends BackendController
             $criteria->addCondition("city = '". $post['city']. "'");
         }
 
+
         $count = Record::model()->count($criteria);
         $pager = new CPagination($count);
         $pager->pageSize = 15;
@@ -118,13 +124,18 @@ class RecordController extends BackendController
         $post=$_REQUEST['Record'];
 
         $criteria = new CDbCriteria();
-        $criteria->order='createtime DESC';
+        $criteria->order='uid DESC';
         $criteria->addCondition("name != ''");
 
         if($post['status'] != '')
         {
             $criteria->addCondition('status = '.((int)$post['status']));
         }
+
+	    if($post['mark'] != '')
+	    {
+		    $criteria->addCondition('mark = '.((int)$post['mark']));
+	    }
 
         if($post['sex'] != '')
         {
@@ -199,7 +210,18 @@ class RecordController extends BackendController
 		}else{
 			Yii::app()->user->setFlash('submit','审核提交失败！');
 		}
-        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+	}
+
+	public function actionMark(){
+		$model=$this->loadModel();
+		$model->mark=1-$model->mark;
+		if($model->update()){
+			Yii::app()->user->setFlash('submit','标记成功！');
+		}else{
+			Yii::app()->user->setFlash('submit','标记失败！');
+		}
+		$this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionAuditAll()
@@ -213,7 +235,7 @@ class RecordController extends BackendController
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function actionUnAuditAll()
@@ -227,7 +249,35 @@ class RecordController extends BackendController
 				Yii::app()->user->setFlash('submit','审核提交失败！');
 			}
 		}
-        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+        $this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+	}
+
+	public function actionMarkAll()
+	{
+		if(Yii::app()->request->getParam('id')&&is_array(Yii::app()->request->getParam('id'))){
+			$id = implode("','",Yii::app()->request->getParam('id'));
+			$count = Record::model()->updateAll(array("mark"=>1)," `uid` in ('".$id."')");
+			if($count){
+				Yii::app()->user->setFlash('submit','标记成功！');
+			}else{
+				Yii::app()->user->setFlash('submit','标记失败！');
+			}
+		}
+		$this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
+	}
+
+	public function actionUnMarkAll()
+	{
+		if(Yii::app()->request->getParam('id')&&is_array(Yii::app()->request->getParam('id'))){
+			$id = implode("','",Yii::app()->request->getParam('id'));
+			$count = Record::model()->updateAll(array("mark"=>0)," `uid` in ('".$id."')");
+			if($count){
+				Yii::app()->user->setFlash('submit','标记成功！');
+			}else{
+				Yii::app()->user->setFlash('submit','标记失败！');
+			}
+		}
+		$this->redirect($this->createUrl('select',array('page'=>$_GET['page'],'Record[province]'=>$_REQUEST['Record']['province'],'Record[city]'=>$_REQUEST['Record']['city'],'Record[point_hospital]'=>$_REQUEST['Record']['point_hospital'],'Record[point_city]'=>$_REQUEST['Record']['point_city'],'Record[age_start]'=>$_REQUEST['Record']['age_start'],'Record[age_stop]'=>$_REQUEST['Record']['age_stop'],'Record[sex]'=>$_REQUEST['Record']['sex'],'Record[status]'=>$_REQUEST['Record']['status'],'Record[mark]'=>$_REQUEST['Record']['mark'],'Record[start]'=>$_REQUEST['Record']['start'],'Record[stop]'=>$_REQUEST['Record']['stop'])));
 	}
 
 	public function loadModel()

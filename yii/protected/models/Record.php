@@ -42,7 +42,7 @@ class Record extends OrionModel
 			array('avatar, photo1, photo2, photo3, case', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('uid, avatar, photo1, photo2, photo3, case, status, createtime, updatetime', 'safe', 'on'=>'search'),
+			array('uid, avatar, photo1, photo2, photo3, case, status,mark, createtime, updatetime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -72,6 +72,7 @@ class Record extends OrionModel
 			'photo3' => '患处3',
 			'case' => '病例',
 			'status' => '审核状态',
+			'mark' => '标记',
 			'createtime' => '创建时间',
 			'updatetime' => '修改时间',
 		);
